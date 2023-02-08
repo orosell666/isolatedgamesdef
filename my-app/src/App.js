@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+import React from "react";
+
 import './App.css';
-import Navbar from "./components/navbar.js"
-import Game1 from './components/game1';
-import Game2 from './components/game2';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import Navbar from "./components/navbar.js";
+import Home from "./pages/home";
+import Contact from "./pages/contact";
 
 
 
 function App() {
   return (
     <div className="App">
+      <Router >
       <Navbar />
-      <div className="App-header d-flex flex-row  ">
-        <Game1 />
-        <Game2 />
-        </div>
-        <img src={logo} className="App-logo" alt="logo" />
+      <Routes>
+      <Route exact path='/' element={<Home />} />
+      <Route path="/contact" element={<Contact />} />
       
          
-      
+    </Routes>  
+    </Router>
     </div>
   );
 }
