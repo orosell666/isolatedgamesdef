@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Contact = () => {
     return(
-        <h1>contact page</h1>
+        <p className="firstclass">contact page</p>
     )
 }
 export default Contact;
