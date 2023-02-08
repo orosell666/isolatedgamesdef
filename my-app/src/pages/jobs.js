@@ -1,10 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
+
 
 
 const Jobs = () => {
     return(
-        <p className="firstclass">jobs page</p>
+        <div>
+        <h1 >jobs page</h1></div>
     )
 }
 export default Jobs;
