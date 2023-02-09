@@ -7,9 +7,12 @@ import "../index.css";
 
 const Travellers = () => {
     return(
-        <div><div>
+        <div>
+        
+        
             <NavbarGame />
-        </div>
+     
+     
         <div className="textColor1">
         <h1>travellers page</h1>
         </div></div>

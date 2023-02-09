@@ -6,7 +6,7 @@ const Game1 = () => {
 
     return (
         <div className="container  mt-5" id="scrollspyHeading1">
-            <div className="row">
+            <div className="row justify-content-center">
                 <div className="card col-5 me-2">
             <Link to="../pages/bethestar.js">
             <img src="https://c.tenor.com/UH_6a9UuIMMAAAAC/cool.gif" className="img-fluid" />

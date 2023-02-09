@@ -32,3 +32,10 @@ code {
   height: 100vh;
   width: 100%;
 }
+#newsCard {
+  background-color: rgb(40, 44, 51);
+}
+.cardImageNews {
+  height: 150px;
+  width: 800px;
+}
