@@ -3,8 +3,8 @@ import "../index.css"
 
 const News = () => {
     return(
-        <div className="textColor1 sectionStyle pt-5 " id="scrollspyHeading2" >
-            <h1 className="">NEWS</h1>
+        <div className="textColor1 sectionStyle pt-5 mt-5" id="scrollspyHeading2" >
+            <h1 className=" pt-5">NEWS</h1>
             <div className="container justify-content-center">
             <div className="card bg-dark mt-5">
                 <div className="card-header">

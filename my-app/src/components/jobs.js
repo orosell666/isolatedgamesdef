@@ -5,7 +5,7 @@ const Jobs = ()=> {
 
     return(
         <div className="textColor1 sectionStyle  pt-5" id="scrollspyHeading3">
-            <h1>JOBS</h1>
+            <h1 className=" pt-5">JOBS</h1>
             <div className="container justify-content-center">
             <div className="card bg-dark mt-5">
                 <div className="card-header">
