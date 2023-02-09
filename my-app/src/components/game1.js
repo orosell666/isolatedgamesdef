@@ -8,7 +8,7 @@ import steamLogo from "../steamLogo.png";
 const Game1 = () => {
 
     return (
-        <div className="container" id="scrollspyHeading1">
+        <div className="container pageSpace" id="scrollspyHeading1">
             <div className="row justify-content-center">
                 <div className=" col-5 me-2">
             <Link to="../pages/bethestar.js">

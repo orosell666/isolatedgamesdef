@@ -38,3 +38,6 @@ code {
 .steamLogoStyle {
   color: aliceblue;
 }
+.pageSpace {
+  height: 100vh;
+}
