@@ -9,12 +9,12 @@ import Navbar from "../components/navbar";
 
 function Home() {
     return (
-      <div className="App" >
+      <div  >
        
       <Navbar />
       
-       
-        <div className="App-header d-flex flex-row  " id="scrollspyHeading1">
+      <div className="mt-5 pt-5 d-flex " id="scrollspyHeading1"></div>
+        <div className="pt-5 d-flex flex-row  " >
           <Game1 />
           
         </div>
