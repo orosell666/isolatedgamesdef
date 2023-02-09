@@ -3,10 +3,10 @@ import React from "react";
 
 
 
-const Jobs = () => {
+const Travellers = () => {
     return(
         <div>
         <h1 >jobs page</h1></div>
     )
 }
-export default Jobs;
+export default Travellers;

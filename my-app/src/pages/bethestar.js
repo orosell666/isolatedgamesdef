@@ -11,3 +11,4 @@ const BeTheStar = () => {
 
     )
 }
+export default BeTheStar;

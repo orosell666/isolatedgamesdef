@@ -5,6 +5,9 @@ import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 import Game1 from '../components/game1';
 import Game2 from '../components/game2';
+import News from "../components/news";
+import Jobs from "../components/jobs";
+import Contact from "../components/contact";
 
 function Home() {
     return (
@@ -13,7 +16,10 @@ function Home() {
         <div className="App-header d-flex flex-row  ">
           <Game1 />
           <Game2 />
-          </div>
+        </div>
+        <News />
+        <Jobs />
+        <Contact />
           
            
       

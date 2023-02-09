@@ -17,15 +17,11 @@ const Navbar = () => {
                
             </Link>
                     <div className="btn-group me-5" role="group" >
-                    <Link to="/contact.js">
-                        <button type="button" className=" navbar-toggler btn btn-dark">CONTACT</button>
-                    </Link>
-                    <Link to="/jobs.js">
-                        <button type="button" className="navbar-toggler btn btn-dark">JOBS</button>
-                    </Link>
-                    <Link to="/news.js">
-                        <button type="button" className="navbar-toggler btn btn-dark">NEWS</button>
-                    </Link>
+                    <a type="button" className="navbar-toggler btn btn-dark" href="#scrollspyHeading4">CONTACT</a>
+                    <a type="button" className="navbar-toggler btn btn-dark" href="#scrollspyHeading3">JOBS</a>
+                    
+                        <a type="button" className="navbar-toggler btn btn-dark" href="#scrollspyHeading2">NEWS</a>
+                    
                     </div>
                 </div>
             
