@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import LogoIG from "../logoIsolatedGames.png";
 
 
 
@@ -13,7 +13,7 @@ const Navbar = () => {
 
             
             <a type="button" className="navbar-toggler btn btn-dark" href="#scrollspyHeading1">
-            <img className="navbar-brand mb-0 h1" src="//www.isolatedgames.com/wp-content/uploads/2017/02/Logo-IsolatedGames-1.png" /></a> 
+            <img className="navbar-brand mb-0 h1" src={LogoIG} width={135} height={40}/></a> 
                
             
                     <div className="btn-group me-5" role="group" >

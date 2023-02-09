@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "../index.css"
 
 const NavbarGame = () => {
     return(
@@ -13,7 +14,7 @@ const NavbarGame = () => {
                
             </Link>
                     <div className="btn-group me-5" role="group" >
-                    <a type="button" className="navbar-toggler btn btn-dark" href="#scrollspyHeading4">BUY</a>
+                    <a type="button" className="navbar-toggler btn btn-dark">BUY</a>
                     
                     
                     </div>
