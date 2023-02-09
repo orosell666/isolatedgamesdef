@@ -1,12 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import "../index.css";
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import NavbarGame from "../components/navbarGame"
 
 
 
 const BeTheStar = () => {
 
     return(
-        <h1>between the stars page</h1>
+        <div>
+       
+        <h1>between the stars page</h1></div>
 
 
     )

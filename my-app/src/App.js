@@ -3,10 +3,11 @@ import React from "react";
 import './App.css';
 import './index.css';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import Navbar from "./components/navbar.js";
+
 import Home from "./pages/home";
 import BeTheStar from "./pages/bethestar";
 import Travellers from "./pages/travellers";
+
 
 
 
@@ -14,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <Router >
-      <Navbar />
+      
       <Routes>
       <Route exact path='/' element={<Home />} />
       <Route path="/bethestar" element={<BeTheStar />} />

@@ -1,21 +1,23 @@
 import React from "react";
-
-
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-
 import Game1 from '../components/game1';
-import Game2 from '../components/game2';
+
 import News from "../components/news";
 import Jobs from "../components/jobs";
 import Contact from "../components/contact";
+import Navbar from "../components/navbar";
+
+
 
 function Home() {
     return (
-      <div className="App">
-        
-        <div className="App-header d-flex flex-row  ">
+      <div className="App" >
+       
+      <Navbar />
+      
+       
+        <div className="App-header d-flex flex-row  " id="scrollspyHeading1">
           <Game1 />
-          <Game2 />
+          
         </div>
         <News />
         <Jobs />
