@@ -46,3 +46,19 @@ code {
 .pageSpace {
   height: 100vh;
 }
+.contact input {
+  margin-top: 10px;
+  background: #909090;
+}
+.contact textarea {
+  margin-top: 10px;
+  background: #909090;
+  caret-color: #909090;
+ 
+}
+contact input:focus {
+  margin-top: 10px;
+  color: #fff;
+  background: #909090;
+  
+}

@@ -3,14 +3,26 @@ import "../index.css"
 
 const Contact = () => {
     return(
-        <div className="textColor1 sectionStyle pt-5" id="scrollspyHeading4" >
+        <div className="textColor1 sectionStyle pt-5 pageSpace" id="scrollspyHeading4" >
             <h1 className=" pt-5">CONTACT</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>Aenean hendrerit a lorem pulvinar efficitur. Etiam urna purus, commodo eget elementum non, cursus posuere turpis. Maecenas at egestas velit. Quisque hendrerit mauris nisl. Integer consectetur, erat eget blandit rhoncus, lorem sem posuere metus, quis pellentesque felis sapien id justo. Quisque fringilla enim sit amet condimentum lobortis. Integer vel eros vel tortor lacinia semper ut luctus quam. Integer tellus libero, mattis id sapien sed, eleifend vestibulum erat.
+           
+            <div className="container mb-3 text-start col-8 contact">
+  <label for="exampleFormControlInput1" className="form-label ">Name</label>
+  <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name" />
+  <label for="exampleFormControlInput1" className="form-label mt-3">Email address</label>
+  <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
 
-Ut tristique, massa ut pretium volutpat, elit purus faucibus purus, eu dictum nibh nunc ac lacus. Aliquam porta dignissim mi, in condimentum nulla sagittis et. Curabitur tempor mollis nisi sed lacinia. Phasellus eget ante elementum, vehicula arcu sit amet, tempus orci. Morbi sem metus, condimentum convallis enim nec, pharetra feugiat risus. Quisque ac libero orci. Vivamus vestibulum hendrerit mauris a rhoncus. Suspendisse semper, justo eu maximus tempus, magna urna interdum quam, in laoreet libero massa quis nisi. Quisque orci ante, molestie sit amet orci vel, rhoncus venenatis turpis. Sed placerat, ipsum at posuere sodales, orci sem hendrerit massa, ac convallis mi tortor at massa. Aliquam erat volutpat. Praesent vel consectetur eros, quis ultricies erat. Nullam ut luctus risus.</p>
+<div className="mb-3">
+  <label for="exampleFormControlTextarea1" className="form-label mt-3 contact">Comment or Message</label>
+  <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
 
-        </div>
+      </div>
+      <div>
+      <button type="submit" className="btn btn-dark col-3">Submit</button>
+        </div> </div> 
+      
+   
     )
 }
 export default Contact;
