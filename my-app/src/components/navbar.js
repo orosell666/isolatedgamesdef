@@ -13,7 +13,7 @@ const Navbar = () => {
 
             
             <a type="button" className="navbar-toggler btn btn-dark" href="#scrollspyHeading1">
-            <img className="navbar-brand mb-0 h1" src={LogoIG} width={120} height={35}/></a> 
+            <img className="navbar-brand mb-0 h1" src={LogoIG} width={220} height={60}/></a> 
                
             
                     <div className="btn-group me-5" role="group" >
