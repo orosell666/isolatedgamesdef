@@ -77,4 +77,4 @@ h1:after {
   content: '';
   border-top: 2px solid;
 }
-
+.modal-content { background: #000 !important; }
