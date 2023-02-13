@@ -3,7 +3,7 @@ import "../index.css"
 
 const Contact = () => {
     return(
-        <div className="textColor1 sectionStyle pt-5 pageSpace" id="scrollspyHeading4" >
+        <div className="textColor1 sectionStyle pt-5 pageSpace " id="scrollspyHeading4" >
             <h1 className=" pt-5">CONTACT</h1>
            
             <div className="container mb-3 text-start col-8 contact">

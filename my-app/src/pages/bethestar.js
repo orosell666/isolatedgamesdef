@@ -9,7 +9,7 @@ const BeTheStar = () => {
     return(
         <div>
        
-        <h1>between the stars page</h1></div>
+        <h1 className="textColor1">between the stars page</h1></div>
 
 
     )

@@ -62,3 +62,19 @@ contact input:focus {
   background: #909090;
   
 }
+
+h1 {
+  display: grid;
+  width: 100%;
+  align-items: center;
+  text-align: start;
+  grid-template-columns: minmax(20px, 1fr) auto minmax(20px, 1fr);
+  grid-gap: 20px;
+}
+
+h1:before,
+h1:after {
+  content: '';
+  border-top: 2px solid;
+}
+
