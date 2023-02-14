@@ -19,7 +19,7 @@ const News = () => {
                     <div className="row">
                 <img src={screenshot} className="img-fluid col-sm-4 mt-2" />
                
-                    <p className="card-text col-sm-8 text-end">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    <p className="card-text col-sm-8 text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                     <div className="row justify-content-end">
                     <button type="button" className="btn btn-dark col-3 " data-bs-toggle="modal" data-bs-target="#exampleModal">
                        More...
@@ -75,7 +75,7 @@ Duis luctus ex et aliquam pharetra. </p>
                     <div className="row">
                 <img src={screenshot2} className="img-fluid col-sm-4 mt-2" />
                
-                    <p className="card-text col-sm-8 text-end">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    <p className="card-text col-sm-8 text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                     <div className="row justify-content-end">
                     <button type="button" className="btn btn-dark col-3 " data-bs-toggle="modal" data-bs-target="#exampleModal">
                        More...
@@ -133,8 +133,8 @@ Duis luctus ex et aliquam pharetra. </p>
                     <div className="row">
                 <img src={screenshot3} className="img-fluid col-sm-4 mt-2" />
                
-                    <p className="card-text col-sm-8 text-end">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                    <div className="row justify-content-end">
+                    <p className="card-text col-sm-8 text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    <div className="row justify-content-start">
                     <button type="button" className="btn btn-dark col-3 " data-bs-toggle="modal" data-bs-target="#exampleModal">
                        More...
                         </button></div></div>
@@ -189,7 +189,7 @@ Duis luctus ex et aliquam pharetra. </p>
                     <div className="row">
                 <img src={screenshot3} className="img-fluid col-sm-4 mt-2" />
                
-                    <p className="card-text col-sm-8 text-end">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    <p className="card-text col-sm-8 text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                     <div className="row justify-content-end">
                     <button type="button" className="btn btn-dark col-3 " data-bs-toggle="modal" data-bs-target="#exampleModal">
                        More...

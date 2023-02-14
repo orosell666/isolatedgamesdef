@@ -5,7 +5,10 @@ import "../index.css";
 
 
 
+
+
 const Travellers = () => {
+    
     return(
         <div>
             <NavbarGame />

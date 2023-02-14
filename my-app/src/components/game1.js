@@ -22,6 +22,7 @@ const Game1 = () => {
             <button type="button" className="btn btn-dark textColor1 col-sm-4 mt-5" ><h3><strong>SHOP   IN   STEAM</strong></h3><img src={steamLogo} width={50} height={50} className="steamLogoStyle"/>
             </button>
             </Link>
+            <Link to="../pages/home2.js">home2</Link>
            </div>
         </div>
 
