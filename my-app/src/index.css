@@ -17,6 +17,7 @@ code {
 .navstyle {
   background-color: black;
   color: whitesmoke;
+  vertical-align: middle;
 }
 .firstclass {
   color: black;
@@ -78,3 +79,12 @@ h1:after {
   border-top: 2px solid;
 }
 .modal-content { background: #000 !important; }
+
+.netLogos {
+  
+  border-radius: 50%;
+  background: transparent;
+  transition: all 0.3s ease 0s;
+  
+
+}
