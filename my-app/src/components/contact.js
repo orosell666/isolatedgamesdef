@@ -19,7 +19,7 @@ const Contact = () => {
 
       </div>
       <div>
-      <button type="submit" className="btn btn-dark col-3">Submit</button>
+      <button type="submit" className="btn steamBtn col-3">Submit</button>
         </div> </div> 
       
    

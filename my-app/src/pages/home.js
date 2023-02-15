@@ -6,7 +6,7 @@ import Contact from "../components/contact";
 import Navbar from "../components/navbar";
 
 
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+
 function Home() {
     return (
       <div  >
