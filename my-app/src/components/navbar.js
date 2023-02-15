@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import LogoIG from "../logoIsolatedGames.png";
-import LogoFB from "../facebook-f.svg";
-import LogoIN from "../instagram.svg";
-import LogoYT from "../youtube.svg";
-import LogoTW from "../twitter.svg";
-import LogoRD from "../reddit.svg";
+import LogoIG from "../images/logoIsolatedGames.png";
+import LogoFB from "../images/facebook-f.svg";
+import LogoIN from "../images/instagram.svg";
+import LogoYT from "../images/youtube.svg";
+import LogoTW from "../images/twitter.svg";
+import LogoRD from "../images/reddit.svg";
 
 
 

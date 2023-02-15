@@ -1,6 +1,6 @@
 import React from "react";
 import NavbarGame from "../components/navbarGame";
-import "../index.css";
+import "../styles/index.css";
 
 
 

@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../index.css";
-import gameImage1 from "../headerNew3 (1).png";
-import gameImage2 from "../cover.png"; 
-import steamLogo from "../steamLogo.png";
+import "../styles/index.css";
+import gameImage1 from "../images/headerNew3 (1).png";
+import gameImage2 from "../images/cover.png"; 
+import steamLogo from "../images/steamLogo.png";
 
 const Game1 = () => {
 

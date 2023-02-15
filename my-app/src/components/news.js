@@ -1,9 +1,9 @@
 import React from "react";
-import "../index.css";
+import "../styles/index.css";
 import { Link } from "react-router-dom";
-import screenshot from "../screenshot_7.jpg";
-import screenshot2 from "../screenshot_2.jpg";
-import screenshot3 from "../157.jpg";
+import screenshot from "../images/screenshot_7.jpg";
+import screenshot2 from "../images/screenshot_2.jpg";
+import screenshot3 from "../images/157.jpg";
 ;
 const News = () => {
     return(

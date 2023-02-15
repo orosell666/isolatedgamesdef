@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #282c34;
-  background: url("backdrop-g353283e36_1280.jpg") no-repeat fixed center; 
+  background: url("../images/backdrop-g353283e36_1280.jpg") no-repeat fixed center; 
   background-size: cover;
  
   
@@ -91,7 +91,11 @@ h1:after {
   content: '';
   border-top: 2px solid;
 }
-.modal-content { background: #000 !important; }
+.modal-content {
+  background: #000 !important; 
+  background-size: 100%;
+
+}
 
 .netLogos {
   
@@ -100,4 +104,18 @@ h1:after {
   transition: all 0.3s ease 0s;
   
 
+}
+.footerStyle {
+  background-color: black;
+  color: rgb(97, 96, 96);
+  margin-bottom: -1rem;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+}
+.logoPosition {
+  margin-top: -1rem;
+}
+.modalBG {
+  background-color: #000;
 }
