@@ -107,7 +107,7 @@ h1:after {
 }
 .footerStyle {
   background-color: black;
-  color: rgb(97, 96, 96);
+  color: rgb(155, 155, 155);
   margin-bottom: -1rem;
    left: 0;
    bottom: 0;
@@ -115,4 +115,8 @@ h1:after {
 }
 .logoPosition {
   margin-top: -1rem;
+}
+.linkUnderline {
+  text-decoration: none;
+  color: #909090;
 }

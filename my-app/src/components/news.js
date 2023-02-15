@@ -30,7 +30,7 @@ const News = () => {
                 </div>
                 <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div className="modal-dialog modal-fullscreen " id="">
-                            <div className="modal-content">
+                            <div className="modal-content modalBG">
                             <div className="modal-header">
                                 <h5 className="modal-title" id="exampleModalLabel">New version for the game</h5>
                                 <small className="text-muted"><strong>MAJOR UPDATE</strong> FEB 15, 2023</small>

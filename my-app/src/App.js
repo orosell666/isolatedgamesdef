@@ -2,8 +2,8 @@ import React from "react";
 
 import './styles/App.css';
 import './styles/index.css';
-import { BrowserRouter, Routes, Route, Switch} from 'react-router-dom';
-import Footer from "./components/footer";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Footer from "./components/prova";
 import Home from "./pages/home";
 import BeTheStar from "./pages/bethestar";
 import Travellers from "./pages/travellers";
