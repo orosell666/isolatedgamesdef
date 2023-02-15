@@ -7,6 +7,8 @@ import Footer from "./components/footer";
 import Home from "./pages/home";
 import BeTheStar from "./pages/bethestar";
 import Travellers from "./pages/travellers";
+import Navbar from "./components/navbar";
+
 
 
 
@@ -16,6 +18,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter  >
+      <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path="/bethestar" element={<BeTheStar />} />
