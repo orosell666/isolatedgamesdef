@@ -4,6 +4,7 @@ import "../index.css";
 import gameImage1 from "../headerNew3 (1).png";
 import gameImage2 from "../cover.png"; 
 import steamLogo from "../steamLogo.png";
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 const Game1 = () => {
 
@@ -19,7 +20,7 @@ const Game1 = () => {
 
            <div className="container ">
            <Link to="https://store.steampowered.com/bundle/20465/Isolated_Games_Bundle/">
-            <button type="button" className="btn btn-dark textColor1 col-sm-4 mt-5" ><h3><strong>SHOP   IN   STEAM</strong></h3><img src={steamLogo} width={50} height={50} className="steamLogoStyle"/>
+            <button type="button" className="btn textColor1 col-sm-4 mt-5 steamBtn" ><h3 className="pt-2"><strong>SHOP   IN   STEAM   </strong><img src={steamLogo} width={50} height={50} className="steamLogoStyle"/></h3>
             </button>
             </Link>
             <Link to="../pages/home2.js">home2</Link>

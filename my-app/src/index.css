@@ -6,7 +6,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #282c34;
-  background: lightblue url("v748-toon-131.jpg") no-repeat fixed center; 
+  background: url("backdrop-g353283e36_1280.jpg") no-repeat fixed center; 
+  background-size: cover;
+ 
   
 }
 
@@ -23,7 +25,7 @@ code {
   color: black;
 }
 .textColor1 {
-  color: aliceblue;
+  color: rgb(240, 248, 255);
 }
 .sectionStyle {
   
@@ -40,6 +42,18 @@ code {
 .cardImageNews {
   height: 150px;
   width: 800px;
+}
+.steamBtn {
+  line-height: 15px;
+  border: 2px solid rgb(240, 248, 255);
+  border-radius: 40px;
+  background: transparent;
+  transition: all 0.3s ease 0s;
+}
+.steamBtn:hover {
+  color: #FFF;
+  background: rgb(40, 44, 51);
+  border: 2px solid rgb(40, 44, 51);
 }
 .steamLogoStyle {
   color: aliceblue;
