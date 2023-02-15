@@ -17,15 +17,15 @@ return(
                         <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#example">
   LEGAL NOTICE OF COOKIES
 </button>
-<div className="modal fade" id="example" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div className="modal-dialog modal-fullscreen">
-    <div className="modal-content">
+<div className="modal modalBG" id="example" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-fullscreen G">
+    <div className="modal-content modalBG">
       <div className="modal-header">
         <h5 className="modal-title text-start ms-5" id="exampleModalLabel">LEGAL NOTICE OF COOKIES</h5>
         <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div claclassNamess="modal-body">
-        <div className="container mt-5 text-start">
+      <div claclassNamess="modal-body modalBG">
+        <div className="container mt-5 text-start modalBG">
       <p><strong>ISOLATED GAMES SL</strong> uses “cookies” to ensure a proper operation of our website, improving safety and getting a higher efficiency and personalization of the services offered to users. If you continue browsing or press the “OK” button, you accept all its use. If you do not accept this use, press “NOT OK”. In this case ISOLATED GAMES SL can not guarantee the full functionallity of the website
 </p>
 <p>You can get more information on our <strong>cookies policy.</strong></p>

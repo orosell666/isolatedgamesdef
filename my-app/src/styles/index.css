@@ -91,9 +91,9 @@ h1:after {
   content: '';
   border-top: 2px solid;
 }
-.modal-content {
+.modalBG {
   background: #000 !important; 
-  background-size: 100%;
+  
 
 }
 
@@ -115,7 +115,4 @@ h1:after {
 }
 .logoPosition {
   margin-top: -1rem;
-}
-.modalBG {
-  background-color: #000;
 }
