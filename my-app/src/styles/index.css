@@ -11,6 +11,11 @@ body {
  
   
 }
+.BTSBG {
+  background-color: #282c34;
+  background: url("../images/image-from-rawpixel-id-91698-jpeg.jpg") no-repeat fixed center; 
+  background-size: 100%;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -120,6 +125,9 @@ h1:after {
   text-decoration: none;
   color: #909090;
 }
+.linkUnderline:hover {
+  color: #e7e5e5;
+}
 .ulLists {
   list-style-type: disc;
 }
@@ -133,4 +141,8 @@ h1:after {
   position: absolute; 
   left: 33%;
   top: 60%;
+}
+.videoWrapper {
+  position: relative;
+  overflow: hidden;
 }
