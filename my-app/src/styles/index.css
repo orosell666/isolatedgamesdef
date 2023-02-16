@@ -129,3 +129,8 @@ h1:after {
   inset: 0;
   
 }
+.overlaySteam {
+  position: absolute; 
+  left: 35%;
+  top: 60%;
+}
