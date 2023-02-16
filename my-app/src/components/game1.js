@@ -11,9 +11,9 @@ const Game1 = () => {
         <div className="sectionStyle" id="scrollspyHeading1">
             <div className="d-flex d-row mb-2">
              <div className="banner-area img-fluid ">
-            <Link to="../pages/bethestar.js">
+            <Link to="/bethestar">
             <img src={gameImage1} className="col-6" />
-            </Link><Link to="../pages/travellers.js">
+            </Link><Link to="/travellers">
            <img src={gameImage2} className="col-6"/>
            </Link></div></div>
 
