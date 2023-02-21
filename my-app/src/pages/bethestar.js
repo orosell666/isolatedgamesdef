@@ -23,7 +23,7 @@ const BeTheStar = () => {
         <div className="container-fluid">
             <div className="banner-area img-fluid ">
                 <img src={gameBanner} className="background-image col-12" /><img className="overlay mx-auto img-fluid" src={LogoBTS} /><Link to="https://store.steampowered.com/cart/">
-            <div className="container-sm"><button type="button" className="btn textColor1 col-sm-4 mt-5 steamBtn overlaySteam" ><h3 className="pt-2 "><strong>SHOP   IN   STEAM   </strong><img src={steamLogo} width={50} height={50} className=""/></h3>
+            <div className="container-fluid-sm d-grid mx-auto "><button type="button" className="btn btn-sm textColor1 col-sm-4 mt-5 steamBtn overlaySteam " ><p className="fs-4 "><strong>SHOP   IN   STEAM   </strong><img src={steamLogo} width={50} height={50} className=""/></p>
             </button></div>
             </Link>
                 <div className="container ">
