@@ -10,7 +10,7 @@ function Home() {
     return (
       <div  >
        
-      <div className="bgimage1">
+      <div className="">
       
       <div id="scrollspyHeading1"></div>
         <Game1 /></div>

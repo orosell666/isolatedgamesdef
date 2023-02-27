@@ -1,30 +1,45 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/index.css";
-import gameImage1 from "../images/headerNew3 (1).png";
-import gameImage2 from "../images/cover.png"; 
-import steamLogo from "../images/steamLogo.png";
+import gameImage1 from "../images/SliderBetween.png";
+import gameImage2 from "../images/SliderTravellerRest.png"; 
+import iconleft from "../images/Icon_Left.png";
 
 const Game1 = () => {
 
     return (
-        <div className="sectionStyle" id="scrollspyHeading1">
-            <div className="d-flex d-row mb-2">
-             <div className="banner-area img-fluid ">
-            <Link to="/bethestar">
-            <img src={gameImage1} className="col-6" />
-            </Link><Link to="/travellers">
-           <img src={gameImage2} className="col-6"/>
-           </Link></div></div>
+        <div className="bgimage1" id="scrollspyHeading1">
+            <div className="container-fluid col-lg-10 mt-5 rounded-3">
+                <div className="fondoCarousel1  ">
+        <div id="carouselExampleIndicators" className="carousel slide p-3 mb-5" data-bs-ride="carousel">
+  <div className="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    
+  </div>
+  <div className="carousel-inner">
+    <div className="carousel-item active">
+    <Link to="/bethestar">
+      <img src={gameImage1} class="d-block w-100" alt="..." /></Link>
+    </div>
+    <div className="carousel-item">
+    <Link to="/travellers">
+      <img src={gameImage2} class="d-block w-100" alt="..." /></Link>
+    </div>
+    
+  </div>
+  <button className="carousel-control-prev position-absolute top-50 start-0 translate-middle" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span  className="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Previous</span>
+  </button>
+  <button className="carousel-control-next position-absolute top-50 start-100 translate-middle" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Next</span>
+  </button>
+</div></div>
 
-           <div className="container ">
-           <Link to="https://store.steampowered.com/bundle/20465/Isolated_Games_Bundle/">
-            <button type="button" className="btn textColor1 col-sm-4 mt-5 steamBtn" ><h3 className="pt-2"><strong>SHOP   IN   STEAM   </strong><img src={steamLogo} width={50} height={50} className="steamLogoStyle"/></h3>
-            </button>
-            </Link>
            
-           </div>
-        </div>
+        </div></div>
 
         )
 

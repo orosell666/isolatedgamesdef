@@ -1,0 +1,7 @@
+<div className="container ">
+           <Link to="https://store.steampowered.com/bundle/20465/Isolated_Games_Bundle/">
+            <button type="button" className="btn textColor1 col-sm-4 mt-5 steamBtn" ><h3 className="pt-2"><strong>SHOP   IN   STEAM   </strong><img src={steamLogo} width={50} height={50} className="steamLogoStyle"/></h3>
+            </button>
+            </Link>
+           
+           </div>

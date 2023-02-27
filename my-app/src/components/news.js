@@ -7,7 +7,7 @@ import screenshot3 from "../images/157.jpg";
 ;
 const News = () => {
     return(
-        <div className="textColor1 sectionStyle pt-5 mt-5" id="scrollspyHeading2" >
+        <div className="textColor1 game1splash pt-5 mt-5" id="scrollspyHeading2" >
             <h1 className=" pt-5">NEWS</h1>
             <div className="container justify-content-start">
             <div className="card bg-dark mt-5">

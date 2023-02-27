@@ -6,7 +6,7 @@ font-family: 'Play', sans-serif;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #282c34;
+ 
  
 
 
@@ -29,6 +29,27 @@ code {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.game1splash {
+  clip-path: polygon(0 39%, 100% 30%, 100% 100%, 0% 100%);
+  background-color: #322c30;
+}
+.fondoCarousel1 {
+  background-color: #25191d;
+  border-radius: 12px;
+  
+}
+.carousel-control-prev-icon {
+  background-image: url("../images/Icon_Left.png");
+  height: 70px;
+  width: 70px;
+  opacity: 1.0;
+  text-decoration: none;
+ }
+ .carousel-control-next-icon {
+  background-image: url("../images/Icon_Right.png");
+  height: 70px;
+  width: 70px;
+ }
 .navstyle {
   background-color: black;
   color: whitesmoke;
