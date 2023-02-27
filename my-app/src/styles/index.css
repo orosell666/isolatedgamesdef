@@ -1,25 +1,33 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+
+font-family: 'Play', sans-serif;
+
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #282c34;
-  background: url("../images/backdrop-g353283e36_1280.jpg") no-repeat fixed center; 
-  background-size: cover;
+ 
+
+
  
   
 }
-.BTSBG {
-  background-color: #282c34;
-  background: url("../images/image-from-rawpixel-id-91698-jpeg.jpg") no-repeat fixed center; 
-  background-size: 100%;
-}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.bgimg1 {
+  background: url("../images/find-purfect-background-vector-free-download.jpg") ; 
+  min-height: 100%;
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .navstyle {
   background-color: black;

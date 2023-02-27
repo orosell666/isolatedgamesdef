@@ -10,10 +10,10 @@ function Home() {
     return (
       <div  >
        
-      
+      <div className="bgimage1">
       
       <div id="scrollspyHeading1"></div>
-        <Game1 />
+        <Game1 /></div>
         <News />
         <Jobs />
         <Contact />
