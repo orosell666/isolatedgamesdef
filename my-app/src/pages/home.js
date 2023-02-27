@@ -8,12 +8,14 @@ import Contact from "../components/contact";
 
 function Home() {
     return (
-      <div  >
+      <div  className="App-header ">
        
-      <div className="">
       
-      <div id="scrollspyHeading1"></div>
-        <Game1 /></div>
+      
+        
+          <Game1  id="scrollspyHeading1"/>
+        
+      
         <News />
         <Jobs />
         <Contact />

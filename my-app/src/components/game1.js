@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 import "../styles/index.css";
 import gameImage1 from "../images/SliderBetween.png";
 import gameImage2 from "../images/SliderTravellerRest.png"; 
-import iconleft from "../images/Icon_Left.png";
+
 
 const Game1 = () => {
 
     return (
-        <div className="bgimage1" id="scrollspyHeading1">
+        <div className="" id="scrollspyHeading1">
             <div className="container-fluid col-lg-10 mt-5 rounded-3">
                 <div className="fondoCarousel1  ">
         <div id="carouselExampleIndicators" className="carousel slide p-3 mb-5" data-bs-ride="carousel">
