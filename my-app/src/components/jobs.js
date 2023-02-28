@@ -7,7 +7,7 @@ import ClockIcon from "../images/Icon_Clock.png";
 const Jobs = ()=> {
 
     return(
-        <div className="textColor1 splash3 text-center  pt-5 " id="scrollspyHeading3">
+        <div className="textColor1 splash3 text-center  pt-5 " id="scrollspyHeading6">
             <h1 className=" pt-5">WORK WITH US</h1>
             <div className="container d-flex justify-content-center">
             <div className="card bg-dark col-5 mt-5 ms-5 me-2">
