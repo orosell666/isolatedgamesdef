@@ -3,6 +3,7 @@ import Game1 from '../components/game1';
 import News from "../components/news";
 import Team from "../components/team";
 import Contact from "../components/contact";
+import Jobs from "../components/jobs";
 
 
 
@@ -10,7 +11,8 @@ function Home() {
     return (
       <div>
       <div  className="bgimg1">
-       <Game1  id="scrollspyHeading1"/><News />
+       <Game1  id="scrollspyHeading1"/>
+       <News />
       </div>
       <div className="bgimg2 ">
         <div className="container textColor1 text-center fs-5 nomargin">
@@ -23,7 +25,10 @@ Vivamus faucibus rhoncus enim, vel elementum nulla. Phasellus ac nulla scelerisq
 Mauris bibendum eleifend malesuada. Integer quam tortor, fringilla et laoreet in, convallis a mi. Donec sit amet elit pellentesque, pretium est vel, varius sapien. Fusce eleifend libero quis tortor pretium porta. Mauris tempus, magna nec dignissim blandit, orci ipsum ornare augue, ac vehicula massa mi eget ligula. Curabitur ornare ac elit vitae tincidunt. Sed nisl justo, convallis in mi vel, scelerisque laoreet turpis. Nam a tincidunt ligula. Sed quis elit felis. Nunc nec ligula congue, dictum mi nec, faucibus felis. Proin placerat, arcu vel convallis vestibulum, risus purus convallis sem, vitae pharetra magna odio sed diam. Quisque non elementum purus. Sed vitae magna nibh.</p>
         
         </div></div>
+        <div className="teambg">
         <Team />
+        <Jobs />
+        </div>
        
         </div>
           
