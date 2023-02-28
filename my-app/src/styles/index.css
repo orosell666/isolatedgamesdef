@@ -32,7 +32,7 @@ code {
   
 }
 .bgimg2 {
-  background: url("../images/city2.jpg") ; 
+  background: url("../images/city3.jpg") ; 
   min-height: 400%;
   position: relative;
   opacity: 1.0;
@@ -184,4 +184,10 @@ h1 {
 }
 .moreBtn {
   background-color: #9a2c2c;
+}
+.teambg {
+  background-color: #201b1f;
+}
+.nomargin {
+  margin-bottom: -16px;
 }
