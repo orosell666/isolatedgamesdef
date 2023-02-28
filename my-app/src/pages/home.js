@@ -2,7 +2,7 @@ import React from "react";
 import Game1 from '../components/game1';
 import News from "../components/news";
 import Team from "../components/team";
-import Contact from "../components/contact";
+import Contact from "./contact";
 import Jobs from "../components/jobs";
 
 

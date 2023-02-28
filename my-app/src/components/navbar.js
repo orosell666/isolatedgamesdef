@@ -28,8 +28,10 @@ const Navbar = () => {
                         <a className="nav-link fs-3" href="/#scrollspyHeading3">ABOUT</a></li>
                         <li className="nav-item pt-2">
                         <a className="nav-link fs-3" href="/#scrollspyHeading4">TEAM</a></li>
-                        <li className="nav-item pt-2">
-                        <a className="nav-link fs-3" href="/#scrollspyHeading5">CONTACT</a></li>
+                        <Link to="/contact" className="linkUnderline"><li className="nav-item pt-2">
+                        
+      
+                        <a className="nav-link fs-3" href="/#scrollspyHeading5">CONTACT</a></li></Link>
                         <li className="nav-item pt-2">
                             <a className="nav-link fs-3" href="/#scrollspyHeading6">JOBS</a></li>
                         

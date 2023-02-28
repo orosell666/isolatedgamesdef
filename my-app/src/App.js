@@ -8,6 +8,7 @@ import Home from "./pages/home";
 import BeTheStar from "./pages/bethestar";
 import Travellers from "./pages/travellers";
 import Navbar from "./components/navbar";
+import Contact from "./pages/contact";
 
 
 
@@ -23,6 +24,8 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path="/bethestar" element={<BeTheStar />} />
           <Route path='/travellers' element={<Travellers/>} />
+          <Route path='/contact' element={<Contact/>} />
+
       </Routes> 
       <Footer />
     </BrowserRouter>
