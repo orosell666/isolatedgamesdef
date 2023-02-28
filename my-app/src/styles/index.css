@@ -30,10 +30,23 @@ code {
  
   
 }
+.bgimg2 {
+  background: url("../images/city2.jpg") ; 
+  min-height: 60%;
+  position: relative;
+  opacity: 1.0;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+  
+}
 .game1splash {
   clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%);
 
   background-color: #201b1f;
+  height: 100%;
+  padding-bottom: 50px;
 }
 .fondoCarousel1 {
   background-color: #25191d;
@@ -52,6 +65,11 @@ code {
   height: 70px;
   width: 70px;
  }
+.btnDown {
+  background-image: url("../images/Icon_Down.png");
+  height: 70px;
+  width: 70px;
+}
 .navstyle {
   background-color: black;
   color: whitesmoke;
@@ -162,4 +180,7 @@ h1 {
 .videoWrapper {
   position: relative;
   overflow: hidden;
+}
+.moreBtn {
+  background-color: #9a2c2c;
 }
