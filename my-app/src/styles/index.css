@@ -1,7 +1,7 @@
 body {
   margin: 0;
 
-font-family: 'Play', sans-serif;
+font-family: 'Agency FB', sans-serif;
 
 
   -webkit-font-smoothing: antialiased;
@@ -21,18 +21,19 @@ code {
 }
 .bgimg1 {
   background: url("../images/find-purfect-background-vector-free-download.jpg") ; 
-  min-height: 100%;
+  min-height: 600px;
   position: relative;
   opacity: 1.0;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 100%;
+ 
+  
 }
 .game1splash {
-  clip-path: polygon(0 39%, 100% 33%, 100% 100%, 0% 100%);
-  background-color: #322c30;
+  clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%);
+
+  background-color: #201b1f;
 }
 .fondoCarousel1 {
   background-color: #25191d;
@@ -106,17 +107,12 @@ contact input:focus {
 h1 {
   display: grid;
   width: 100%;
-  align-items: center;
-  text-align: start;
-  grid-template-columns: minmax(20px, 1fr) auto minmax(20px, 1fr);
-  grid-gap: 20px;
+  padding-top: 100px;
+  text-align: center;
+  
 }
 
-h1:before,
-h1:after {
-  content: '';
-  border-top: 2px solid;
-}
+
 .modalBG {
   background: #000 !important; 
   

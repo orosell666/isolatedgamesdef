@@ -9,7 +9,7 @@ const Game1 = () => {
 
     return (
         <div className="" id="scrollspyHeading1">
-            <div className="container-fluid col-lg-10 mt-5 rounded-3">
+            <div className="container-fluid col-lg-10 pt-5  rounded-3">
                 <div className="fondoCarousel1  ">
         <div id="carouselExampleIndicators" className="carousel slide p-3 mb-5" data-bs-ride="carousel">
   <div className="carousel-indicators">
