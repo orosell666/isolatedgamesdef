@@ -23,7 +23,7 @@ Vivamus faucibus rhoncus enim, vel elementum nulla. Phasellus ac nulla scelerisq
 Mauris bibendum eleifend malesuada. Integer quam tortor, fringilla et laoreet in, convallis a mi. Donec sit amet elit pellentesque, pretium est vel, varius sapien. Fusce eleifend libero quis tortor pretium porta. Mauris tempus, magna nec dignissim blandit, orci ipsum ornare augue, ac vehicula massa mi eget ligula. Curabitur ornare ac elit vitae tincidunt. Sed nisl justo, convallis in mi vel, scelerisque laoreet turpis. Nam a tincidunt ligula. Sed quis elit felis. Nunc nec ligula congue, dictum mi nec, faucibus felis. Proin placerat, arcu vel convallis vestibulum, risus purus convallis sem, vitae pharetra magna odio sed diam. Quisque non elementum purus. Sed vitae magna nibh.</p>
         
         </div></div>
-        <Contact />
+       
         </div>
           
            
