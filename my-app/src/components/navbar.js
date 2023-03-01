@@ -13,10 +13,10 @@ import LogoRD from "../images/reddit.svg";
 const Navbar = () => {
 
     return (
-        <nav className="navbar navbar-expand-lg  navstyle navbar-dark  sticky-top  "> 
+        <nav className="navbar navbar-expand-lg  navstyle navbar-dark  sticky-top textColor1 "> 
             <div className="container justify-content-evenly">
                 <a  href="/#scrollspyHeading1">
-            <img className="navbar-brand ms-5" src={LogoIG} width={220} height={60}/></a> 
+            <img className="navbar-brand ms-5" src={LogoIG} width={260} height={50}/></a> 
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
@@ -31,7 +31,7 @@ const Navbar = () => {
                         <Link to="/contact" className="linkUnderline"><li className="nav-item pt-2">
                         
       
-                        <a className="nav-link fs-3" href="/#scrollspyHeading5">CONTACT</a></li></Link>
+                        <a className="nav-link fs-3" >CONTACT</a></li></Link>
                         <li className="nav-item pt-2">
                             <a className="nav-link fs-3" href="/#scrollspyHeading6">JOBS</a></li>
                         

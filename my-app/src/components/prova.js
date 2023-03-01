@@ -1,42 +1,24 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/index.css";
-import LogoIGF from "../images/logo-IsolatedGamesv.svg";
+import LogoIGF from "../images/logoIsolatedGames.png";
 import LogoBTS from "../images/logo_transparent.png";
 import LogoTVS from "../images/travellersRest-NewLogo5x.png";
 import LogoFB from "../images/facebook-f.svg";
-import LogoIN from "../images/instagram.svg";
-import LogoYT from "../images/youtube.svg";
-import LogoTW from "../images/twitter.svg";
-import LogoRD from "../images/reddit.svg";
+import LogoIN from "../images/RS_Insta.png";
+import LogoYT from "../images/RS_Youtube.png";
+import LogoTW from "../images/RS_Twitter.png";
+import LogoRD from "../images/RS_TikTOk.png";
 
 const Footer = ()=>{
     return(
 
 <div className="footer-basic">
   <footer>
-    <div className="footerStyle position-static ">
+    <div className="footerStyle position-static d-flex justify-content-around">
             
-      <ul className="list-inline">
-          <li className="list-inline-item"><a href="/#scrollspyHeading1"><img className="mt-4" src={LogoIGF} width={100} height={60}/></a></li>
-          <li className="list-inline-item"><a href="/bethestar"><img className="mt-4" src={LogoBTS} width={90} height={50}/></a></li> 
-          <li className="list-inline-item"><a href="/travellers"><img className="mt-4" src={LogoTVS} width={60} height={40}/></a></li>
-      </ul>
-            
-      <div className="btn-group" height={40}>
-          <a href="https://www.instagram.com/isolated_games/"><img className="netLogos me-5" src={LogoIN} width={20} height={20} /></a>
-          <a href="https://www.youtube.com/channel/UCT41om_yDCTTq7-q7OPjgPA"><img className="netLogos me-5" src={LogoYT} width={20} height={20} /></a>
-          <a href="https://twitter.com/Isolated_Games"><img  className="netLogos me-5" src={LogoTW} width={20} height={20} /></a>
-          <a href="https://www.facebook.com/BetweenTheStarsGame"><img className="netLogos me-5" src={LogoFB} width={20} height={20} /></a>
-          <a href="https://www.reddit.com/r/BetweenTheStars/"><img className="netLogos " src={LogoRD} width={20} height={20} /></a>
-      </div>
-      <ul className="list-inline mt-3">
-          <li className="list-inline-item "><a className="linkUnderline" href="/#scrollspyHeading2">NEWS</a></li>
-          <li className="list-inline-item"><a className="linkUnderline" href="/#scrollspyHeading3">JOBS</a></li>
-          <li className="list-inline-item"><a className="linkUnderline" href="/#scrollspyHeading4">CONTACT</a></li>
-          </ul>
-      <ul className="list-inline">
-        <button type="button" className="btn linkUnderline" data-bs-toggle="modal" data-bs-target="#example">LEGAL NOTICE OF COOKIES</button>
+      <ul className="mt-3 no-bullets">
+      <li><button type="button" className="btn linkUnderline" data-bs-toggle="modal" data-bs-target="#example">LEGAL NOTICE OF COOKIES</button></li>
                 <div className="modal modalBG" id="example" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                   <div className="modal-dialog modal-xl ">
                     <div className="modal-content modalBG">
@@ -44,7 +26,7 @@ const Footer = ()=>{
                         <h5 className="modal-title text-start textColor1 ms-5" id="exampleModalLabel">LEGAL NOTICE OF COOKIES</h5>
                         <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
-                    <div classNames="modal-body modalBG">
+                    <div className="modal-body modalBG">
                         <div className="container mt-5 text-start modalBG">
                 <p><strong>ISOLATED GAMES SL</strong> uses “cookies” to ensure a proper operation of our website, improving safety and getting a higher efficiency and personalization of the services offered to users. If you continue browsing or press the “OK” button, you accept all its use. If you do not accept this use, press “NOT OK”. In this case ISOLATED GAMES SL can not guarantee the full functionallity of the website
                 </p>
@@ -62,7 +44,7 @@ const Footer = ()=>{
 
                 <p>This website uses “cookies” as follows:</p>
 
-                <ul className="ulLists">
+                <ul className="">
                   <li> Analytics: Google Analytics is a free service offered by Google Inc. and includes information about the web pages accessed, what time, what Web browser, etc. Later, this information is sent to Google’s servers Inc. United States.</li>
                   <li>Cookies application “Add-this”: Add-this is a free service that lets you share pages of this website by different means (email, social networks, etc.). Add-this compiles statistical information about your browsing to provide advertising adapted to your browsing habits on this site or elsewhere.</li> 
                 </ul>
@@ -71,7 +53,7 @@ const Footer = ()=>{
                 
                 <p><strong>According to its purpose:</strong></p>
                 
-                <ul className="ulLists">
+                <ul className="">
                   <li><strong>Technical Cookies:</strong> Cookies those techniques are essential and strictly necessary for the proper functioning of a website and the use of different options and services. For example, the ones that serve to maintain the session management, response time, performance and validation options, use of security features, sharing with social networks, etc.</li>
                   <li><strong>Customization Cookies:</strong> These cookies allow the user to specify or customize some features of the settings on the website, for example, set the language, locale and browser type.</li>
                   <li><strong>Analytical Cookies:</strong> Analytical Cookies are used by our web portal, to develop navigation profiles and to know the user preferences to improve the range of products and services. For example, using a cookie analytic can control the geographical areas of interest to a user, which is the product of more acceptance, etc.</li>
@@ -80,7 +62,7 @@ const Footer = ()=>{
                 
                 <p><strong>According to its term:</strong></p>
                 
-                <ul className="ulLists">
+                <ul className="">
                   <li><strong>Session Cookies:</strong> Session cookies are those that last as long as the user is browsing the website and are deleted in the term.</li>
                   <li><strong>Persistent Cookies:</strong> These cookies are stored on the user’s computer for a longer time, thus facilitating control of the preferences chosen without having to repeat certain parameters each time you visit the site.</li>
                 </ul>
@@ -100,7 +82,7 @@ const Footer = ()=>{
 
                 <p>If however, decide to modify the configuration of your access to the website, you should know that it is possible to remove cookies or prevent you registering this information on your computer at any time by changing the settings on your browser:</p>
                 
-                <ul className="ulLists">
+                <ul className="">
                   <li><a href="https://support.microsoft.com/en-us/windows/delete-and-manage-cookies-168dab11-0753-043d-7c16-ede5947fc64d">Cookies configuration of Internet Explorer.</a></li>
                   <li><a href="https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop?redirectslug=enable-and-disable-cookies-website-preferences&redirectlocale=en-US">Cookies configuration of Firefox.</a></li>
                   <li><a href="https://support.google.com/chrome/answer/95647?co=GENIE.Platform%3DDesktop&hl=en-GB">Cookies configuration of Google Chrome.</a></li>
@@ -120,7 +102,7 @@ const Footer = ()=>{
         </div>
       </div>
     </div>
-    <button type="button" className="btn linkUnderline" data-bs-toggle="modal" data-bs-target="#example2">PRIVACY POLICY</button>
+    <li><button type="button" className="btn linkUnderline" data-bs-toggle="modal" data-bs-target="#example2">PRIVACY POLICY</button></li>
     <div className="modal modalBG" id="example2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div className="modal-dialog modal-xl ">
         <div className="modal-content modalBG">
@@ -155,8 +137,25 @@ const Footer = ()=>{
         </div>
       </div>
     </div>
-            </ul>
-            <p className="copyright linkUnderline pb-3">Isolated Games © Copyright 2019. All Rights Reserved.</p></div>
+    <Link to="/contact" className="linkUnderline"><li >
+                        
+      
+                        <button type="button" className="btn linkUnderline" >CONTACT</button></li></Link></ul>
+          
+          
+      
+       <div><h3 className="text-center mt-3 textColor1">FOLLOW US</h3>  
+      <div className="btn-group" height={40}>
+          <a href="https://www.instagram.com/isolated_games/"><img className="netLogos me-5" src={LogoIN} width={50} height={50} /></a>
+          <a href="https://www.youtube.com/channel/UCT41om_yDCTTq7-q7OPjgPA"><img className="netLogos me-5" src={LogoYT} width={50} height={50} /></a>
+          <a href="https://twitter.com/Isolated_Games"><img  className="netLogos me-5" src={LogoTW} width={50} height={50} /></a>
+          <a href="https://www.reddit.com/r/BetweenTheStars/"><img className="netLogos " src={LogoRD} width={50} height={50} /></a>
+      </div></div>  
+      
+      <ul className="list no-bullets">
+        <li className="list-item"><a href="/#scrollspyHeading1"><img className="mt-3 ms-2" src={LogoIGF} width={260} height={50}/></a></li>
+            
+            <p className="copyright linkUnderline pb-3">Isolated Games © Copyright 2019. All Rights Reserved.</p></ul></div>
   </footer>
 </div>
 

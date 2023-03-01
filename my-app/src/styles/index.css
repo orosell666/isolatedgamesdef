@@ -80,9 +80,12 @@ code {
   width: 70px;
 }
 .navstyle {
-  background-color: black;
+  background-color: #100c0d;
   color: whitesmoke;
   vertical-align: middle;
+}
+.navbar .navbar-brand, .navbar .navbar-nav .nav-link {
+  color: white;
 }
 .firstclass {
   color: black;
@@ -91,14 +94,6 @@ code {
   color: rgb(240, 248, 255);
 }
 
-
-#newsCard {
-  background-color: rgb(40, 44, 51);
-}
-.cardImageNews {
-  height: 150px;
-  width: 800px;
-}
 .steamBtn {
   color: aliceblue;
   line-height: 15px;
@@ -155,7 +150,7 @@ h1 {
 
 }
 .footerStyle {
-  background-color: black;
+  background-color: #100c0d;
   color: rgb(155, 155, 155);
   margin-bottom: -1rem;
    left: 0;
@@ -172,8 +167,9 @@ h1 {
 .linkUnderline:hover {
   color: #909090;
 }
-.ulLists {
-  list-style-type: disc;
+ul.no-bullets {
+  list-style-type: none; /* Remove bullets */
+  
 }
 .overlay {
   position: absolute;

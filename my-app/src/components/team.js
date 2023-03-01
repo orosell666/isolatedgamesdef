@@ -12,7 +12,7 @@ const Team=()=>{
                         <div className="card  rounded-3 w-100">
                             <div className="row g-0">
                                     <div className=" d-flex">
-                                    <img src={Avatar} className="img-fluid col-sm-4  p-2" />
+                                    <img src={Avatar} className="d-none d-sm-block col-sm-4  p-2" />
                                     <div className="card-body ">
                                     <h4 className="card-header"><ins>Francesc Romero</ins></h4>
                                         <p className="card-text  text-center">Supreeme Master Paychecks </p>
@@ -26,7 +26,7 @@ const Team=()=>{
                         <div className="card rounded-3 w-100">
                             <div className="row g-0">
                                     <div className=" d-flex">
-                                    <img src={Avatar} className="img-fluid col-sm-4  p-2" />
+                                    <img src={Avatar} className="d-none d-sm-block col-sm-4  p-2" />
                                     <div className="card-body ">
                                     <h4 className="card-header"><ins>Francesc Romero</ins></h4>
                                         <p className="card-text  text-center">Supreeme Master Paychecks </p>
@@ -40,7 +40,7 @@ const Team=()=>{
                         <div className="card  rounded-3 w-100">
                             <div className="row g-0">
                                     <div className=" d-flex">
-                                    <img src={Avatar} className="img-fluid col-sm-4  p-2" />
+                                    <img src={Avatar} className="d-none d-sm-block col-sm-4  p-2" />
                                     <div className="card-body ">
                                     <h4 className="card-header"><ins>Francesc Romero</ins></h4>
                                         <p className="card-text  text-center">Supreeme Master Paychecks </p>
@@ -56,7 +56,7 @@ const Team=()=>{
                         <div className="card  rounded-3 w-100">
                             <div className="row g-0">
                                     <div className=" d-flex">
-                                    <img src={Avatar} className="img-fluid col-sm-4  p-2" />
+                                    <img src={Avatar} className="d-none d-sm-block col-sm-4  p-2" />
                                     <div className="card-body ">
                                     <h4 className="card-header"><ins>Francesc Romero</ins></h4>
                                         <p className="card-text  text-center">Supreeme Master Paychecks </p>
@@ -70,7 +70,7 @@ const Team=()=>{
                         <div className="card   rounded-3 w-100">
                             <div className="row g-0">
                                     <div className=" d-flex">
-                                    <img src={Avatar} className="img-fluid col-sm-4  p-2" />
+                                    <img src={Avatar} className="d-none d-sm-block col-sm-4  p-2" />
                                     <div className="card-body ">
                                     <h4 className="card-header"><ins>Francesc Romero</ins></h4>
                                         <p className="card-text  text-center">Supreeme Master Paychecks </p>
@@ -84,7 +84,7 @@ const Team=()=>{
                         <div className="card   rounded-3 w-100">
                             <div className="row g-0">
                                     <div className=" d-flex">
-                                    <img src={Avatar} className="img-fluid col-sm-4  p-2" />
+                                    <img src={Avatar} className="d-none d-sm-block col-sm-4  p-2" />
                                     <div className="card-body ">
                                     <h4 className="card-header"><ins>Francesc Romero</ins></h4>
                                         <p className="card-text  text-center">Supreeme Master Paychecks </p>
@@ -100,7 +100,7 @@ const Team=()=>{
                         <div className="card   rounded-3 w-100">
                             <div className="row g-0">
                                     <div className=" d-flex">
-                                    <img src={Avatar} className="img-fluid col-sm-4  p-2" />
+                                    <img src={Avatar} className="d-none d-sm-block col-sm-4  p-2" />
                                     <div className="card-body ">
                                     <h4 className="card-header"><ins>Francesc Romero</ins></h4>
                                         <p className="card-text  text-center">Supreeme Master Paychecks </p>
@@ -114,7 +114,7 @@ const Team=()=>{
                         <div className="card   rounded-3 w-100">
                             <div className="row g-0">
                                     <div className=" d-flex">
-                                    <img src={Avatar} className="img-fluid col-sm-4  p-2" />
+                                    <img src={Avatar} className="d-none d-sm-block col-sm-4  p-2" />
                                     <div className="card-body ">
                                     <h4 className="card-header"><ins>Francesc Romero</ins></h4>
                                         <p className="card-text  text-center">Supreeme Master Paychecks </p>
@@ -128,7 +128,7 @@ const Team=()=>{
                         <div className="card   rounded-3 w-100">
                             <div className="row g-0">
                                     <div className=" d-flex">
-                                    <img src={Avatar} className="img-fluid col-sm-4  p-2" />
+                                    <img src={Avatar} className="d-none d-sm-block col-sm-4  p-2" />
                                     <div className="card-body ">
                                     <h4 className="card-header"><ins>Francesc Romero</ins></h4>
                                         <p className="card-text  text-center">Supreeme Master Paychecks </p>
