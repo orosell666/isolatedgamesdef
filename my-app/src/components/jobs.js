@@ -10,7 +10,7 @@ const Jobs = ()=> {
         <div className="textColor1 splash3 text-center  pt-5 " id="scrollspyHeading6">
             <h1 className=" pt-5">WORK WITH US</h1>
             <div className="container d-flex justify-content-center">
-            <div className="card bg-dark col-5 mt-5 ms-5 me-2">
+            <div className="card col-5 mt-5 ms-5 me-2">
             <h2 className="card-header"><ins>Pixel Artist</ins></h2>
                    
                 
@@ -27,7 +27,7 @@ const Jobs = ()=> {
                     
                 </div>
             </div>
-            <div className="card bg-dark col-5 mt-5 ms-2">
+            <div className="card  col-5 mt-5 ms-2">
             <h2 className="card-header"><ins>Pixel Artist</ins></h2>
                    
                 

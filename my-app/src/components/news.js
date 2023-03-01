@@ -11,7 +11,7 @@ const News = () => {
             <h1 className="  ">NEWS</h1>
             <div className="container justify-content-start mb-5  col-sm-8">
                 
-            <div className="card bg-dark mt-5 rounded-3 w-100 ">
+            <div className="card mt-5 rounded-3 w-100 ">
                 <div className="row g-0">
                  <div className=" d-flex">
                 <img src={screenshot} className="img-fluid col-sm-4  p-2" />
@@ -29,7 +29,7 @@ const News = () => {
                
             </div>
             
-            <div className="card bg-dark mt-2 rounded-3 w-100">
+            <div className="card mt-2 rounded-3 w-100">
                 <div className="row g-0">
                  <div className=" d-flex">
                 <img src={screenshot} className="img-fluid col-sm-4  p-2" />
@@ -47,7 +47,7 @@ const News = () => {
                
             </div></div>
             
-            <div className="card bg-dark mt-2 rounded-3 mb-5 w-100">
+            <div className="card mt-2 rounded-3 mb-5 w-100">
                 <div className="row g-0">
                  <div className=" d-flex">
                 <img src={screenshot} className="img-fluid col-sm-4  p-2" />

@@ -9,7 +9,7 @@ const Team=()=>{
             <div className="container col-10">
                 <div className="row align-items-start m-2">
                     <div className="col">
-                        <div className="card bg-dark  rounded-3 w-100">
+                        <div className="card  rounded-3 w-100">
                             <div className="row g-0">
                                     <div className=" d-flex">
                                     <img src={Avatar} className="img-fluid col-sm-4  p-2" />
@@ -23,7 +23,7 @@ const Team=()=>{
 
                     </div>
                     <div className="col">
-                        <div className="card bg-dark  rounded-3 w-100">
+                        <div className="card rounded-3 w-100">
                             <div className="row g-0">
                                     <div className=" d-flex">
                                     <img src={Avatar} className="img-fluid col-sm-4  p-2" />
@@ -37,7 +37,7 @@ const Team=()=>{
 
                     </div>
                     <div className="col">
-                        <div className="card bg-dark  rounded-3 w-100">
+                        <div className="card  rounded-3 w-100">
                             <div className="row g-0">
                                     <div className=" d-flex">
                                     <img src={Avatar} className="img-fluid col-sm-4  p-2" />
@@ -53,7 +53,7 @@ const Team=()=>{
                 </div>
                 <div className="row align-items-center m-2">
                     <div className="col">
-                        <div className="card bg-dark rounded-3 w-100">
+                        <div className="card  rounded-3 w-100">
                             <div className="row g-0">
                                     <div className=" d-flex">
                                     <img src={Avatar} className="img-fluid col-sm-4  p-2" />
@@ -67,7 +67,7 @@ const Team=()=>{
 
                     </div>
                     <div className="col">
-                        <div className="card bg-dark  rounded-3 w-100">
+                        <div className="card   rounded-3 w-100">
                             <div className="row g-0">
                                     <div className=" d-flex">
                                     <img src={Avatar} className="img-fluid col-sm-4  p-2" />
@@ -81,7 +81,7 @@ const Team=()=>{
 
                     </div>
                     <div className="col">
-                        <div className="card bg-dark  rounded-3 w-100">
+                        <div className="card   rounded-3 w-100">
                             <div className="row g-0">
                                     <div className=" d-flex">
                                     <img src={Avatar} className="img-fluid col-sm-4  p-2" />
@@ -97,7 +97,7 @@ const Team=()=>{
                 </div>
                 <div className="row align-items-end m-2 pb-5">
                     <div className="col">
-                        <div className="card bg-dark  rounded-3 w-100">
+                        <div className="card   rounded-3 w-100">
                             <div className="row g-0">
                                     <div className=" d-flex">
                                     <img src={Avatar} className="img-fluid col-sm-4  p-2" />
@@ -111,7 +111,7 @@ const Team=()=>{
 
                     </div>
                     <div className="col">
-                        <div className="card bg-dark  rounded-3 w-100">
+                        <div className="card   rounded-3 w-100">
                             <div className="row g-0">
                                     <div className=" d-flex">
                                     <img src={Avatar} className="img-fluid col-sm-4  p-2" />
@@ -125,7 +125,7 @@ const Team=()=>{
 
                     </div>
                     <div className="col">
-                        <div className="card bg-dark  rounded-3 w-100">
+                        <div className="card   rounded-3 w-100">
                             <div className="row g-0">
                                     <div className=" d-flex">
                                     <img src={Avatar} className="img-fluid col-sm-4  p-2" />
