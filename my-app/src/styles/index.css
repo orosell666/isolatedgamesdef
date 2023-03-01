@@ -32,15 +32,19 @@ code {
   
 }
 .bgimg2 {
-  background: url("../images/city3.jpg") ; 
+  background: url("../images/city4.png") ; 
   min-height: 400%;
+  width: 100%;
   position: relative;
   opacity: 1.0;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
- 
   
+  
+}
+.bg-text {
+  filter: blur(0px);
 }
 .game1splash {
   clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%);
@@ -92,6 +96,7 @@ code {
 }
 .textColor1 {
   color: rgb(240, 248, 255);
+  filter: blur(0px);
 }
 
 .steamBtn {
@@ -207,4 +212,21 @@ ul.no-bullets {
 }
 .card {
   background-color: #322c30;
+}
+.contactBG {
+  background-image: url("../images/ContactBG.png");
+  height: 100vh;
+}
+.carousel-indicators [data-bs-target] {
+  position: relative;
+  width: 110px;
+  height: 15px;
+  border: none;
+  border-radius: 5px;
+}
+.carousel-indicators [data-bs-target]:hover {
+  background-color: #100c0d;
+}
+.carousel-control-next {
+  opacity: 1;
 }

@@ -3,7 +3,7 @@ import "../styles/index.css"
 
 const Contact = () => {
     return(
-        <div className="textColor1 sectionStyle pt-5 pageSpace "  >
+        <div className="textColor1 sectionStyle pt-5 contactBG "  >
             <h1 className=" pt-5">CONTACT</h1>
            
             <div className="container mb-3 text-start col-8 contact">

@@ -144,7 +144,7 @@ const Footer = ()=>{
           
           
       
-       <div><h3 className="text-center mt-3 textColor1">FOLLOW US</h3>  
+       <div><h3 className="text-center mt-3 ms-5 me-5 textColor1">FOLLOW US</h3>  
       <div className="btn-group" height={40}>
           <a href="https://www.instagram.com/isolated_games/"><img className="netLogos me-5" src={LogoIN} width={50} height={50} /></a>
           <a href="https://www.youtube.com/channel/UCT41om_yDCTTq7-q7OPjgPA"><img className="netLogos me-5" src={LogoYT} width={50} height={50} /></a>

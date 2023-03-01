@@ -7,8 +7,8 @@ import screenshot3 from "../images/157.jpg";
 ;
 const News = () => {
     return(
-        <div className="textColor1 game1splash top-0 text-center" id="scrollspyHeading2" >
-            <h1 className="  ">NEWS</h1>
+        <div className="textColor1 game1splash top-0 text-center " id="scrollspyHeading2" >
+            <h1 className=" mb-5  mt-5 ">NEWS</h1>
             <div className="container-fluid col-lg-6 justify-content-start mb-5  ">
                 
             <div className="card mt-5 rounded-3 w-100 ">
@@ -68,7 +68,7 @@ const News = () => {
             
             <div className="container align-items-center">
                 
-                    <img src={downArrow} />
+                    <img src={downArrow}  width={70} height={70}/>
                 
             </div>
             
