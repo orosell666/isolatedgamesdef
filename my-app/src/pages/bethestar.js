@@ -20,96 +20,141 @@ import { Player } from 'video-react';
 const BeTheStar = () => {
 
     return(
-        <div className="container-fluid ">
+        <div>
             <div className="banner-area img-fluid ">
                 <img src={gameBanner} className="background-image gameBTSbg col-12" /><img className="overlay col-3 img-fluid" src={LogoBTS} /><Link to="https://store.steampowered.com/cart/"></Link>
             </div>
-            <div className="container-fluid top-0 justify-content-center">
+            <div className=" top-0 justify-content-center">
             <div className="gameBTSsplash  ">
-            <div className="container card pt-5 rounded-3  col-7 ">
-                <div className="row g-0 mt-5">
-                 <div className=" d-flex">
-                <img src={screenshot3} className="img-fluid d-none d-sm-block  col-6  p-2" />
-                <div className="card-body col-6">
-                <h3 className="card-header text-center ">Salva la Galaxia</h3>
-                    <p className="card-text  text-start ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                    </div>
-                    
-                </div> 
+            <div className="container card pt-5 p-5 rounded-3  col-7 ">
                 
+                <div className="row g-0 mt-5 pt-5">
+                  <div className=" d-flex">
+                    <div className="card-body col-6 ">
+                      <h3 className="card-header text-center ">Salva la Galaxia</h3>
+                      <p className="card-text  text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    </div>
+                      <img src={screenshot3} className="img-fluid d-none d-sm-block  col-6  p-2" />
+                  </div> 
+                </div>
+                
+                <div className="row g-0 mt-5">
+                  <div className=" d-flex">
+                  <img src={screenshot3} className="img-fluid d-none d-sm-block  col-6  p-2" />
+                    <div className="card-body col-6">
+                      <h3 className="card-header text-center ">Salva la Galaxia</h3>
+                      <p className="card-text  text-start ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    </div>
+                  </div> 
+                </div>
+                
+                <div className="row g-0 mt-5 ">
+                  <div className=" d-flex">
+                    <div className="card-body col-6">
+                      <h3 className="card-header text-center ">Salva la Galaxia</h3>
+                      <p className="card-text  text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    </div>
+                    <img src={screenshot3} className="img-fluid d-none d-sm-block  col-6  p-2" />
+                  </div> 
+                </div>
+               
+                <div className="row g-0 mt-5 mb-5">
+                  <div className=" d-flex">
+                  <img src={screenshot3} className="img-fluid d-none d-sm-block  col-6  p-2" />
+                    <div className="card-body col-6">
+                      <h3 className="card-header text-center ">Salva la Galaxia</h3>
+                      <p className="card-text  text-start ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    </div>
+                  </div> 
                 </div>
                
            
             
-                <div className="row g-0 mt-5">
-                 <div className=" d-flex">
                 
-                <div className="card-body col-6 ">
-                <h3 className="card-header text-center ">Salva la Galaxia</h3>
-                    <p className="card-text  text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                    </div>
-                    <img src={screenshot3} className="img-fluid d-none d-sm-block  col-6  p-2" />
-                </div> 
-                
-                </div>
-                <div className="row g-0">
-                 <div className=" d-flex">
-                <img src={screenshot3} className="img-fluid d-none d-sm-block  col-6  p-2" />
-                <div className="card-body col-6">
-                <h3 className="card-header text-center ">Salva la Galaxia</h3>
-                    <p className="card-text  text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                    </div>
-                    
-                </div> 
-                
-                </div>
-               
-           
-            
-                <div className="row g-0 mt-5">
-                 <div className=" d-flex">
-                
-                <div className="card-body col-6">
-                <h3 className="card-header text-center ">Salva la Galaxia</h3>
-                    <p className="card-text  text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                    </div>
-                    <img src={screenshot3} className="img-fluid d-none d-sm-block  col-6  p-2" />
-                </div> 
-                
-                </div>
                
             </div></div> </div>
 
-            
-        <div className="container-fluid col-lg-6 mb-5">
-        <div id="carouselExampleIndicators" class="carousel slide pb-5 mb-5" data-bs-ride="carousel">
-  <div className="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
+       <div className="teambg pt-5 pb-5 " >   
+        
+        <div className="container-fluid col-lg-6 pt-5  rounded-3">
+                <div className="fondoCarousel2  ">
+        <div id="carouselExampleIndicators" className="carousel  slide p-3 mb-5" data-bs-ride="carousel" data-ride="carousel">
+ 
   <div className="carousel-inner">
     <div className="carousel-item active">
+    
       <img src={screenshot6} class="d-block w-100" alt="..." />
     </div>
     <div className="carousel-item">
+    
       <img src={screenshot7} class="d-block w-100" alt="..." />
     </div>
     <div className="carousel-item">
+    
       <img src={screenshot8} class="d-block w-100" alt="..." />
     </div>
+    <div className="carousel-item">
+    
+      <img src={screenshot3} class="d-block w-100" alt="..." />
+    </div>
+    <div className="carousel-item">
+    
+      <img src={screenshot7} class="d-block w-100" alt="..." />
+    </div>
+    <div className="carousel-item">
+    
+      <img src={screenshot7} class="d-block w-100" alt="..." />
+    </div>
+    <div className="carousel-item">
+    
+      <img src={screenshot7} class="d-block w-100" alt="..." />
+    </div>
+    
   </div>
-  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+  <button className="carousel-control-prev position-absolute top-50 start-0 translate-middle" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span  className="carousel-control-prev-icon" aria-hidden="true"></span>
     <span className="visually-hidden">Previous</span>
   </button>
-  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+  <button className="carousel-control-next position-absolute top-50 start-100 translate-middle" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
     <span className="carousel-control-next-icon" aria-hidden="true"></span>
     <span className="visually-hidden">Next</span>
   </button>
+  
 </div></div>
+</div> 
+<div className=" col-lg-7 mx-auto fondoCarousel2">
+  <div className="clearfix">
+      <div id="thumbcarousel" className="carousel slide product-slider" data-interval="false">
         
+        <div className="carousel-inner ">
+          <div className="item active d-flex m-3">
+            <div data-target="#carousel" data-slide-to="0" className="thumb "><img src={screenshot6}/></div>
+            <div data-target="#carousel" data-slide-to="1" className="thumb"><img src={screenshot7}/></div>
+            <div data-target="#carousel" data-slide-to="2" className="thumb"><img src={screenshot8}/></div>
+            <div data-target="#carousel" data-slide-to="3" className="thumb"><img src={screenshot3}/></div>
+            <div data-target="#carousel" data-slide-to="4" className="thumb"><img src={screenshot7}/></div>
+          
+            <div data-target="#carousel" data-slide-to="5" className="thumb"><img src={screenshot7}/></div>
+            <div data-target="#carousel" data-slide-to="6" className="thumb lastthumb"><img src={screenshot7}/></div>
+            
+          </div>
         </div>
+       
+        <a className="left carousel-control" href="#thumbcarousel" role="button" data-slide="prev"> <i class="fa fa-angle-left" aria-hidden="true"></i> </a> <a class="right carousel-control" href="#thumbcarousel" role="button" data-slide="next"><i class="fa fa-angle-right" aria-hidden="true"></i> </a> 
+        </div>
+  </div>
+
+           
+        </div>
+        
+</div>
+<div className="splash3Game pt-5  pb-5 text-center">
+  
+    <h1 className="mb-5 pt-5">Join our community!</h1>
+ 
+</div>
+
+</div>
 
 
     )

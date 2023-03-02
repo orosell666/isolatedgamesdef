@@ -144,9 +144,9 @@ const Footer = ()=>{
           
           
       
-       <div><h3 className="text-center mt-3 ms-5 me-5 textColor1">FOLLOW US</h3>  
-      <div className="btn-group" height={40}>
-          <a href="https://www.instagram.com/isolated_games/"><img className="netLogos me-5" src={LogoIN} width={50} height={50} /></a>
+       <div className="justify-content-center"><h3 className="text-center mt-3 me-5 textColor1 ">FOLLOW US</h3>  
+      <div className="btn-group "  >
+          <a href="https://www.instagram.com/isolated_games/"><img className="netLogos  me-5" src={LogoIN} width={50} height={50} /></a>
           <a href="https://www.youtube.com/channel/UCT41om_yDCTTq7-q7OPjgPA"><img className="netLogos me-5" src={LogoYT} width={50} height={50} /></a>
           <a href="https://twitter.com/Isolated_Games"><img  className="netLogos me-5" src={LogoTW} width={50} height={50} /></a>
           <a href="https://www.reddit.com/r/BetweenTheStars/"><img className="netLogos " src={LogoRD} width={50} height={50} /></a>
