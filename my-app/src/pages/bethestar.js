@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/index.css";
 import '../styles/App.css';
 import { Link } from "react-router-dom";
-import  gameBanner  from "../images/103.jpg";
+import  gameBanner  from "../images/Game_BTS.png";
 import LogoBTS from "../images/logo_transparent.png";
 import screenshot3 from "../images/157.jpg";
 import screenshot6 from "../images/124.jpg";
@@ -20,73 +20,67 @@ import { Player } from 'video-react';
 const BeTheStar = () => {
 
     return(
-        <div className="container-fluid">
+        <div className="container-fluid ">
             <div className="banner-area img-fluid ">
-                <img src={gameBanner} className="background-image col-12" /><img className="overlay mx-auto img-fluid" src={LogoBTS} /><Link to="https://store.steampowered.com/cart/">
-            <div className="container-fluid-sm d-grid mx-auto "><button type="button" className="btn btn-sm textColor1 col-sm-4 mt-5 steamBtn overlaySteam " ><p className="fs-4 "><strong>SHOP   IN   STEAM   </strong><img src={steamLogo} width={50} height={50} className=""/></p>
-            </button></div>
-            </Link>
-                <div className="container ">
-           
-           
-           </div>
+                <img src={gameBanner} className="background-image gameBTSbg col-12" /><img className="overlay col-3 img-fluid" src={LogoBTS} /><Link to="https://store.steampowered.com/cart/"></Link>
             </div>
-       
-        <h1 className="textColor1 mt-5">ABOUT BETWEEN THE STARS</h1>
-        <div className="container-fluid col-lg-3 mt-5">
-        <h4 className="textColor1">Travel among procedurally generated sectors.
-Equip and upgrade your weapons.
-Face events and make decisions.
-And destroy the enemies of the Republic.</h4>
-        </div>
-        <div className="videoWrapper">
-        <iframe className="mt-5 " width="760" height="515" src="https://www.youtube.com/embed/EUXJnueIiPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-        <div className="container-fluid col-lg-4 mt-5">
-            <h4 className="textColor1 ">Between the Stars is a roguelike game where you play as a captain of a military spaceship. You will have to fight the enemies of the Republic and protect  the civilized world.</h4>
-            <p className="mt-5 textColor1">Between the Stars is a roguelike game with action and strategy elements that puts you in the shoes of a stellar cruiser captain. Your mission is to protect the civilized world fighting the Children of the Sun, the faction that dominates the outer worlds of the known universe. To carry out your mission you will have to cross the galaxy, face new challenges in each jump, make difficult decisions that will affect your ship, your crew and the world around you, improve your ship’s equipment and fight in exciting battles to survive.
-            </p>
-        </div>
-        <div className="container mt-5">
-            <img src={screenshot3} className="col-7"/>
-        </div>
-        <div className="container-fluid col-lg-4 mt-5">
-        <ul className="ulLists textColor1 text-start">
-            <li>Fight in intense space battles.</li>
-            <li>Use the special abilities of your ship at the right time to make a difference on the battlefield.</li>
-            <li>Convince other factions to join the battle.</li>
-        </ul>
-        </div>
-        <div className="container mt-5">
-            <img src={screenshot3} className="col-7"/>
-        </div>
-        <div className="container-fluid col-lg-4 mt-5">
-        <ul className="ulLists textColor1 text-start">
-            <li>Unlock new ships through achievements. Each ship has its own style and special abilities that makes it unique.</li>
-            <li>Choose your captain in each game. The captain brings his fighting style and unique bonuses to the ship, but keep in mind that death is permanent and if he dies in the game you will not be able to choose it again and a new captain will replace it.</li>
-            <li>Captains have an unique look and attributes combination.</li>
-        </ul>
-        </div>
-        <div className="container mt-5">
-            <img src={screenshot3} className="col-7"/>
-        </div>
-        <div className="container-fluid col-lg-4 mt-5">
-        <ul className="ulLists textColor1 text-start">
-            <li>Sectors, star maps, enemies and space stations are procedurally generated. None game will be like the previous one!</li>
-            <li>Defeat the Children of the Sun accomplishing the missions assigned to you by the high command of the star fleet.</li>
-        </ul>
-        </div>
-        <div className="container mt-5">
-            <img src={screenshot3} className="col-7"/>
-        </div>
-        <div className="container-fluid col-lg-4 mt-5">
-        <ul className="ulLists textColor1 text-start">
-            <li>Equip your ship and upgrade your equipment during the course of the adventure.</li>
-            <li>Recruit new crew to replace the casualties and make the right decisions to increase their level more quickly and keep your crew safe.</li>
-            <li>Hundreds of different events will test your ability and your crew.</li>
-            <li>The decisions that you make in each event will condition the evolution of the game and may cause your captain to gain attributes.</li>
-        </ul>
-        </div>
+            <div className="container-fluid top-0 justify-content-center">
+            <div className="gameBTSsplash  ">
+            <div className="container card pt-5 rounded-3  col-7 ">
+                <div className="row g-0 mt-5">
+                 <div className=" d-flex">
+                <img src={screenshot3} className="img-fluid d-none d-sm-block  col-6  p-2" />
+                <div className="card-body col-6">
+                <h3 className="card-header text-center ">Salva la Galaxia</h3>
+                    <p className="card-text  text-start ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    </div>
+                    
+                </div> 
+                
+                </div>
+               
+           
+            
+                <div className="row g-0 mt-5">
+                 <div className=" d-flex">
+                
+                <div className="card-body col-6 ">
+                <h3 className="card-header text-center ">Salva la Galaxia</h3>
+                    <p className="card-text  text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    </div>
+                    <img src={screenshot3} className="img-fluid d-none d-sm-block  col-6  p-2" />
+                </div> 
+                
+                </div>
+                <div className="row g-0">
+                 <div className=" d-flex">
+                <img src={screenshot3} className="img-fluid d-none d-sm-block  col-6  p-2" />
+                <div className="card-body col-6">
+                <h3 className="card-header text-center ">Salva la Galaxia</h3>
+                    <p className="card-text  text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    </div>
+                    
+                </div> 
+                
+                </div>
+               
+           
+            
+                <div className="row g-0 mt-5">
+                 <div className=" d-flex">
+                
+                <div className="card-body col-6">
+                <h3 className="card-header text-center ">Salva la Galaxia</h3>
+                    <p className="card-text  text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    </div>
+                    <img src={screenshot3} className="img-fluid d-none d-sm-block  col-6  p-2" />
+                </div> 
+                
+                </div>
+               
+            </div></div> </div>
+
+            
         <div className="container-fluid col-lg-6 mb-5">
         <div id="carouselExampleIndicators" class="carousel slide pb-5 mb-5" data-bs-ride="carousel">
   <div className="carousel-indicators">

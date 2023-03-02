@@ -7,7 +7,7 @@ font-family: 'Agency FB', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
  
- 
+ color: aliceblue;
 
 
  
@@ -43,8 +43,10 @@ code {
   
   
 }
-.bg-text {
-  filter: blur(0px);
+.gameBTSbg {
+  width: 100%;
+  padding-left: -12px;
+  padding-right: -12px;
 }
 .game1splash {
   clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%);
@@ -52,6 +54,14 @@ code {
   background-color: #211b1f;
   height: 100%;
   padding-bottom: 50px;
+}
+.gameBTSsplash {
+  clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%);
+
+  background-color: #211b1f;
+  height: 100%;
+  padding-bottom: 50px;
+  margin-top: -65px;
 }
 
 .splash3 {
@@ -229,4 +239,19 @@ ul.no-bullets {
 }
 .carousel-control-next {
   opacity: 1;
+}
+h3 {
+  display: grid;
+  width: 100%;
+  align-items: center;
+  text-align: start;
+  grid-template-columns: minmax(40px, 1fr) auto minmax(20px, 1fr);
+  grid-gap: 10px;
+  text-decoration: none;
+}
+
+h3:before,
+h3:after {
+  content: '';
+  border-top: 2px solid;
 }
