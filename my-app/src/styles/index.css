@@ -286,7 +286,7 @@ h3:after {
 
 
 .carousel-indicators button.thumbnail {
-  width: 100px;
+  width: 120px;
 }
 .carousel-indicators button.thumbnail:not(.active){
   opacity: .7;
@@ -301,4 +301,13 @@ h3:after {
 }
 .thumb {
   margin: 6px;
+}
+div.scroll {
+  margin: 4px, 4px;
+  padding: 4px;
+  
+  
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
 }

@@ -104,11 +104,11 @@ const BeTheStar = () => {
     </div>
     <div className="carousel-item">
     
-      <img src={screenshot7} class="d-block w-100" alt="..." />
+      <img src={screenshot8} class="d-block w-100" alt="..." />
     </div>
     <div className="carousel-item">
     
-      <img src={screenshot7} class="d-block w-100" alt="..." />
+      <img src={screenshot3} class="d-block w-100" alt="..." />
     </div>
     
   </div>
@@ -127,7 +127,7 @@ const BeTheStar = () => {
 
       <div id="thumbcarousel" className="carousel slide carousel-indicators col-lg-7 mx-auto fondoCarousel2 " data-interval="false">
         
-        <div className="carousel-inner">
+        <div className="carousel-inner scroll">
           <div className="item active d-flex m-2">
             <div data-target="#carousel" data-slide-to="0" className="thumb "><button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active thumbnail" aria-current="true" aria-label="Slide 1"><img src={screenshot6} className="d-block w-100" alt="..." /></button></div>
             <div data-target="#carousel" data-slide-to="1" className="thumb"><button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" className="thumbnail"><img src={screenshot7} className="d-block w-100" alt="..." /></button></div>
@@ -137,7 +137,7 @@ const BeTheStar = () => {
             <div data-target="#carousel" data-slide-to="4" className="thumb"><button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" className=" thumbnail" aria-current="true" aria-label="Slide 5"><img src={screenshot7} className="d-block w-100" alt="..." /></button></div>
           
             <div data-target="#carousel" data-slide-to="5" className="thumb"><button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" className=" thumbnail" aria-current="true" aria-label="Slide 6"><img src={screenshot8} className="d-block w-100" alt="..." /></button></div>
-            <div data-target="#carousel" data-slide-to="6" className="thumb lastthumb"><button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" className=" thumbnail" aria-current="true" aria-label="Slide 7"><img src={screenshot6} className="d-block w-100" alt="..." /></button></div>
+            <div data-target="#carousel" data-slide-to="6" className="thumb lastthumb"><button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" className=" thumbnail" aria-current="true" aria-label="Slide 7"><img src={screenshot3} className="d-block w-100" alt="..." /></button></div>
             
           </div>
         </div>
