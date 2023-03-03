@@ -22,7 +22,11 @@ const BeTheStar = () => {
     return(
         <div>
             <div className="banner-area img-fluid ">
-                <img src={gameBanner} className="background-image gameBTSbg col-12" /><img className="overlay col-3 img-fluid" src={LogoBTS} /><Link to="https://store.steampowered.com/cart/"></Link>
+            <div className="videoWrapper  ">
+                <img src={gameBanner} className="background-image gameBTSbg col-12" />
+        <iframe className="mt-5 overlay" width="380" height="265" src="https://www.youtube.com/embed/EUXJnueIiPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <img className=" col-3 img-fluid" src={LogoBTS} /><Link to="https://store.steampowered.com/cart/"></Link>
             </div>
             <div className=" top-0 justify-content-center">
             <div className="gameBTSsplash  ">

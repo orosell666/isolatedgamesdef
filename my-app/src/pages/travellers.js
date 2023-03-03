@@ -2,8 +2,8 @@ import React from "react";
 import "../styles/index.css";
 import '../styles/App.css';
 import { Link } from "react-router-dom";
-import  gameBanner  from "../images/Game_BTS.png";
-import LogoBTS from "../images/logo_transparent.png";
+import  gameBanner  from "../images/Game_Travellers.png";
+import LogoTR from "../images/travellersRest-NewLogo5x.png";
 import screenshot3 from "../images/157.jpg";
 import screenshot6 from "../images/124.jpg";
 import screenshot7 from "../images/137.jpg";
@@ -19,7 +19,7 @@ const Travellers = () => {
     return(
         <div>
             <div className="banner-area img-fluid ">
-                <img src={gameBanner} className="background-image gameBTSbg col-12" /><img className="overlay col-3 img-fluid" src={LogoBTS} /><Link to="https://store.steampowered.com/cart/"></Link>
+                <img src={gameBanner} className="background-image gameBTSbg col-12" /><img className="overlay col-3 img-fluid" src={LogoTR} /><Link to="https://store.steampowered.com/cart/"></Link>
             </div>
             <div className=" top-0 justify-content-center">
             <div className="gameBTSsplash  ">
@@ -143,7 +143,7 @@ const Travellers = () => {
         
         <div className="carousel-inner scroll">
           <div className="item active d-flex m-2">
-            <div data-target="#carousel" data-slide-to="0" className="thumb border-0"><button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className=" thumbnail" aria-current="true" aria-label="Slide 1"><img src={screenshot6} className="d-block w-100" alt="..." /></button></div>
+            <div data-target="#carousel" data-slide-to="0" className="thumb border-0"><button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active thumbnail" aria-current="true" aria-label="Slide 1"><img src={screenshot6} className="d-block w-100" alt="..." /></button></div>
             <div data-target="#carousel" data-slide-to="1" className="thumb"><button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" className="thumbnail"><img src={screenshot7} className="d-block w-100 border-0" alt="..." /></button></div>
             <div data-target="#carousel" data-slide-to="2" className="thumb"><button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" className="thumbnail"><img src={screenshot8} className="d-block w-100" alt="..." /></button>
  </div>
