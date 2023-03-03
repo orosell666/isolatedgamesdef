@@ -75,10 +75,10 @@ code {
 }
 .splash3Game {
   clip-path: polygon(0 7%, 100% 0, 100% 100%, 0% 100%);
-  padding-top: 200px;
+  padding-top: 300px;
   background-color: #2b2326;
   height: 100%;
-  margin-top: -20px;
+  margin-top: -25px;
   z-index: 2;
 }
 .fondoCarousel1 {
@@ -223,7 +223,7 @@ ul.no-bullets {
 }
 .teambg {
   background-color: #25191d;
-  
+ 
   z-index: 1;
 }
 .nomargin {
@@ -250,12 +250,22 @@ ul.no-bullets {
   height: 15px;
   border: none;
   border-radius: 5px;
+  margin-bottom: 20px;
+}
+.carousel-indicators [data-bs-target]:not(.active) {
+  background-color: #322c30;
+  opacity: .8;
+}
+.carousel-indicators [data-bs-target]:active {
+  background-color: #100c0d;
+  opacity: .8;
 }
 .carousel-indicators [data-bs-target]:hover {
   background-color: #100c0d;
+  opacity: .8;
 }
 .carousel-control-next {
-  opacity: 1;
+  opacity: .8;
 }
 .carousel-control-prev {
   opacity: 1;
@@ -285,22 +295,34 @@ h3:after {
 
 
 
-.carousel-indicators button.thumbnail {
+.carousel-indicators1 button.thumbnail {
   width: 120px;
+  border: 0;
 }
-.carousel-indicators button.thumbnail:not(.active){
-  opacity: .7;
+.carousel-indicators1 button.thumbnail:not(.active){
+  
+  border: 0;
 }
-.carousel-indicators {
+.carousel-indicators1 {
   position: static;
   margin-right: 15px;
+  border: 0;
   
+}
+.positionIndicars {
+  margin-left: -5px;
 }
 .lastthumb {
   margin-right: -30px;
+  border : 0
 }
 .thumb {
   margin: 6px;
+  border: 0;
+  
+}
+.thumbnail {
+  border: 0;
 }
 div.scroll {
   margin: 4px, 4px;

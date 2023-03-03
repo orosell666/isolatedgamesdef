@@ -8,7 +8,7 @@ import screenshot3 from "../images/157.jpg";
 import screenshot6 from "../images/124.jpg";
 import screenshot7 from "../images/137.jpg";
 import screenshot8 from "../images/154.jpg";
-import steamLogo from "../images/steamLogo.png";
+import logoShame from "../images/RS_Youtube.png";
 
 
 import { Player } from 'video-react';
@@ -110,6 +110,23 @@ const BeTheStar = () => {
     
       <img src={screenshot3} class="d-block w-100" alt="..." />
     </div>
+    <div className="carousel-item">
+    
+      <img src={screenshot6} class="d-block w-100" alt="..." />
+    </div>
+    <div className="carousel-item">
+    
+      <img src={screenshot7} class="d-block w-100" alt="..." />
+    </div>
+    <div className="carousel-item">
+    
+      <img src={screenshot8} class="d-block w-100" alt="..." />
+    </div>
+    <div className="carousel-item">
+    
+      <img src={screenshot3} class="d-block w-100" alt="..." />
+    </div>
+    
     
   </div>
   <button className="carousel-control-prev position-absolute top-50 start-0 translate-middle" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -125,7 +142,7 @@ const BeTheStar = () => {
 </div> 
 </div>
 
-      <div id="thumbcarousel" className="carousel slide carousel-indicators col-lg-7 mx-auto fondoCarousel2 " data-interval="false">
+      <div id="thumbcarousel" className="carousel slide carousel-indicators1 col-lg-7 mx-auto fondoCarousel2 " data-interval="false">
         
         <div className="carousel-inner scroll">
           <div className="item active d-flex m-2">
@@ -137,7 +154,12 @@ const BeTheStar = () => {
             <div data-target="#carousel" data-slide-to="4" className="thumb"><button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" className=" thumbnail" aria-current="true" aria-label="Slide 5"><img src={screenshot7} className="d-block w-100" alt="..." /></button></div>
           
             <div data-target="#carousel" data-slide-to="5" className="thumb"><button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" className=" thumbnail" aria-current="true" aria-label="Slide 6"><img src={screenshot8} className="d-block w-100" alt="..." /></button></div>
-            <div data-target="#carousel" data-slide-to="6" className="thumb lastthumb"><button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" className=" thumbnail" aria-current="true" aria-label="Slide 7"><img src={screenshot3} className="d-block w-100" alt="..." /></button></div>
+            <div data-target="#carousel" data-slide-to="6" className="thumb"><button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" className=" thumbnail" aria-current="true" aria-label="Slide 7"><img src={screenshot3} className="d-block w-100" alt="..." /></button></div>
+            <div data-target="#carousel" data-slide-to="7" className="thumb"><button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" className=" thumbnail" aria-current="true" aria-label="Slide 8"><img src={screenshot6} className="d-block w-100" alt="..." /></button></div>
+            <div data-target="#carousel" data-slide-to="8" className="thumb"><button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" className=" thumbnail" aria-current="true" aria-label="Slide 9"><img src={screenshot7} className="d-block w-100" alt="..." /></button></div>
+            <div data-target="#carousel" data-slide-to="9" className="thumb"><button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9" className=" thumbnail" aria-current="true" aria-label="Slide 10"><img src={screenshot8} className="d-block w-100" alt="..." /></button></div>
+            
+            <div data-target="#carousel" data-slide-to="10" className="thumb "><button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="10" className=" thumbnail" aria-current="true" aria-label="Slide 11"><img src={screenshot3} className="d-block w-100" alt="..." /></button></div>
             
           </div>
         </div>
@@ -153,6 +175,24 @@ const BeTheStar = () => {
 <div className="splash3Game pt-5  pb-5 text-center">
   
     <h1 className="mb-5 pt-5">Join our community!</h1>
+    <div className="container-fluid col-4 ">
+      <div className="card mt-5 rounded-3 w-100 justify-content-evenly ">
+        <div className="row g-0 ">
+        <div className=" d-flex ">
+        <img src={logoShame} className="img-fluid  ms-3 p-2"  width={80} height={80} />
+                
+        
+          <div className="card-body "><div className="row g-0">
+        <div className=" d-flex">
+          <div className="container">
+                <h5 className="card-text  text-center">Shame/exposing/packing</h5>
+                <p className="card-text"><small class="text-muted">3,308 Online</small></p></div>
+                   
+                    <Link><button type="button" className="btn moreBtn textColor1  ms-3 me-3 " >
+                       Join
+                        </button></Link></div></div></div></div></div>
+    </div>
+    </div>
  
 </div>
 
