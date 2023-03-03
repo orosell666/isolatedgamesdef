@@ -78,8 +78,9 @@ const BeTheStar = () => {
         
         <div className="container-fluid col-lg-6 pt-5  rounded-3">
                 <div className="fondoCarousel2  ">
+               
         <div id="carouselExampleIndicators" className="carousel  slide p-3 mb-5" data-bs-ride="carousel" data-ride="carousel">
- 
+        
   <div className="carousel-inner">
     <div className="carousel-item active">
     
@@ -119,33 +120,34 @@ const BeTheStar = () => {
     <span className="carousel-control-next-icon" aria-hidden="true"></span>
     <span className="visually-hidden">Next</span>
   </button>
-  
-</div></div>
+
+</div>
 </div> 
-<div className=" col-lg-7 mx-auto fondoCarousel2">
-  <div className="clearfix">
-      <div id="thumbcarousel" className="carousel slide product-slider" data-interval="false">
+</div>
+
+      <div id="thumbcarousel" className="carousel slide carousel-indicators col-lg-7 mx-auto fondoCarousel2 " data-interval="false">
         
-        <div className="carousel-inner ">
-          <div className="item active d-flex m-3">
-            <div data-target="#carousel" data-slide-to="0" className="thumb "><img src={screenshot6}/></div>
-            <div data-target="#carousel" data-slide-to="1" className="thumb"><img src={screenshot7}/></div>
-            <div data-target="#carousel" data-slide-to="2" className="thumb"><img src={screenshot8}/></div>
-            <div data-target="#carousel" data-slide-to="3" className="thumb"><img src={screenshot3}/></div>
-            <div data-target="#carousel" data-slide-to="4" className="thumb"><img src={screenshot7}/></div>
+        <div className="carousel-inner">
+          <div className="item active d-flex m-2">
+            <div data-target="#carousel" data-slide-to="0" className="thumb "><button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active thumbnail" aria-current="true" aria-label="Slide 1"><img src={screenshot6} className="d-block w-100" alt="..." /></button></div>
+            <div data-target="#carousel" data-slide-to="1" className="thumb"><button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" className="thumbnail"><img src={screenshot7} className="d-block w-100" alt="..." /></button></div>
+            <div data-target="#carousel" data-slide-to="2" className="thumb"><button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" className="thumbnail"><img src={screenshot8} className="d-block w-100" alt="..." /></button>
+ </div>
+            <div data-target="#carousel" data-slide-to="3" className="thumb"><button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" className="thumbnail" aria-current="true" aria-label="Slide 4"><img src={screenshot3} className="d-block w-100" alt="..." /></button></div>
+            <div data-target="#carousel" data-slide-to="4" className="thumb"><button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" className=" thumbnail" aria-current="true" aria-label="Slide 5"><img src={screenshot7} className="d-block w-100" alt="..." /></button></div>
           
-            <div data-target="#carousel" data-slide-to="5" className="thumb"><img src={screenshot7}/></div>
-            <div data-target="#carousel" data-slide-to="6" className="thumb lastthumb"><img src={screenshot7}/></div>
+            <div data-target="#carousel" data-slide-to="5" className="thumb"><button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" className=" thumbnail" aria-current="true" aria-label="Slide 6"><img src={screenshot8} className="d-block w-100" alt="..." /></button></div>
+            <div data-target="#carousel" data-slide-to="6" className="thumb lastthumb"><button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" className=" thumbnail" aria-current="true" aria-label="Slide 7"><img src={screenshot6} className="d-block w-100" alt="..." /></button></div>
             
           </div>
         </div>
        
         <a className="left carousel-control" href="#thumbcarousel" role="button" data-slide="prev"> <i class="fa fa-angle-left" aria-hidden="true"></i> </a> <a class="right carousel-control" href="#thumbcarousel" role="button" data-slide="next"><i class="fa fa-angle-right" aria-hidden="true"></i> </a> 
         </div>
-  </div>
+  
 
            
-        </div>
+        
         
 </div>
 <div className="splash3Game pt-5  pb-5 text-center">

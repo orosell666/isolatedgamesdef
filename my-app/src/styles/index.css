@@ -280,13 +280,25 @@ h3:after {
 
 
 
- .thumb {  width: 50%;   }
- .lastthumb {
-  margin-right: -12px;
- }
+ 
 
 
 
-.product-slider .item img { width: 90%; height: auto; }
 
-
+.carousel-indicators button.thumbnail {
+  width: 100px;
+}
+.carousel-indicators button.thumbnail:not(.active){
+  opacity: .7;
+}
+.carousel-indicators {
+  position: static;
+  margin-right: 15px;
+  
+}
+.lastthumb {
+  margin-right: -30px;
+}
+.thumb {
+  margin: 6px;
+}
