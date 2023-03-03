@@ -21,13 +21,28 @@ const BeTheStar = () => {
 
     return(
         <div>
-            <div className="banner-area img-fluid ">
-            <div className="videoWrapper  ">
-                <img src={gameBanner} className="background-image gameBTSbg col-12" />
-        <iframe className="mt-5 overlay" width="380" height="265" src="https://www.youtube.com/embed/EUXJnueIiPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div className=" banner-area img-fluid ">
+            <div className="d-flex">
+              <div className="row g-0 ">
+                <div className="videoWrapper  "><div>
+                <img src={gameBanner} className="background-image gameBTSbg " /></div></div>
+        <div className="overlay">
+        <div className="videoPosition col-5">
+        <iframe className="mt-5 mx-auto  "  src="https://www.youtube.com/embed/EUXJnueIiPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+        </iframe></div>
+        <div className=" container logoBTSPosition mt-5">
+        <div className="text-center">
+        <img className=" col-3" src={LogoBTS} /><Link to="https://store.steampowered.com/cart/"></Link></div>
+        <div className="container pe-5 text-center ">
+          <p className="fs-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut velit at quam dictum vehicula eget eget tortor. Fusce placerat metus tortor, et aliquam eros viverra non. Fusce a laoreet tellus, sit amet commodo est. Aenean accumsan egestas mauris, vitae imperdiet purus lobortis non. Maecenas porttitor efficitur erat, non tristique tortor. Nunc accumsan orci vel elit vehicula maximus. Mauris ac erat at ante mollis lobortis. Suspendisse egestas porta sollicitudin. Pellentesque facilisis, velit eu molestie hendrerit, purus magna commodo purus, et tempor diam justo sed justo. </p>
+
         </div>
-        <img className=" col-3 img-fluid" src={LogoBTS} /><Link to="https://store.steampowered.com/cart/"></Link>
+        </div>
+        </div>
+        </div>
+        
             </div>
+          </div>
             <div className=" top-0 justify-content-center">
             <div className="gameBTSsplash  ">
             <div className="container card pt-5 p-5 rounded-3  col-7 ">

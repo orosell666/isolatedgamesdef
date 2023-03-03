@@ -49,6 +49,10 @@ code {
   padding-right: -12px;
   
 }
+.background-image {
+  width: 100%;
+
+}
 .game1splash {
   clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%);
 
@@ -332,4 +336,12 @@ div.scroll {
   overflow-x: auto;
   overflow-y: hidden;
   white-space: nowrap;
+}
+.logoBTSPosition {
+  padding-top: 70px;
+ 
+}
+.videoPosition {
+  padding-top: 70px;
+  padding-left: 150px;
 }
