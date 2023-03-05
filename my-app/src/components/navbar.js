@@ -13,7 +13,8 @@ import LogoRD from "../images/reddit.svg";
 const Navbar = () => {
 
     return (
-        <nav className="navbar navbar-expand-lg  navstyle navbar-dark  sticky-top textColor1 "> 
+        
+        <nav className="navbar navbar-expand-lg  navstyle navbar-dark  sticky-top textColor1  rounded-bottom  "> 
             <div className="container justify-content-evenly">
                 <a  href="/#scrollspyHeading1">
             <img className="navbar-brand ms-5" src={LogoIG} width={260} height={50}/></a> 

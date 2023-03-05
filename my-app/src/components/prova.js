@@ -2,9 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/index.css";
 import LogoIGF from "../images/logoIsolatedGames.png";
-import LogoBTS from "../images/logo_transparent.png";
-import LogoTVS from "../images/travellersRest-NewLogo5x.png";
-import LogoFB from "../images/facebook-f.svg";
 import LogoIN from "../images/RS_Insta.png";
 import LogoYT from "../images/RS_Youtube.png";
 import LogoTW from "../images/RS_Twitter.png";
@@ -14,9 +11,9 @@ const Footer = ()=>{
     return(
 
 <div className="footer-basic">
-  <footer>
-    <div className="footerStyle position-static d-flex justify-content-around">
-            
+  <footer className="">
+    <div className="footerStyle position-static d-flex   ">
+       <div className="col-4 align-self-start">     
       <ul className="mt-3 no-bullets">
       <li><button type="button" className="btn linkUnderline" data-bs-toggle="modal" data-bs-target="#example">LEGAL NOTICE OF COOKIES</button></li>
                 <div className="modal modalBG" id="example" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -140,24 +137,26 @@ const Footer = ()=>{
     <Link to="/contact" className="linkUnderline"><li >
                         
       
-                        <button type="button" className="btn linkUnderline" >CONTACT</button></li></Link></ul>
+                        <button type="button" className="btn linkUnderline" >CONTACT</button></li></Link></ul></div>
           
           
-      
-       <div className="justify-content-center"><h3 className="text-center mt-3 me-5 textColor1 ">FOLLOW US</h3>  
-      <div className="btn-group "  >
+      <div className="col-4 align-self-center">
+       <div className=""><h3 className="text-center mt-3 me-5 textColor1 ">FOLLOW US</h3>  
+      <div className="btn-group justify-content-evenly"  >
           <a href="https://www.instagram.com/isolated_games/"><img className="netLogos  me-5" src={LogoIN} width={50} height={50} /></a>
           <a href="https://www.youtube.com/channel/UCT41om_yDCTTq7-q7OPjgPA"><img className="netLogos me-5" src={LogoYT} width={50} height={50} /></a>
           <a href="https://twitter.com/Isolated_Games"><img  className="netLogos me-5" src={LogoTW} width={50} height={50} /></a>
           <a href="https://www.reddit.com/r/BetweenTheStars/"><img className="netLogos " src={LogoRD} width={50} height={50} /></a>
-      </div></div>  
-      
-      <ul className="list no-bullets">
-        <li className="list-item"><a href="/#scrollspyHeading1"><img className="mt-3 ms-2" src={LogoIGF} width={260} height={50}/></a></li>
+      </div></div></div>  
+      <div className="col-4 align-self-end">
+      <ul className="list no-bullets pe-5">
+        <li className="list-item"><a href="/#scrollspyHeading1"><img className="mt-3  img-fluid " src={LogoIGF} width={260} height={50}/></a></li>
             
             <p className="copyright linkUnderline pb-3">Isolated Games © Copyright 2019. All Rights Reserved.</p></ul></div>
+    </div>
   </footer>
 </div>
+
 
 )
 }

@@ -4,23 +4,24 @@ import "../styles/index.css"
 const Contact = () => {
     return(
         <div className="textColor1 sectionStyle pt-5 contactBG "  >
-            <h1 className=" pt-5">CONTACT</h1>
+            <div className="container mb-3  col-5 ">
+            <h1 className="text-start pt-5">CONTACT</h1></div>
            
-            <div className="container mb-3 text-start col-8 contact">
-  <label for="exampleFormControlInput1" className="form-label ">Name</label>
-  <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name" />
-  <label for="exampleFormControlInput1" className="form-label mt-3">Email address</label>
-  <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
+            <div className="container mb-5  col-5 contact card ">
+  
+  <input type="email" className="form-control border-0 textColor1" id="exampleFormControlInput1" placeholder="Enter youyr name" />
+  
+  <input type="email" className="form-control border-0" id="exampleFormControlInput1" placeholder="Enter a valid email address" />
 
-<div className="mb-3">
-  <label for="exampleFormControlTextarea1" className="form-label mt-3 contact">Comment or Message</label>
-  <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-</div>
 
-      </div>
-      <div>
-      <button type="submit" className="btn mt-4 steamBtn col-3">Submit</button>
-        </div> </div> 
+  
+  <textarea className="form-control border-0" id="exampleFormControlTextarea1" rows="4" placeholder="Enter your message"></textarea>
+
+
+     
+      <div className="text-end">
+      <button type="submit" className="btn mt-3  moreBtn mb-4 col-2 textColor1">Submit</button>
+        </div> </div>  </div>
       
    
     )

@@ -118,6 +118,9 @@ code {
   background-color: #100c0d;
   color: whitesmoke;
   vertical-align: middle;
+
+  
+ 
 }
 .navbar .navbar-brand, .navbar .navbar-nav .nav-link {
   color: white;
@@ -143,22 +146,25 @@ code {
   background: rgb(40, 44, 51);
   border: 2px solid rgb(40, 44, 51);
 }
-
+.contactBG {
+  background-color: #322c30;
+  
+}
 
 .contact input {
   margin-top: 10px;
-  background: #909090;
+  background: #221d20;
 }
 .contact textarea {
   margin-top: 10px;
-  background: #909090;
-  caret-color: #909090;
+  background: #221d20;
+  caret-color: #221d20;
  
 }
 contact input:focus {
   margin-top: 10px;
-  color: #fff;
-  background: #909090;
+ 
+  background: #221d20;
   
 }
 
@@ -246,7 +252,7 @@ ul.no-bullets {
 }
 .contactBG {
   background-image: url("../images/ContactBG.png");
-  height: 100vh;
+  height: 75vh;
 }
 .carousel-indicators [data-bs-target] {
   position: relative;
