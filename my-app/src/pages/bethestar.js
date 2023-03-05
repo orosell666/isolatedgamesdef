@@ -9,9 +9,12 @@ import screenshot6 from "../images/124.jpg";
 import screenshot7 from "../images/137.jpg";
 import screenshot8 from "../images/154.jpg";
 import logoShame from "../images/RS_Youtube.png";
+import logoSteam from "../images/Icon_STEAM.png";
+import logoGOG from "../images/Icon_GOG.png";
+import logoEPIC from "../images/Icon_EPIC.png";
 
 
-import { Player } from 'video-react';
+
 
 
 
@@ -27,15 +30,19 @@ const BeTheStar = () => {
                 <div className="videoWrapper  "><div>
                 <img src={gameBanner} className="background-image gameBTSbg " /></div></div>
         <div className="overlay">
-        <div className="videoPosition col-5">
-        <iframe className="mt-5 mx-auto  "  src="https://www.youtube.com/embed/EUXJnueIiPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+        <div className="videoPosition col-6">
+        <iframe className="mt-5 mx-auto  " width="500" height="300" src="https://www.youtube.com/embed/EUXJnueIiPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
         </iframe></div>
         <div className=" container logoBTSPosition mt-5">
         <div className="text-center">
-        <img className=" col-3" src={LogoBTS} /><Link to="https://store.steampowered.com/cart/"></Link></div>
-        <div className="container pe-5 text-center ">
-          <p className="fs-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut velit at quam dictum vehicula eget eget tortor. Fusce placerat metus tortor, et aliquam eros viverra non. Fusce a laoreet tellus, sit amet commodo est. Aenean accumsan egestas mauris, vitae imperdiet purus lobortis non. Maecenas porttitor efficitur erat, non tristique tortor. Nunc accumsan orci vel elit vehicula maximus. Mauris ac erat at ante mollis lobortis. Suspendisse egestas porta sollicitudin. Pellentesque facilisis, velit eu molestie hendrerit, purus magna commodo purus, et tempor diam justo sed justo. </p>
-
+        <img className=" col-4 justify-content-center" src={LogoBTS} /></div>
+        <div className="container pe-5 text-center col-10 ">
+          <p className="fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut velit at quam dictum vehicula eget eget tortor. Fusce placerat metus tortor, et aliquam eros viverra non. Fusce a laoreet tellus, sit amet commodo est. Aenean accumsan egestas mauris, vitae imperdiet purus lobortis non. Maecenas porttitor efficitur erat, non tristique tortor.  </p>
+          <div className="d-flex  justify-content-center">
+          <a href="https://store.steampowered.com/app/727130/Between_the_Stars/"><img src={logoSteam} className=" "  width={50} height={50} /></a>
+          <a href="https://store.steampowered.com/app/727130/Between_the_Stars/"><img src={logoGOG} className="ms-2 me-2 "  width={50} height={50}/></a>
+          <a href="https://store.steampowered.com/app/727130/Between_the_Stars/"><img src={logoEPIC} className=" "  width={50} height={50}/></a>
+</div>
         </div>
         </div>
         </div>

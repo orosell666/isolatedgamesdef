@@ -327,6 +327,7 @@ h3:after {
 }
 .thumbnail {
   border: 0;
+  padding: 0;
 }
 div.scroll {
   margin: 4px, 4px;
@@ -339,9 +340,10 @@ div.scroll {
 }
 .logoBTSPosition {
   padding-top: 70px;
+  
  
 }
 .videoPosition {
-  padding-top: 70px;
+  padding-top: 150px;
   padding-left: 150px;
 }
