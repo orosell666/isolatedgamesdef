@@ -12,7 +12,7 @@ const Footer = ()=>{
 
 <div className="footer-basic">
   <footer className="">
-    <div className="footerStyle position-static d-flex   ">
+    <div className="footerStyle position-static d-flex  col-12 ">
        <div className="col-4 align-self-start">     
       <ul className="mt-3 no-bullets">
       <li><button type="button" className="btn linkUnderline" data-bs-toggle="modal" data-bs-target="#example">LEGAL NOTICE OF COOKIES</button></li>
@@ -140,17 +140,17 @@ const Footer = ()=>{
                         <button type="button" className="btn linkUnderline" >CONTACT</button></li></Link></ul></div>
           
           
-      <div className="col-4 align-self-center">
-       <div className=""><h3 className="text-center mt-3 me-5 textColor1 ">FOLLOW US</h3>  
-      <div className="btn-group justify-content-evenly"  >
-          <a href="https://www.instagram.com/isolated_games/"><img className="netLogos  me-5" src={LogoIN} width={50} height={50} /></a>
-          <a href="https://www.youtube.com/channel/UCT41om_yDCTTq7-q7OPjgPA"><img className="netLogos me-5" src={LogoYT} width={50} height={50} /></a>
-          <a href="https://twitter.com/Isolated_Games"><img  className="netLogos me-5" src={LogoTW} width={50} height={50} /></a>
+      <div className="container col-4">
+       <div className=""><h3 className="text-center mt-3  textColor1 ">FOLLOW US</h3></div>  
+      <div className="  "  >
+          <a href="https://www.instagram.com/isolated_games/"><img className="netLogos  " src={LogoIN} width={50} height={50} /></a>
+          <a href="https://www.youtube.com/channel/UCT41om_yDCTTq7-q7OPjgPA"><img className="netLogos " src={LogoYT} width={50} height={50} /></a>
+          <a href="https://twitter.com/Isolated_Games"><img  className="netLogos " src={LogoTW} width={50} height={50} /></a>
           <a href="https://www.reddit.com/r/BetweenTheStars/"><img className="netLogos " src={LogoRD} width={50} height={50} /></a>
-      </div></div></div>  
-      <div className="col-4 align-self-end">
+      </div></div>  
+      <div className="col-4 align-self-end top-50 end-0 translate-middle-y">
       <ul className="list no-bullets pe-5">
-        <li className="list-item"><a href="/#scrollspyHeading1"><img className="mt-3  img-fluid " src={LogoIGF} width={260} height={50}/></a></li>
+        <li className="list-item end-0"><a href="/#scrollspyHeading1"><img className="mt-3 col-3 img-fluid " src={LogoIGF} width={260} height={50}/></a></li>
             
             <p className="copyright linkUnderline pb-3">Isolated Games © Copyright 2019. All Rights Reserved.</p></ul></div>
     </div>

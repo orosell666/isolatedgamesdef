@@ -27,26 +27,27 @@ const BeTheStar = () => {
             <div className=" banner-area img-fluid ">
             <div className="d-flex">
               <div className="row g-0 ">
-                <div className="videoWrapper  "><div>
-                <img src={gameBanner} className="background-image gameBTSbg " /></div></div>
-        <div className="overlay">
-        <div className="videoPosition col-6">
-        <iframe className="mt-5 mx-auto  " width="500" height="300" src="https://www.youtube.com/embed/EUXJnueIiPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-        </iframe></div>
-        <div className=" container logoBTSPosition mt-5">
-        <div className="text-center">
-        <img className=" col-4 justify-content-center" src={LogoBTS} /></div>
-        <div className="container pe-5 text-center col-10 ">
-          <p className="fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut velit at quam dictum vehicula eget eget tortor. Fusce placerat metus tortor, et aliquam eros viverra non. Fusce a laoreet tellus, sit amet commodo est. Aenean accumsan egestas mauris, vitae imperdiet purus lobortis non. Maecenas porttitor efficitur erat, non tristique tortor.  </p>
-          <div className="d-flex  justify-content-center">
-          <a href="https://store.steampowered.com/app/727130/Between_the_Stars/"><img src={logoSteam} className=" "  width={50} height={50} /></a>
-          <a href="https://store.steampowered.com/app/727130/Between_the_Stars/"><img src={logoGOG} className="ms-2 me-2 "  width={50} height={50}/></a>
-          <a href="https://store.steampowered.com/app/727130/Between_the_Stars/"><img src={logoEPIC} className=" "  width={50} height={50}/></a>
-</div>
-        </div>
-        </div>
-        </div>
-        </div>
+                <div className="videoWrapper  ">
+                  <div><img src={gameBanner} className="background-image  " /></div>
+                </div>
+                <div className="overlay">
+                  <div className="embed-responsive videoPosition col-6">
+                    <iframe className="col-8 embed-responsive-item embed-responsive-16by9" src="https://www.youtube.com/embed/EUXJnueIiPs" title="Between the Stars - Kickstarter Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  </div>
+                  <div className=" container logoBTSPosition mt-5">
+                    <div className="text-center">
+                      <img className=" col-4 justify-content-center" src={LogoBTS} /></div>
+                      <div className="container  text-center col-10 ">
+                        <p className="fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut velit at quam dictum vehicula eget eget tortor. Fusce placerat metus tortor, et aliquam eros viverra non. Fusce a laoreet tellus, sit amet commodo est. Aenean accumsan egestas mauris, vitae imperdiet purus lobortis non. Maecenas porttitor efficitur erat, non tristique tortor.  </p>
+                        <div className="d-flex  justify-content-center">
+                          <a href="https://store.steampowered.com/app/727130/Between_the_Stars/"><img src={logoSteam} className=" "  width={50} height={50} /></a>
+                          <a href="https://store.steampowered.com/app/727130/Between_the_Stars/"><img src={logoGOG} className="ms-2 me-2 "  width={50} height={50}/></a>
+                          <a href="https://store.steampowered.com/app/727130/Between_the_Stars/"><img src={logoEPIC} className=" "  width={50} height={50}/></a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
         
             </div>
           </div>

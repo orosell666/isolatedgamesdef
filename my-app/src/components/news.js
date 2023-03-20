@@ -10,8 +10,12 @@ const News = () => {
         <div className="textColor1 game1splash top-0 text-center " id="scrollspyHeading2" >
             <h1 className=" mb-5  mt-5 ">NEWS</h1>
             <div className="container-fluid col-lg-6 justify-content-start mb-5  ">
+             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" >
+             <div className="carousel-inner" >
                 
-            <div className="card mt-5 rounded-3 w-100 ">
+                <div className="carousel-item active">
+
+                <div className=" card mt-5 rounded-3 w-100 ">
                 <div className="row g-0">
                  <div className=" d-flex">
                 <img src={screenshot} className="img-fluid d-none d-sm-block  col-4  p-2" />
@@ -31,23 +35,22 @@ const News = () => {
             
             <div className="card mt-2 rounded-3 w-100">
                 <div className="row g-0">
-                 <div className=" d-flex">
-                <img src={screenshot} className="img-fluid d-none d-sm-block  col-4  p-2" />
-                <div className="card-body ">
-                <h2 className="card-header"><ins>New version for the game</ins></h2>
-                    <p className="card-text  text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                    <div className="row justify-content-end">
-                    <button type="button" className="btn moreBtn textColor1 col-2 me-3" >
-                       More...
-                        </button></div>
-                    
-                </div> 
-                
+                    <div className=" d-flex">
+                        <img src={screenshot} className="img-fluid d-none d-sm-block  col-4  p-2" />
+                            <div className="card-body ">
+                                <h2 className="card-header"><ins>version for the game</ins></h2>
+                                    <p className="card-text  text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                    <div className="row justify-content-end">
+                                        <button type="button" className="btn moreBtn textColor1 col-2 me-3" >
+                                        More...
+                                        </button>
+                                    </div>
+                            </div> 
+                    </div>
                 </div>
-               
-            </div></div>
+            </div>
             
-            <div className="card mt-2 rounded-3 mb-5 w-100 col-md-8">
+            <div className="card mt-2 rounded-3 w-100 col-md-8">
                 <div className="row g-0">
                  <div className=" d-flex">
                 <img src={screenshot} className=" d-none d-sm-block  col-4  p-2" />
@@ -64,17 +67,72 @@ const News = () => {
                 </div>
                
             </div></div>
+            <div className="carousel-item">
+
+            <div className=" card mt-5 rounded-3 w-100">
+                <div className="row g-0">
+                    <div className=" d-flex">
+                        <img src={screenshot} className="img-fluid d-none d-sm-block  col-4  p-2" />
+                            <div className="card-body ">
+                                <h2 className="card-header"><ins>New version for the game</ins></h2>
+                                    <p className="card-text  text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                    <div className="row justify-content-end">
+                                        <button type="button" className="btn moreBtn textColor1 col-2 me-3" >
+                                        More...
+                                        </button>
+                                    </div>
+                            </div> 
+                    </div>
+                </div>
+            </div>
+            <div className=" card mt-2 rounded-3 w-100">
+                <div className="row g-0">
+                    <div className=" d-flex">
+                        <img src={screenshot} className="img-fluid d-none d-sm-block  col-4  p-2" />
+                            <div className="card-body ">
+                                <h2 className="card-header"><ins>New version for the game</ins></h2>
+                                    <p className="card-text  text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                    <div className="row justify-content-end">
+                                        <button type="button" className="btn moreBtn textColor1 col-2 me-3" >
+                                        More...
+                                        </button>
+                                    </div>
+                            </div> 
+                    </div>
+                </div>
+            </div>
+            <div className=" card mt-2 rounded-3 w-100">
+                <div className="row g-0">
+                    <div className=" d-flex">
+                        <img src={screenshot} className="img-fluid d-none d-sm-block  col-4  p-2" />
+                            <div className="card-body ">
+                                <h2 className="card-header"><ins>New version for the game</ins></h2>
+                                    <p className="card-text  text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                    <div className="row justify-content-end">
+                                        <button type="button" className="btn moreBtn textColor1 col-2 me-3" >
+                                        More...
+                                        </button>
+                                    </div>
+                            </div> 
+                    </div>
+                </div>
+            </div></div>
+            <button className="carousel-control-prev  position-absolute top-50 start-0 translate-middle overlay" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Previous</span>
+  </button>
+  <button className="carousel-control-next position-absolute top-50 start-100 translate-middle" type="button"data-bs-target="#carouselExampleControls" data-bs-slide="next" >
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Next</span>
+  </button>
+        </div>
 
             
-            <div className="container align-items-center">
-                
-                    <img src={downArrow}  width={70} height={70}/>
-                
-            </div>
+           
             
             
            
-               
+            </div> </div>      
         </div>
     )
 }
