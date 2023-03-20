@@ -142,18 +142,18 @@ const Footer = ()=>{
           
       <div className="container col-4">
        <div className=""><h3 className="text-center mt-3  textColor1 ">FOLLOW US</h3></div>  
-      <div className="  "  >
+      <div className=" d-flex justify-content-evenly "  >
           <a href="https://www.instagram.com/isolated_games/"><img className="netLogos  " src={LogoIN} width={50} height={50} /></a>
           <a href="https://www.youtube.com/channel/UCT41om_yDCTTq7-q7OPjgPA"><img className="netLogos " src={LogoYT} width={50} height={50} /></a>
           <a href="https://twitter.com/Isolated_Games"><img  className="netLogos " src={LogoTW} width={50} height={50} /></a>
           <a href="https://www.reddit.com/r/BetweenTheStars/"><img className="netLogos " src={LogoRD} width={50} height={50} /></a>
       </div></div>  
-      <div className="col-4 align-self-end top-50 end-0 translate-middle-y">
-      <ul className="list no-bullets pe-5">
-        <li className="list-item end-0"><a href="/#scrollspyHeading1"><img className="mt-3 col-3 img-fluid " src={LogoIGF} width={260} height={50}/></a></li>
+      <div className="col-4 d-flex align-items-end flex-column bd-highlight mb-3 pe-5" >
+      
+        <a href="/#scrollspyHeading1"><img className="mt-3  img-fluid " src={LogoIGF} width={260} height={50}/></a>
             
-            <p className="copyright linkUnderline pb-3">Isolated Games © Copyright 2019. All Rights Reserved.</p></ul></div>
-    </div>
+            <p className="copyright linkUnderline pb-3">Isolated Games © Copyright 2019. All Rights Reserved.</p>
+    </div></div>
   </footer>
 </div>
 

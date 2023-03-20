@@ -116,7 +116,7 @@ const News = () => {
                             </div> 
                     </div>
                 </div>
-            </div></div>
+            </div></div></div>
             <button className="carousel-control-prev  position-absolute top-50 start-0 translate-middle overlay" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span className="visually-hidden">Previous</span>
@@ -125,7 +125,7 @@ const News = () => {
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span className="visually-hidden">Next</span>
   </button>
-        </div>
+        
 
             
            
