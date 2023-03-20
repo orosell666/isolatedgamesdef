@@ -150,7 +150,7 @@ const Footer = ()=>{
       </div></div>  
       <div className="col-4 d-flex align-items-end flex-column bd-highlight mb-3 pe-5" >
       
-        <a href="/#scrollspyHeading1"><img className="mt-3  img-fluid " src={LogoIGF} width={260} height={50}/></a>
+        <a href="/#scrollspyHeading1"><img className="mt-3  img-fluid " src={LogoIGF} width={291} height={50}/></a>
             
             <p className="copyright linkUnderline pb-3">Isolated Games © Copyright 2019. All Rights Reserved.</p>
     </div></div>
