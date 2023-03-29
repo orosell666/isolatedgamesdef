@@ -25,18 +25,18 @@ const BeTheStar = () => {
     return(
         <div>
             <div className=" banner-area img-fluid ">
-            <div className="d-flex">
-              <div className="row g-0 ">
-                <div className="videoWrapper  ">
-                  <div><img src={gameBanner} className="background-image  " /></div>
+            <div className="d-flex flex-wrap">
+              
+                <div className="videoWrapper ">
+                  <div><img src={gameBanner} className="background-image img-fluid " /></div>
                 </div>
                 <div className="overlay">
-                  <div className="embed-responsive videoPosition col-6">
-                    <iframe className="col-8 embed-responsive-item embed-responsive-16by9" src="https://www.youtube.com/embed/EUXJnueIiPs" title="Between the Stars - Kickstarter Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  <div className="embed-responsive videoPosition  ">
+                    <iframe className="col row embed-responsive-item embed-responsive-16by9" src="https://www.youtube.com/embed/EUXJnueIiPs" title="Between the Stars - Kickstarter Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                   </div>
-                  <div className=" container logoBTSPosition mt-5">
+                  <div className=" container logoBTSPosition mt-5 ">
                     <div className="text-center">
-                      <img className=" col-4 justify-content-center" src={LogoBTS} /></div>
+                      <img className=" col-6 justify-content-center img-fluid" src={LogoBTS} /></div>
                       <div className="container  text-center col-10 ">
                         <p className="fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut velit at quam dictum vehicula eget eget tortor. Fusce placerat metus tortor, et aliquam eros viverra non. Fusce a laoreet tellus, sit amet commodo est. Aenean accumsan egestas mauris, vitae imperdiet purus lobortis non. Maecenas porttitor efficitur erat, non tristique tortor.  </p>
                         <div className="d-flex  justify-content-center">
@@ -46,7 +46,7 @@ const BeTheStar = () => {
                         </div>
                       </div>
                   </div>
-                </div>
+                
               </div>
         
             </div>
@@ -56,12 +56,12 @@ const BeTheStar = () => {
             <div className="container card pt-5 p-5 rounded-3  col-7 ">
                 
                 <div className="row g-0 mt-5 pt-5">
-                  <div className=" d-flex">
+                  <div className=" d-flex flex-wrap">
                     <div className="card-body col-6 ">
                       <h3 className="card-header text-center ">Salva la Galaxia</h3>
                       <p className="card-text  text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                     </div>
-                      <img src={screenshot3} className="img-fluid d-none d-sm-block  col-6  p-2" />
+                      <img src={screenshot3} className="img-fluid    col  p-2" />
                   </div> 
                 </div>
                 

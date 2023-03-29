@@ -14,10 +14,10 @@ const Navbar = () => {
 
     return (
         
-        <nav className="navbar navbar-expand-lg  navstyle navbar-dark  sticky-top textColor1  rounded-bottom  "> 
+        <nav className="navbar navbar-expand-lg  navstyle navbar-dark  sticky-top textColor1    "> 
             <div className="container justify-content-evenly">
                 <a  href="/#scrollspyHeading1">
-            <img className="navbar-brand ms-5" src={LogoIG} width={291} height={50}/></a> 
+            <img className="navbar-brand ms-5" src={LogoIG} width={291} height={60}/></a> 
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>

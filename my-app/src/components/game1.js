@@ -9,9 +9,9 @@ const Game1 = () => {
 
     return (
         <div className="" id="scrollspyHeading1">
-            <div className="container-fluid col-lg-6 pt-5  rounded-3">
+            <div className="container-fluid col-lg-8 pt-5  rounded-2">
                 <div className="fondoCarousel1  ">
-        <div id="carouselExampleIndicators" className="carousel  slide p-4 mb-5" data-bs-ride="carousel">
+        <div id="carouselExampleIndicators" className="carousel  slide p-2 mb-5" data-bs-ride="carousel">
   
   <div className="carousel-inner">
     <div className="carousel-item active">
@@ -25,12 +25,12 @@ const Game1 = () => {
     
   </div>
   
-  <button className="carousel-control-prev position-absolute top-50 start-0 translate-middle" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span  className="carousel-control-prev-icon" aria-hidden="true"></span>
+  <button className="carousel-control-prev position-absolute top-50 start-0 translate-middle" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev" width={40} height={40}>
+    <span  className="carousel-control-prev-icon" aria-hidden="true" ></span>
     <span className="visually-hidden">Previous</span>
   </button>
   <button className="carousel-control-next position-absolute top-50 start-100 translate-middle" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+    <span className="carousel-control-next-icon" aria-hidden="true" width={40} height={40}></span>
     <span className="visually-hidden">Next</span>
   </button>
   <div className="carousel-indicators ">

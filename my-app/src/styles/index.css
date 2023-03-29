@@ -21,13 +21,13 @@ code {
 }
 .bgimg1 {
   background: url("../images/find-purfect-background-vector-free-download.jpg") ; 
-  min-height: 600px;
+  
   position: relative;
   opacity: 1.0;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  
  
   
 }
@@ -50,14 +50,16 @@ code {
 }
 .background-image {
   width: 100%;
+  height: 100vh;
 
 }
 .game1splash {
-  clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%);
-
-  background-color: #211b1f;
-  height: 100%;
+  background: url("../images/Splash_DownPage.png") ;
   padding-bottom: 50px;
+  background-size: cover;
+}
+.titlePosition {
+  padding-top: 180px;
 }
 .gameBTSsplash {
   clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%);
@@ -96,15 +98,15 @@ code {
 }
 .carousel-control-prev-icon {
   background-image: url("../images/Icon_Left.png");
-  height: 70px;
-  width: 70px;
+  height: 50px;
+  width: 50px;
   opacity: 1.0;
   text-decoration: none;
  }
  .carousel-control-next-icon {
   background-image: url("../images/Icon_Right.png");
-  height: 70px;
-  width: 70px;
+  height: 50px;
+  width: 50px;
   opacity: 1.0;
   
  }
@@ -229,6 +231,7 @@ ul.no-bullets {
 }
 .moreBtn {
   background-color: #9a2c2c;
+  padding: -15px;
 }
 .teambg {
   background-color: #25191d;
@@ -351,4 +354,15 @@ div.scroll {
 .videoPosition {
   padding-top: 150px;
   padding-left: 150px;
+}
+.newsImg {
+  max-height: 225px;
+  max-width: 450px;
+
+}
+.border-info {
+  color: white;
+}
+.card-header {
+  margin-top: -15px;
 }
