@@ -196,9 +196,10 @@ h1 {
   background-color: #100c0d;
   color: rgb(155, 155, 155);
   margin-bottom: -1rem;
-   left: 0;
+   margin-left: -16px;
+   
    bottom: 0;
-   width: 100%;
+  width: 100%;
 }
 .logoPosition {
   margin-top: -1rem;

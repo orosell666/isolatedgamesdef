@@ -12,7 +12,7 @@ const Footer = ()=>{
 
 <div className="footer-basic ">
   <footer className="container-fluid">
-    <div className="footerStyle position-static d-flex  col-12 ">
+    <div className="footerStyle position-static d-flex   ">
        <div className="col-4 align-self-start">     
       <ul className="mt-3 no-bullets">
       <li><button type="button" className="btn linkUnderline" data-bs-toggle="modal" data-bs-target="#example">LEGAL NOTICE OF COOKIES</button></li>
@@ -148,7 +148,7 @@ const Footer = ()=>{
           <a href="https://twitter.com/Isolated_Games"><img  className="netLogos img-fluid" src={LogoTW} width={50} height={50} /></a>
           <a href="https://www.reddit.com/r/BetweenTheStars/"><img className="netLogos img-fluid" src={LogoRD} width={50} height={50} /></a>
       </div></div>  
-      <div className="container-fluid col-4 d-flex align-items-end flex-column bd-highlight mb-3 pe-5" >
+      <div className="container-fluid col-4 d-flex align-items-end flex-column bd-highlight mb-3  pe-5" >
       
         <a href="/#scrollspyHeading1"><img className="mt-3  img-fluid " src={LogoIGF} width={291} height={50}/></a>
             
