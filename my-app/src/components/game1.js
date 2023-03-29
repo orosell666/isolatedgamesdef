@@ -11,21 +11,37 @@ const Game1 = () => {
         <div className="" id="scrollspyHeading1">
             <div className="container-fluid col-lg-8 pt-5  rounded-2">
                 <div className="fondoCarousel1  ">
-        <div id="carouselExampleIndicators" className="carousel  slide p-2 mb-5" data-bs-ride="carousel">
+        <div id="carouselExampleIndicators" className="carousel  slide p-2 mb-1" data-bs-ride="carousel">
   
-  <div className="carousel-inner">
+  <div className="carousel-inner container">
     <div className="carousel-item active">
-    <Link to="/bethestar">
-      <img src={gameImage1} class="d-block w-100" alt="..." /></Link>
-    </div>
+    
+    
+      <img src={gameImage1} class="d-block w-100" alt="..." />
+      <div className="overlay">
+      <div className="col-5 text-center p-3 float-start">      <p className="gametitle">Between the Stars</p>
+      <p className="gametext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a tortor iaculis, venenatis sem vel, sollicitudin mi. Pellentesque ut sem ut libero elementum Fusce a tortor iaculis, venenatis sem vel.</p>
+      <Link to="/bethestar"><button type="button" className="btn moreBtn rounded-4 btn-sm textColor1 col mx-auto gametext" >
+                       More Information...
+                        </button></Link>
+      </div>
+    </div></div>
     <div className="carousel-item">
-    <Link to="/travellers">
-      <img src={gameImage2} class="d-block w-100" alt="..." /></Link>
+    
+      <img src={gameImage2} class="d-block w-100" alt="..." />
+      <div className="overlay justify-content-end">
+      <div className="col-5 text-center  p-3 float-end">      <p className="gametitle">Travellers Rest</p>
+      <p className="gametext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a tortor iaculis, venenatis sem vel, sollicitudin mi. Pellentesque ut sem ut libero elementum Fusce a tortor iaculis, venenatis sem vel.</p>
+      <Link to="/travellers"><button type="button" className="btn moreBtn rounded-4 btn-sm textColor1 col mx-auto gametext" >
+                       More Information...
+                        </button></Link>
+      </div>
+    </div>
     </div>
     
   </div>
   
-  <button className="carousel-control-prev position-absolute top-50 start-0 translate-middle" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev" width={40} height={40}>
+  <button className="carousel-control-prev position-absolute top-50 start-0 translate-middle" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev" >
     <span  className="carousel-control-prev-icon" aria-hidden="true" ></span>
     <span className="visually-hidden">Previous</span>
   </button>
@@ -33,9 +49,9 @@ const Game1 = () => {
     <span className="carousel-control-next-icon" aria-hidden="true" width={40} height={40}></span>
     <span className="visually-hidden">Next</span>
   </button>
-  <div className="carousel-indicators ">
-    <button  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active " aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+  <div className="row carousel-indicators col-sm-4 mx-auto">
+    <button  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active col " aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" className="col" aria-label="Slide 2"></button>
     
   </div>
 </div></div>

@@ -258,11 +258,11 @@ ul.no-bullets {
 }
 .carousel-indicators [data-bs-target] {
   position: relative;
-  width: 110px;
-  height: 15px;
+  max-width: 90px;
+  height: 12px;
   border: none;
-  border-radius: 5px;
-  margin-bottom: 20px;
+  border-radius: 3px;
+  margin-bottom: 10px;
 }
 .carousel-indicators [data-bs-target]:not(.active) {
   background-color: #322c30;
@@ -365,4 +365,11 @@ div.scroll {
 }
 .card-header {
   margin-top: -15px;
+}
+.gametext {
+  font-size: 1vw;
+  
+}
+.gametitle {
+  font-size: 2vw;
 }
