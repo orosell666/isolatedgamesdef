@@ -414,5 +414,5 @@ ul.jobs {
 }
 .thirdcolorJob {
 background-color: #251a1d;
-max-height: 25%;
+min-height: 55%;
 }

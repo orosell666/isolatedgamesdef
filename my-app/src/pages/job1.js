@@ -46,7 +46,9 @@ const Job1 =()=> {
                    
                 </ul>
                 </div>
-                <div className="thirdcolorJob"></div>
+                <div className="thirdcolorJob">
+                    
+                </div>
             </div>
         </div>
 
