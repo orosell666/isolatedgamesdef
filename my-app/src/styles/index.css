@@ -412,3 +412,7 @@ ul.jobs {
 #sample-ul li::marker {
 	color: #992b2b;
 }
+.thirdcolorJob {
+background-color: #251a1d;
+max-height: 25%;
+}
