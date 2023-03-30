@@ -18,7 +18,7 @@ const News = () => {
     return(
         <div className="textColor1 game1splash top-0 text-center img-fluid " id="scrollspyHeading2" >
             <h1 className=" mb-3  titlePosition ">NEWS</h1>
-            <div className="container-fluid col-lg-8 justify-content-start mb-5  ">
+            <div className="container-fluid col-lg-6 justify-content-start mb-5  ">
              <div id="carouselExampleControls" class="carousel slide"   data-interval="false" data-wrap="false">
              <div className="carousel-inner" >
                 

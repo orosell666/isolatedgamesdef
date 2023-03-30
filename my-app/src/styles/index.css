@@ -33,10 +33,11 @@ code {
 #myVideo {
   object-fit: cover;
   width: 100vw;
-  height: 70vh;
+  height: 750vh;
   position: fixed;
   top: 0;
   left: 0;
+  right:0;
   z-index: -1;
   
   
@@ -211,6 +212,11 @@ h1 {
    
    bottom: 0;
   width: 100%;
+}
+footer.container-fluid {
+padding:0%;
+margin-right: 0%;
+min-width: 100vw
 }
 .logoPosition {
   margin-top: -1rem;

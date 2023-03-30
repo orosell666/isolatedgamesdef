@@ -148,7 +148,7 @@ const Footer = ()=>{
           <a href="https://twitter.com/Isolated_Games"><img  className="netLogos img-fluid" src={LogoTW} width={50} height={50} /></a>
           <a href="https://www.reddit.com/r/BetweenTheStars/"><img className="netLogos img-fluid" src={LogoRD} width={50} height={50} /></a>
       </div></div>  
-      <div className="container-fluid col-4 d-flex align-items-end flex-column bd-highlight mb-3  pe-5" >
+      <div className="container-fluid col-4 d-flex align-items-end flex-column bd-highlight   pe-5 m-0" >
       
         <a href="/#scrollspyHeading1"><img className="mt-3  img-fluid " src={LogoIGF} width={291} height={50}/></a>
             
