@@ -9,9 +9,9 @@ const Game1 = () => {
 
     return (
         <div className="" id="scrollspyHeading1">
-            <div className="container-fluid col-lg-8 pt-5  rounded-2">
+            <div className="container col-lg-8 pt-5  rounded-2">
                 <div className="fondoCarousel1  ">
-        <div id="carouselExampleIndicators" className="carousel  slide p-2 mb-1" data-bs-ride="carousel">
+        <div id="carouselExampleIndicators" className="carousel  slide  mb-1" data-bs-ride="carousel">
   
   <div className="carousel-inner container">
     <div className="carousel-item active">

@@ -20,15 +20,26 @@ code {
     monospace;
 }
 .bgimg1 {
-  background: url("../images/find-purfect-background-vector-free-download.jpg") ; 
   
-  position: relative;
+  
   opacity: 1.0;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   
  
+  
+}
+#myVideo {
+  object-fit: cover;
+  width: 100vw;
+  height: 70vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  
+  
   
 }
 .bgimg2 {
@@ -89,7 +100,7 @@ code {
 .fondoCarousel1 {
   background-color: #25191d;
   border-radius: 12px;
-  
+  padding: 12px;
 }
 .fondoCarousel2 {
   background-color: #2b2326;
@@ -98,15 +109,15 @@ code {
 }
 .carousel-control-prev-icon {
   background-image: url("../images/Icon_Left.png");
-  height: 50px;
-  width: 50px;
+  height: 60px;
+  width: 60px;
   opacity: 1.0;
   text-decoration: none;
  }
  .carousel-control-next-icon {
   background-image: url("../images/Icon_Right.png");
-  height: 50px;
-  width: 50px;
+  height: 60px;
+  width: 60px;
   opacity: 1.0;
   
  }

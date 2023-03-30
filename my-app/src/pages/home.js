@@ -4,13 +4,15 @@ import News from "../components/news";
 import Team from "../components/team";
 import AboutUs from "../components/aboutus";
 import Jobs from "../components/jobs";
+import Main from "../components/main"
 
 
 
 function Home() {
     return (
       <div>
-      <div  className="bgimg1">
+      <div  className="">
+        <Main />
        <Game1  id="scrollspyHeading1"/>
        <News />
       </div>
