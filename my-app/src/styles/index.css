@@ -391,3 +391,24 @@ div.scroll {
 .gametitle {
   font-size: 2vw;
 }
+.textBG {
+ 
+  background: url("../images/Splash_Job.png") ;
+  padding-top: 180px;
+  padding-bottom: 40px;
+  
+  
+  
+}
+.jobSplash {
+  background: url("../images/textSplash.png") ;
+  
+  background-size: cover;
+  margin-top: 0%;
+}
+ul.jobs {
+  list-style: none; /* Remove default bullets */
+}
+#sample-ul li::marker {
+	color: #992b2b;
+}

@@ -3,6 +3,7 @@ import "../styles/index.css";
 import LanguageIcon from "../images/Icon_Language.png";
 import LocationIcon from "../images/Icon_Location.png";
 import ClockIcon from "../images/Icon_Clock.png";
+import { Link } from "react-router-dom";
 
 const Jobs = ()=> {
 
@@ -36,9 +37,9 @@ const Jobs = ()=> {
                      <span ><img src={ClockIcon} className="icon" />  Full Time  </span>
                 <span ><img src={LanguageIcon} className="icon"/>  Spanish  </span>
                 <div>
-                <button type="button" className="btn moreBtn textColor1 col-sm-2 mt-3" >
+                <Link to="/job1"><button type="button" className="btn moreBtn textColor1 col-sm-2 mt-3" >
                        Apply
-                        </button></div>
+                        </button></Link></div>
                     
                    
                     

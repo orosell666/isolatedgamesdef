@@ -9,6 +9,7 @@ import BeTheStar from "./pages/bethestar";
 import Travellers from "./pages/travellers";
 import Navbar from "./components/navbar";
 import Contact from "./pages/contact";
+import Job1 from "./pages/job1";
 
 
 
@@ -25,6 +26,7 @@ function App() {
           <Route path="/bethestar" element={<BeTheStar />} />
           <Route path='/travellers' element={<Travellers/>} />
           <Route path='/contact' element={<Contact/>} />
+          <Route path='/job1' element={<Job1/>} />
 
       </Routes> 
       <Footer />
