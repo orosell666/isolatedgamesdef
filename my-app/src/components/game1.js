@@ -20,7 +20,7 @@ const Game1 = () => {
       <img src={gameImage1} class="d-block w-100" alt="..." />
       <div className="overlay">
       <div className="col-5 text-center p-3 float-start">      <p className="gametitle">Between the Stars</p>
-      <p className="gametext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a tortor iaculis, venenatis sem vel, sollicitudin mi. Pellentesque ut sem ut libero elementum Fusce a tortor iaculis, venenatis sem vel.</p>
+      <p className="gametext">The Galaxy is in danger! Peace is under threat from the Children of the Sun, and only one captain is able to stop them. Live your own adventure through hundreds of events and fight your enemies in fast-paced real-time battles! </p>
       <Link to="/bethestar"><button type="button" className="btn moreBtn rounded-4 btn-sm textColor1 col mx-auto gametext" >
                        More Information...
                         </button></Link>
@@ -31,7 +31,7 @@ const Game1 = () => {
       <img src={gameImage2} class="d-block w-100" alt="..." />
       <div className="overlay justify-content-end">
       <div className="col-5 text-center  p-3 float-end">      <p className="gametitle">Travellers Rest</p>
-      <p className="gametext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a tortor iaculis, venenatis sem vel, sollicitudin mi. Pellentesque ut sem ut libero elementum Fusce a tortor iaculis, venenatis sem vel.</p>
+      <p className="gametext">A new tavern keeper has arrived in the kingdom! Craft dozens of varied recipes and manage your resources to get the most out of each ingredient – build, explore and take your tavern to the top in this new adventure! </p>
       <Link to="/travellers"><button type="button" className="btn moreBtn rounded-4 btn-sm textColor1 col mx-auto gametext" >
                        More Information...
                         </button></Link>

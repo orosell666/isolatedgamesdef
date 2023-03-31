@@ -38,7 +38,7 @@ const BeTheStar = () => {
                     <div className="text-center">
                       <img className=" col-6 justify-content-center img-fluid" src={LogoBTS} /></div>
                       <div className="container  text-center col-10 ">
-                        <p className="fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut velit at quam dictum vehicula eget eget tortor. Fusce placerat metus tortor, et aliquam eros viverra non. Fusce a laoreet tellus, sit amet commodo est. Aenean accumsan egestas mauris, vitae imperdiet purus lobortis non. Maecenas porttitor efficitur erat, non tristique tortor.  </p>
+                        <p className="fs-5">Between the Stars is a space action game with RPG elements where you will live the adventures of a captain and their crew to defend the Galaxy from a new and dangerous threat. Manage your resources and fight your enemies through more than 300 text events where every decision counts. </p>
                         <div className="d-flex  justify-content-center">
                           <a href="https://store.steampowered.com/app/727130/Between_the_Stars/"><img src={logoSteam} className=" "  width={50} height={50} /></a>
                           <a href="https://store.steampowered.com/app/727130/Between_the_Stars/"><img src={logoGOG} className="ms-2 me-2 "  width={50} height={50}/></a>
@@ -58,8 +58,8 @@ const BeTheStar = () => {
                 <div className="row g-0 mt-5 pt-5">
                   <div className=" d-flex flex-wrap">
                     <div className="card-body col-6 ">
-                      <h3 className="card-header text-center ">Salva la Galaxia</h3>
-                      <p className="card-text  text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                      <h3 className="card-header text-center ">Defend the Galaxy: </h3>
+                      <p className="card-text  text-start">Interplanetary peace is in danger and only one captain can save it. Take part in the Solar War by playing the main campaign and end the tyranny of the Children of the Sun before it is too late. </p>
                     </div>
                       <img src={screenshot3} className="img-fluid    col  p-2" />
                   </div> 
@@ -69,8 +69,8 @@ const BeTheStar = () => {
                   <div className=" d-flex">
                   <img src={screenshot3} className="img-fluid d-none d-sm-block  col-6  p-2" />
                     <div className="card-body col-6">
-                      <h3 className="card-header text-center ">Salva la Galaxia</h3>
-                      <p className="card-text  text-start ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                      <h3 className="card-header text-center ">Live your own adventure: </h3>
+                      <p className="card-text  text-start ">Defend the Galaxy from the ruthless Children of the Sun or explore it through more than 300 events where every decision counts - meet dozens of characters and deal with all the dangers you will encounter on your adventure! </p>
                     </div>
                   </div> 
                 </div>
@@ -78,8 +78,8 @@ const BeTheStar = () => {
                 <div className="row g-0 mt-5 ">
                   <div className=" d-flex">
                     <div className="card-body col-6">
-                      <h3 className="card-header text-center ">Salva la Galaxia</h3>
-                      <p className="card-text  text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                      <h3 className="card-header text-center ">Master your ship: </h3>
+                      <p className="card-text  text-start">Experience intense real-time battles and take on skilled enemies. Mastering your positioning and having the right equipment will give you a great advantage over your foes. </p>
                     </div>
                     <img src={screenshot3} className="img-fluid d-none d-sm-block  col-6  p-2" />
                   </div> 
@@ -89,8 +89,8 @@ const BeTheStar = () => {
                   <div className=" d-flex">
                   <img src={screenshot3} className="img-fluid d-none d-sm-block  col-6  p-2" />
                     <div className="card-body col-6">
-                      <h3 className="card-header text-center ">Salva la Galaxia</h3>
-                      <p className="card-text  text-start ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                      <h3 className="card-header text-center ">Manage your resources: </h3>
+                      <p className="card-text  text-start ">Customize your captain and your ship's resources to suit your way of playing. Finding the right balance between your equipment and your crew will be crucial to be victorious. Buy, sell, create... Everything is allowed for you to keep the Galaxy safe. </p>
                     </div>
                   </div> 
                 </div>

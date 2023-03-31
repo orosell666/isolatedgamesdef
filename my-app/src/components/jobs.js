@@ -12,7 +12,7 @@ const Jobs = ()=> {
             <h1 className=" mb-5 pt-5">WORK WITH US</h1>
             <div className="container d-flex justify-content-center pb-5">
             <div className="card col-sm-5  ">
-            <h2 className="card-header"><ins>Pixel Artist</ins></h2>
+            <h2 className="card-header border-0 pt-4"><ins>Programmer Online Multiplayer </ins></h2>
                    
                 
                 <div className="card-body">
@@ -20,16 +20,16 @@ const Jobs = ()=> {
                      <span ><img src={ClockIcon} className="icon" />  Full Time  </span>
                 <span ><img src={LanguageIcon} className="icon"/>  Spanish  </span>
                 <div>
-                <button type="button" className="btn moreBtn textColor1 col-md-2 mt-3" >
+                <Link to="/job2"><button type="button" className="btn moreBtn textColor1 col-md-2 mt-3" >
                        Apply
-                        </button></div>
+                        </button></Link></div>
                     
                    
                     
                 </div>
             </div>
             <div className="card  col-sm-5  ms-3">
-            <h2 className="card-header"><ins>Pixel Artist</ins></h2>
+            <h2 className="card-header border-0 pt-4"><ins>Pixel Artist</ins></h2>
                    
                 
                 <div className="card-body">

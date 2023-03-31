@@ -161,6 +161,7 @@ code {
 }
 .contactBG {
   background-color: #322c30;
+  background-size: cover;
   
 }
 
@@ -396,6 +397,7 @@ div.scroll {
   background: url("../images/Splash_Job.png") ;
   padding-top: 150px;
   padding-bottom: 30px;
+  min-height: 160%;
   
   
   

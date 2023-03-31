@@ -34,7 +34,7 @@ const Travellers = () => {
         <div className="text-center">
         <img className=" col-3 justify-content-center" src={LogoTR} /></div>
         <div className="container pe-5 text-center col-10 ">
-          <p className="fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut velit at quam dictum vehicula eget eget tortor. Fusce placerat metus tortor, et aliquam eros viverra non. Fusce a laoreet tellus, sit amet commodo est. Aenean accumsan egestas mauris, vitae imperdiet purus lobortis non.  </p>
+          <p className="fs-5">Craft, farm, build! In Travellers Rest you will have to use all the available tools to become the best tavern keeper in the kingdom. Create unique dishes and drinks to please your customers while you discover the world and its colorful characters. Take your establishment to the top in this exciting new adventure! </p>
           <div className="d-flex  justify-content-center">
           <a href="https://store.steampowered.com/app/727130/Between_the_Stars/"><img src={logoSteam} className=" "  width={50} height={50} /></a>
           <a href="https://store.steampowered.com/app/727130/Between_the_Stars/"><img src={logoGOG} className="ms-2 me-2 "  width={50} height={50}/></a>
@@ -54,8 +54,8 @@ const Travellers = () => {
                 <div className="row g-0 mt-5 pt-5">
                   <div className=" d-flex">
                     <div className="card-body col-6 ">
-                      <h3 className="card-header text-center ">Salva la Galaxia</h3>
-                      <p className="card-text  text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                      <h3 className="card-header text-center ">Your tavern, your rules: </h3>
+                      <p className="card-text  text-start">Expand and manage your own fantasy tavern. Customize it with furniture and other decorative elements to improve your reputation. Do not stop until you have the tavern of your dreams! </p>
                     </div>
                       <img src={screenshot3} className="img-fluid d-none d-sm-block  col-6  p-2" />
                   </div> 
@@ -65,8 +65,8 @@ const Travellers = () => {
                   <div className=" d-flex">
                   <img src={screenshot3} className="img-fluid d-none d-sm-block  col-6  p-2" />
                     <div className="card-body col-6">
-                      <h3 className="card-header text-center ">Salva la Galaxia</h3>
-                      <p className="card-text  text-start ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                      <h3 className="card-header text-center ">Tend to your customers: </h3>
+                      <p className="card-text  text-start ">Hundreds of customers are waiting to be tended to - serve them a nice mug of beer or kick them out if they get cheeky! Earn mountains of gold and become the best tavern keeper in the whole kingdom. </p>
                     </div>
                   </div> 
                 </div>
@@ -74,8 +74,8 @@ const Travellers = () => {
                 <div className="row g-0 mt-5 ">
                   <div className=" d-flex">
                     <div className="card-body col-6">
-                      <h3 className="card-header text-center ">Salva la Galaxia</h3>
-                      <p className="card-text  text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                      <h3 className="card-header text-center ">Create your own style: </h3>
+                      <p className="card-text  text-start">Discover new recipes and create unique dishes and drinks to please your customers. Of course, you will have to get your hands on the best products to keep them satisfied – craft hundreds of items and furniture to take your establishment to the highest level! </p>
                     </div>
                     <img src={screenshot3} className="img-fluid d-none d-sm-block  col-6  p-2" />
                   </div> 
@@ -85,8 +85,8 @@ const Travellers = () => {
                   <div className=" d-flex">
                   <img src={screenshot3} className="img-fluid d-none d-sm-block  col-6  p-2" />
                     <div className="card-body col-6">
-                      <h3 className="card-header text-center ">Salva la Galaxia</h3>
-                      <p className="card-text  text-start ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                      <h3 className="card-header text-center ">Discover the world: </h3>
+                      <p className="card-text  text-start ">The kingdom is full of colorful characters and things to do. Take a couple of days off and explore to discover all that this kingdom has to offer – you are sure to find something useful for your tavern on your journeys! </p>
                     </div>
                   </div> 
                 </div>
