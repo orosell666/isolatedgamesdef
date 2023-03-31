@@ -7,7 +7,7 @@ const Job1 =()=> {
         <div className="">
             <Main />
             <div className=" jobSplash text-start">
-                <div className="container-fluid col-8 textBG ps-5 jobs">
+                <div className="container-fluid card col-8 textBG ps-5 jobs border-0">
                 <h2><strong>Pixel Artist</strong></h2>
                 <p>Isolated Games is an independent studio in Barcelona. We are currently developing the games Between the Stars and Travellers Rest. We are looking for a pixel artist to work on Travellers Rest full-time. </p>
                 <h4><strong>Minimum Requirements</strong></h4>
@@ -46,10 +46,27 @@ const Job1 =()=> {
                    
                 </ul>
                 </div>
-                <div className="thirdcolorJob">
-                    
-                </div>
+                
             </div>
+            <div className="jobBG " >
+                <div className="pt-5 pb-5">
+                    <h2 className="text-center mb-5 ">Apply Now!</h2>
+            <div className="container  pt-5 col-7 contact card cardshade  jobpos">
+  
+  <input type="email" className="form-control border-0 textColor1" id="exampleFormControlInput1" placeholder="Enter youyr name" />
+  
+  <input type="email" className="form-control border-0" id="exampleFormControlInput1" placeholder="Enter a valid email address" />
+
+
+  
+  <textarea className="form-control border-0" id="exampleFormControlTextarea1" rows="4" placeholder="Enter your message"></textarea>
+
+
+     
+      <div className="text-end ">
+      <button type="submit" className="btn mt-3  moreBtn mb-4 col-2 textColor1">Submit</button>
+        </div> </div>
+            </div></div>
         </div>
 
     )

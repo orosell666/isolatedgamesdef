@@ -394,11 +394,15 @@ div.scroll {
 .textBG {
  
   background: url("../images/Splash_Job.png") ;
-  padding-top: 180px;
-  padding-bottom: 40px;
+  padding-top: 150px;
+  padding-bottom: 30px;
   
   
   
+}
+.jobs {
+  margin-top: 0px;
+  margin-bottom: 0%;
 }
 .jobSplash {
   background: url("../images/textSplash.png") ;
@@ -412,7 +416,14 @@ ul.jobs {
 #sample-ul li::marker {
 	color: #992b2b;
 }
-.thirdcolorJob {
-background-color: #251a1d;
-min-height: 55%;
+
+.jobBG {
+  background: url("../images/jobBG.png") ;
+  background-size: cover;
+}
+.jobpos {
+  margin-bottom: 50px;
+}
+.cardshade {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
