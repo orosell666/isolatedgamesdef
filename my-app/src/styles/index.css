@@ -400,9 +400,7 @@ div.scroll {
   position: static;
   font-stretch: ultra-condensed;
   margin-top: 200px;
-  inset: 20px;
-  
-  
+  inset: 20px; 
 }
 .jobfont {
   font-stretch: ultra-condensed
@@ -425,6 +423,7 @@ ul.jobs {
 .jobBG {
   background: url("../images/jobBG.png") ;
   min-height: 75vh;
+  min-width: 100vh;
 }
 .jobpos {
   margin-bottom: 50px;
