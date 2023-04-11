@@ -376,13 +376,17 @@ div.scroll {
   white-space: nowrap;
 }
 .logoBTSPosition {
-  padding-top: 70px;
+  padding-top: 0px;
   
  
 }
 .videoPosition {
-  padding-top: 150px;
-  padding-left: 150px;
+  padding-top: 100px;
+  padding-left: 120px;
+  
+}
+.videoSize{
+  height: 40vh;
 }
 .newsImg {
   max-height: 225px;
@@ -440,4 +444,10 @@ ul.jobs {
 }
 .cardshade {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.gameBanner {
+  height: 80vh;
+  width: 100vw;
 }

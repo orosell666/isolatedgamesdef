@@ -25,14 +25,15 @@ const BeTheStar = () => {
     return(
         <div>
             <div className=" banner-area  ">
-            <div className="d-flex flex-wrap">
+            
               
                 <div className="videoWrapper ">
-                  <div><img src={gameBanner} className="background-image img-fluid " /></div>
-                </div>
+                  <div><img src={gameBanner} className="gameBanner img-fluid" />
+                </div><div className="d-flex flex-wrap">
                 <div className="overlay">
-                  <div className="embed-responsive videoPosition  ">
-                    <iframe className="col row embed-responsive-item embed-responsive-16by9" src="https://www.youtube.com/embed/EUXJnueIiPs" title="Between the Stars - Kickstarter Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  
+                  <div className="embed-responsive videoPosition  col-5 ">
+                    <iframe className="col-md-12  embed-responsive-item embed-responsive-16by9 videoSize" src="https://www.youtube.com/embed/EUXJnueIiPs"  title="Between the Stars - Kickstarter Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                   </div>
                   <div className=" container logoBTSPosition mt-5 ">
                     <div className="text-center">
@@ -50,7 +51,7 @@ const BeTheStar = () => {
               </div>
         
             </div>
-          </div>
+          </div></div>
             <div className=" top-0 justify-content-center">
             <div className="gameBTSsplash  ">
             <div className="container card pt-5 p-5 rounded-3  col-7 ">

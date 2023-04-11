@@ -21,14 +21,16 @@ import logoEPIC from "../images/Icon_EPIC.png";
 const Travellers = () => {
     return(
         <div>
-            <div className=" banner-area img-fluid ">
-            <div className="d-flex">
-              <div className="row g-0 ">
-                <div className="videoWrapper  "><div>
-                <img src={gameBanner} className="background-image gameBTSbg " /></div></div>
+            <div className=" banner-area ">
+            
+              
+              
+                <div className="videoWrapper  ">
+                  <div><img src={gameBanner} className="gameBanner img-fluid" />
+                  </div><div className="d-flex flex-wrap">
         <div className="overlay">
-        <div className="videoPosition col-6">
-        <iframe className="mt-5 mx-auto  " width="500" height="300" src="https://www.youtube.com/embed/EUXJnueIiPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+        <div className="embed-responsive videoPosition  col-5">
+        <iframe className="col-md-12  embed-responsive-item embed-responsive-16by9 videoSize"  src="https://www.youtube.com/embed/EUXJnueIiPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
         </iframe></div>
         <div className=" container logoBTSPosition mt-5">
         <div className="text-center">
@@ -47,6 +49,7 @@ const Travellers = () => {
         
             </div>
           </div>
+          
             <div className=" top-0 justify-content-center">
             <div className="gameBTSsplash  ">
             <div className="container card pt-5 p-5 rounded-3  col-7 ">
