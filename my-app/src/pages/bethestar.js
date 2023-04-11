@@ -24,7 +24,7 @@ const BeTheStar = () => {
 
     return(
         <div>
-            <div className=" banner-area img-fluid ">
+            <div className=" banner-area  ">
             <div className="d-flex flex-wrap">
               
                 <div className="videoWrapper ">
@@ -57,18 +57,18 @@ const BeTheStar = () => {
                 
                 <div className="row g-0 mt-5 pt-5">
                   <div className=" d-flex flex-wrap">
-                    <div className="card-body col-6 ">
+                    <div className="card-body col-lg-6  col-sm-12 col-6 ">
                       <h3 className="card-header text-center ">Defend the Galaxy: </h3>
                       <p className="card-text  text-start">Interplanetary peace is in danger and only one captain can save it. Take part in the Solar War by playing the main campaign and end the tyranny of the Children of the Sun before it is too late. </p>
                     </div>
-                      <img src={screenshot3} className="img-fluid    col  p-2" />
+                      <img src={screenshot3} className="img-fluid    col-lg-6  col-sm-12 p-2" />
                   </div> 
                 </div>
                 
                 <div className="row g-0 mt-5">
-                  <div className=" d-flex">
-                  <img src={screenshot3} className="img-fluid d-none d-sm-block  col-6  p-2" />
-                    <div className="card-body col-6">
+                  <div className=" d-flex flex-wrap">
+                  <img src={screenshot3} className="img-fluid col-lg-6  col-sm-12  p-2" />
+                    <div className="card-body col-lg-6  col-sm-12 ">
                       <h3 className="card-header text-center ">Live your own adventure: </h3>
                       <p className="card-text  text-start ">Defend the Galaxy from the ruthless Children of the Sun or explore it through more than 300 events where every decision counts - meet dozens of characters and deal with all the dangers you will encounter on your adventure! </p>
                     </div>

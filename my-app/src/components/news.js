@@ -26,9 +26,9 @@ const News = () => {
 
                 <div className=" card mt-5 rounded-3 w-100 ">
                 <div className="row g-0">
-                 <div className=" d-flex ">
-                <img src={newsImg1} className=" img-fluid d-none d-sm-block pt-3 ps-3 pb-3   newsImg"   />
-                <div className="card-body ">
+                 <div className=" d-flex flex-wrap">
+                <img src={newsImg1} className=" img-fluid col-md-5  col-sm-12   pt-3 ps-3 pb-3   newsImg "   />
+                <div className="card-body  col-md-7  col-sm-12 col-7 ">
                 <h2 className="card-header border-white fs-4">Travellers Rest Roadmap Announcement! </h2>
                     <p className="card-text mt-2 text-start">Today, we bring you something you have been asking for a very long time: A roadmap! We wanted to share with you our progress using a more visual, direct approach, so from now on you can take a look at the previous updates and what is to come. </p>
                     <div className="row justify-content-end ">
@@ -44,9 +44,9 @@ const News = () => {
             
             <div className="card mt-2 rounded-3 w-100">
                 <div className="row g-0">
-                    <div className=" d-flex">
-                        <img src={newsImg2} className=" img-fluid d-none d-sm-block pt-3 ps-3 pb-3   newsImg" />
-                            <div className="card-body ">
+                    <div className=" d-flex flex-wrap">
+                        <img src={newsImg2} className=" img-fluid col-md-5  col-sm-12 pt-3 ps-3 pb-3   newsImg" />
+                            <div className="card-body  col-md-7  col-sm-12 col-7">
                                 <h2 className="card-header border-white fs-4">Local Co-op Update - v0.5.5 </h2>
                                     <p className="card-text mt-2  text-start">A new update for Travellers Rest is here! In this update we have rebuilt the interface navigation system to fix the problems in the local co-op mode. We have also added a new area with new characters.  </p>
                                     <div className="row justify-content-end">
@@ -61,9 +61,9 @@ const News = () => {
             
             <div className="card mt-2 rounded-3 w-100 col-md-8">
                 <div className="row g-0">
-                 <div className=" d-flex">
-                <img src={newsImg3} className="img-fluid d-none d-sm-block pt-3 ps-3 pb-3   newsImg" />
-                <div className="card-body ">
+                 <div className=" d-flex flex-wrap">
+                <img src={newsImg3} className="img-fluid col-md-5  col-sm-12 pt-3 ps-3 pb-3   newsImg" />
+                <div className="card-body  col-md-7  col-sm-12 col-7">
                 <h2 className="card-header border-white fs-4">Between the Stars Development Update </h2>
                     <p className="card-text mt-2 text-start">In this announcement, we want to update you and give you explanations about the future of the game. We will try to answer the doubts you have had during this time. </p>
                     <div className="row justify-content-end">
@@ -80,9 +80,9 @@ const News = () => {
 
             <div className=" card mt-5 rounded-3 w-100">
                 <div className="row g-0">
-                    <div className=" d-flex">
-                        <img src={newsImg4} className="img-fluid d-none d-sm-block pt-3 ps-3 pb-3   newsImg" />
-                            <div className="card-body ">
+                    <div className=" d-flex flex-wrap">
+                        <img src={newsImg4} className="img-fluid col-md-5  col-sm-12 pt-3 ps-3 pb-3   newsImg" />
+                            <div className="card-body  col-md-7  col-sm-12 col-7">
                                 <h2 className="card-header border-white fs-4">Christmas Update - v0.5.4 </h2>
                                     <p className="card-text mt-2 text-start">Hello innkeepers! We have just released the new update for Travellers Rest, this update adds a new map, new characters and more. It also triggers this year's Christmas event.  </p>
                                     <div className="row justify-content-end">
@@ -96,9 +96,9 @@ const News = () => {
             </div>
             <div className=" card mt-2 rounded-3 w-100">
                 <div className="row g-0">
-                    <div className=" d-flex">
-                        <img src={newsImg5} className="img-fluid d-none d-sm-block pt-3 ps-3 pb-3   newsImg" />
-                            <div className="card-body ">
+                    <div className=" d-flex flex-wrap">
+                        <img src={newsImg5} className="img-fluid col-md-5  col-sm-12 pt-3 ps-3 pb-3   newsImg" />
+                            <div className="card-body  col-md-7  col-sm-12 col-7">
                                 <h2 className="card-header border-white fs-4">Halloween Event – v0.5.3 </h2>
                                     <p className="card-text mt-2 text-start">Halloween event has already started! During the event, you will be able to enjoy a spookier atmosphere, there will be new quests to complete, new recipes, and you will be able to get exclusive Halloween items. </p>
                                     <div className="row justify-content-end">
@@ -112,9 +112,9 @@ const News = () => {
             </div>
             <div className=" card mt-2 rounded-3 w-100">
                 <div className="row g-0">
-                    <div className=" d-flex">
-                        <img src={newsImg6} className="img-fluid d-none d-sm-block pt-3 ps-3 pb-3   newsImg" />
-                            <div className="card-body ">
+                    <div className=" d-flex flex-wrap">
+                        <img src={newsImg6} className="img-fluid col-md-5  col-sm-12 pt-3 ps-3 pb-3   newsImg" />
+                            <div className="card-body  col-md-7  col-sm-12 col-7">
                                 <h2 className="card-header border-white fs-4">World & Birds Update - v0.5.2.0 </h2>
                                     <p className="card-text mt-2 text-start ">We've just released a new major update for Travellers Rest! This new update adds the new bird mechanics, a world expansion with new zones, the first NPC, achievements, a new UI and more! </p>
                                     <div className="row justify-content-end">

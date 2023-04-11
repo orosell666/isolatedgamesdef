@@ -42,7 +42,9 @@ const Game1 = () => {
   </div>
   
   <button className="carousel-control-prev position-absolute top-50 start-0 translate-middle" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev" >
-    <span  className="carousel-control-prev-icon" aria-hidden="true" ></span>
+    <span  className="carousel-control-prev-icon" aria-hidden="true" >
+      
+    </span>
     <span className="visually-hidden">Previous</span>
   </button>
   <button className="carousel-control-next position-absolute top-50 start-100 translate-middle" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
