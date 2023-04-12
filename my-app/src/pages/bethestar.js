@@ -77,19 +77,20 @@ const BeTheStar = () => {
                 </div>
                 
                 <div className="row g-0 mt-5 ">
-                  <div className=" d-flex">
-                    <div className="card-body col-6">
+                <div className=" d-flex flex-wrap">
+                    <div className="card-body col-lg-6  col-sm-12 col-6 ">
                       <h3 className="card-header text-center ">Master your ship: </h3>
                       <p className="card-text  text-start">Experience intense real-time battles and take on skilled enemies. Mastering your positioning and having the right equipment will give you a great advantage over your foes. </p>
                     </div>
-                    <img src={screenshot3} className="img-fluid d-none d-sm-block  col-6  p-2" />
+                    <img src={screenshot3} className="img-fluid col-lg-6  col-sm-12  col-6  p-2" />
                   </div> 
                 </div>
                
                 <div className="row g-0 mt-5 mb-5">
-                  <div className=" d-flex">
-                  <img src={screenshot3} className="img-fluid d-none d-sm-block  col-6  p-2" />
-                    <div className="card-body col-6">
+                <div className=" d-flex flex-wrap">
+                    
+                  <img src={screenshot3} className="img-fluid col-lg-6  col-sm-12  p-2" />
+                    <div className="card-body  col-lg-6  col-sm-12 col-6 ">
                       <h3 className="card-header text-center ">Manage your resources: </h3>
                       <p className="card-text  text-start ">Customize your captain and your ship's resources to suit your way of playing. Finding the right balance between your equipment and your crew will be crucial to be victorious. Buy, sell, create... Everything is allowed for you to keep the Galaxy safe. </p>
                     </div>
@@ -203,7 +204,7 @@ const BeTheStar = () => {
 <div className="splash3Game   pb-5 text-center">
   
     <h1 className="mb-5 pt-5">Join our community!</h1>
-    <div className="container-fluid col-4 ">
+    <div className="container-fluid col-lg-4 col-md-6 ">
       <div className="card mt-5 rounded-3 w-100 justify-content-evenly ">
         <div className="row g-0 ">
         <div className=" d-flex ">

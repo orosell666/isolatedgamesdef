@@ -21,21 +21,21 @@ import logoEPIC from "../images/Icon_EPIC.png";
 const Travellers = () => {
     return(
         <div>
-            <div className=" banner-area ">
+            <div className="container-fuid banner-area ">
             
               
-              
+              <div className="d-flex flex-wrap">
                 <div className="videoWrapper  ">
                   <div><img src={gameBanner} className="gameBanner img-fluid" />
-                  </div><div className="d-flex flex-wrap">
+                  </div>
         <div className="overlay">
-        <div className="embed-responsive videoPosition  col-5">
+        <div className="embed-responsive videoPosition ps-4 col-5">
         <iframe className="col-md-12  embed-responsive-item embed-responsive-16by9 videoSize"  src="https://www.youtube.com/embed/EUXJnueIiPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
         </iframe></div>
-        <div className=" container logoBTSPosition mt-5">
+        <div className=" container-fluid logoBTSPosition mt-5">
         <div className="text-center">
-        <img className=" col-3 justify-content-center" src={LogoTR} /></div>
-        <div className="container pe-5 text-center col-10 ">
+        <img className=" col-3 justify-content-center img-fluid" src={LogoTR} /></div>
+        <div className="container  text-center col-10 ">
           <p className="fs-5">Craft, farm, build! In Travellers Rest you will have to use all the available tools to become the best tavern keeper in the kingdom. Create unique dishes and drinks to please your customers while you discover the world and its colorful characters. Take your establishment to the top in this exciting new adventure! </p>
           <div className="d-flex  justify-content-center">
           <a href="https://store.steampowered.com/app/727130/Between_the_Stars/"><img src={logoSteam} className=" "  width={50} height={50} /></a>
@@ -52,22 +52,22 @@ const Travellers = () => {
           
             <div className=" top-0 justify-content-center">
             <div className="gameBTSsplash  ">
-            <div className="container card pt-5 p-5 rounded-3  col-7 ">
+            <div className="mx-auto card pt-5  rounded-3  col-7">
                 
                 <div className="row g-0 mt-5 pt-5">
-                  <div className=" d-flex">
-                    <div className="card-body col-6 ">
+                <div className=" d-flex flex-wrap">
+                    <div className="card-body col-lg-6  col-sm-12 col-6 ">
                       <h3 className="card-header text-center ">Your tavern, your rules: </h3>
                       <p className="card-text  text-start">Expand and manage your own fantasy tavern. Customize it with furniture and other decorative elements to improve your reputation. Do not stop until you have the tavern of your dreams! </p>
                     </div>
-                      <img src={screenshot3} className="img-fluid d-none d-sm-block  col-6  p-2" />
+                      <img src={screenshot3} className="img-fluid    col-lg-6  col-sm-12 p-2" />
                   </div> 
                 </div>
                 
                 <div className="row g-0 mt-5">
-                  <div className=" d-flex">
-                  <img src={screenshot3} className="img-fluid d-none d-sm-block  col-6  p-2" />
-                    <div className="card-body col-6">
+                <div className=" d-flex flex-wrap">
+                  <img src={screenshot3} className="img-fluid    col-lg-6  col-sm-12 p-2" />
+                    <div className="card-body col-lg-6  col-sm-12">
                       <h3 className="card-header text-center ">Tend to your customers: </h3>
                       <p className="card-text  text-start ">Hundreds of customers are waiting to be tended to - serve them a nice mug of beer or kick them out if they get cheeky! Earn mountains of gold and become the best tavern keeper in the whole kingdom. </p>
                     </div>
@@ -75,19 +75,19 @@ const Travellers = () => {
                 </div>
                 
                 <div className="row g-0 mt-5 ">
-                  <div className=" d-flex">
-                    <div className="card-body col-6">
+                <div className=" d-flex flex-wrap">
+                    <div className="card-body col-lg-6  col-sm-12 col-6 ">
                       <h3 className="card-header text-center ">Create your own style: </h3>
                       <p className="card-text  text-start">Discover new recipes and create unique dishes and drinks to please your customers. Of course, you will have to get your hands on the best products to keep them satisfied – craft hundreds of items and furniture to take your establishment to the highest level! </p>
                     </div>
-                    <img src={screenshot3} className="img-fluid d-none d-sm-block  col-6  p-2" />
+                    <img src={screenshot3} className="img-fluid    col-lg-6  col-sm-12 p-2" />
                   </div> 
                 </div>
                
                 <div className="row g-0 mt-5 mb-5">
-                  <div className=" d-flex">
-                  <img src={screenshot3} className="img-fluid d-none d-sm-block  col-6  p-2" />
-                    <div className="card-body col-6">
+                <div className=" d-flex flex-wrap">
+                  <img src={screenshot3} className="img-fluid    col-lg-6  col-sm-12 p-2" />
+                    <div className="card-body col-lg-6  col-sm-12">
                       <h3 className="card-header text-center ">Discover the world: </h3>
                       <p className="card-text  text-start ">The kingdom is full of colorful characters and things to do. Take a couple of days off and explore to discover all that this kingdom has to offer – you are sure to find something useful for your tavern on your journeys! </p>
                     </div>
@@ -198,23 +198,24 @@ const Travellers = () => {
         
         
 </div>
-<div className="splash3Game   pb-5 text-center">
+<div className=" splash3Game   pb-5 text-center">
   
     <h1 className="mb-5 pt-5">Join our community!</h1>
-    <div className="container-fluid col-4 ">
+    <div className="container-fluid col-lg-3 col-md-6">
       <div className="card mt-5 rounded-3 w-100 justify-content-evenly ">
         <div className="row g-0 ">
         <div className=" d-flex ">
-        <img src={logoShame} className="img-fluid  ms-3 p-2"  width={80} height={80} />
+        <img src={logoShame} className="mt-3 mb-3  ms-3 "  width={80} height={80} />
                 
         
-          <div className="card-body "><div className="row g-0">
+          <div className="card-body ">
+            <div className="row g-0">
         <div className=" d-flex">
-          <div className="container">
-                <h5 className="card-text  text-center">Shame/exposing/packing</h5>
+          <div className="container ">
+                <h5 className="card-text align-middle text-center">Shame/exposing/packing</h5>
                 <p className="card-text"><small class="text-muted">3,308 Online</small></p></div>
                    
-                    <Link><button type="button" className="btn moreBtn textColor1  ms-3 me-3 " >
+                    <Link><button type="button" className="btn moreBtn textColor1  ms-3 me-3  " >
                        Join
                         </button></Link></div></div></div></div></div>
     </div>
