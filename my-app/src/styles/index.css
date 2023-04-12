@@ -473,18 +473,47 @@ ul.jobs {
 }
 
 
-.gameBanner {
-  height: 60vh;
-  width: 100vw;
-  
-}
-@media(max-width:810px) {.resize .d-flex {
+
+@media(max-width:900px) {.resize .d-flex {
   flex-direction: column;
   }
+  .gameBanner {
+    height: 100%;
+    width: 100vw;
+    
+  }
 }
-@media(min-width:815px) {.resize .d-flex {
+@media(min-width:905px) {.resize .d-flex {
   flex-direction: row;
   }
+  .gameBanner {
+    height: 60%;
+    width: 100vw;
+    
+  }
   
+  
+}
+.order-1 {
+  order: 2;
+}
+
+.order-2 {
+  order: 1;
+}
+
+@media(max-width:900px) {.order-1 .d-flex .flex-wrap {
+  order: 2;
+  }
+  .order-2 .d-flex .flex-wrap {
+    order: 1;
+  }
+}
+@media(min-width:905px) {.order-1 .d-flex .flex-wrap{
+  order: 1;
+  }
+  .order-2 .d-flex .flex-wrap {
+    order: 2;
+  }
   
 }

@@ -24,7 +24,7 @@ const BeTheStar = () => {
 
     return(
         <div>
-            <div className=" banner-area  ">
+            <div className=" bannerarea  ">
             
               <div className="d-flex flex-wrap resize">
                 <div className="videoWrapper ">
@@ -58,17 +58,17 @@ const BeTheStar = () => {
                 
                 <div className="row g-0 mt-5 pt-5">
                   <div className=" d-flex flex-wrap">
-                    <div className="card-body col-lg-6  col-sm-12 col-6 ">
+                    <div className="card-body col-lg-6  col-sm-12 col-6 order-1">
                       <h3 className="card-header text-center ">Defend the Galaxy: </h3>
                       <p className="card-text  text-start">Interplanetary peace is in danger and only one captain can save it. Take part in the Solar War by playing the main campaign and end the tyranny of the Children of the Sun before it is too late. </p>
                     </div>
-                      <img src={screenshot3} className="img-fluid    col-lg-6  col-sm-12 p-2" />
+                      <img src={screenshot3} className="img-fluid    col-lg-6  col-sm-12 p-2 order-2 " />
                   </div> 
                 </div>
                 
                 <div className="row g-0 mt-5">
-                  <div className=" d-flex flex-wrap">
-                  <img src={screenshot3} className="img-fluid col-lg-6  col-sm-12  p-2" />
+                  <div className=" d-flex flex-wrap flex-container">
+                  <img src={screenshot3} className="img-fluid col-lg-6  col-sm-12  p-2 flex-item  " />
                     <div className="card-body col-lg-6  col-sm-12 ">
                       <h3 className="card-header text-center ">Live your own adventure: </h3>
                       <p className="card-text  text-start ">Defend the Galaxy from the ruthless Children of the Sun or explore it through more than 300 events where every decision counts - meet dozens of characters and deal with all the dangers you will encounter on your adventure! </p>
@@ -204,11 +204,11 @@ const BeTheStar = () => {
 <div className="splash3Game   pb-5 text-center">
   
     <h1 className="mb-5 pt-5">Join our community!</h1>
-    <div className="container-fluid col-lg-4 col-md-6 ">
+    <div className="container-fluid col-lg-3 col-md-6 ">
       <div className="card mt-5 rounded-3 w-100 justify-content-evenly ">
         <div className="row g-0 ">
         <div className=" d-flex ">
-        <img src={logoShame} className="img-fluid  ms-3 p-2"  width={80} height={80} />
+        <img src={logoShame} className="mt-3 mb-3  ms-3 "  width={80} height={80} />
                 
         
           <div className="card-body "><div className="row g-0">

@@ -212,7 +212,7 @@ const Travellers = () => {
             <div className="row g-0">
         <div className=" d-flex">
           <div className="container ">
-                <h5 className="card-text align-middle text-center">Shame/exposing/packing</h5>
+                <h5 className="card-text  text-center">Shame/exposing/packing</h5>
                 <p className="card-text"><small class="text-muted">3,308 Online</small></p></div>
                    
                     <Link><button type="button" className="btn moreBtn textColor1  ms-3 me-3  " >
