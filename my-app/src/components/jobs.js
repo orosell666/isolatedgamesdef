@@ -20,7 +20,7 @@ const Jobs = ()=> {
                      <span ><img src={ClockIcon} className="icon" />  Full Time  </span>
                 <span ><img src={LanguageIcon} className="icon"/>  Spanish  </span>
                 <div>
-                <Link to="/job2"><button type="button" className="btn moreBtn textColor1 col-md-2 mt-3" >
+                <Link to="/job2"><button type="button" className="btn moreBtn textColor1 col-md-3 mt-3" >
                        Apply
                         </button></Link></div>
                     
@@ -37,7 +37,7 @@ const Jobs = ()=> {
                      <span ><img src={ClockIcon} className="icon" />  Full Time  </span>
                 <span ><img src={LanguageIcon} className="icon"/>  Spanish  </span>
                 <div>
-                <Link to="/job1"><button type="button" className="btn moreBtn textColor1 col-sm-2 mt-3" >
+                <Link to="/job1"><button type="button" className="btn moreBtn textColor1 col-md-3 mt-3" >
                        Apply
                         </button></Link></div>
                     

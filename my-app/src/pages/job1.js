@@ -7,7 +7,7 @@ const Job1 =()=> {
         <div className="">
             <Main />
             <div className=" textColor1 game1splash  text-start img-fluid  ">
-                <div className="container textsplash col-7 mx-auto img-fluid">
+                <div className="container textsplash top-0 col-7 mx-auto img-fluid">
                 <div className="container textBG col-8  ps-5 jobs border-0">
                 <h2><strong>Pixel Artist</strong></h2>
                 <p>Isolated Games is an independent studio in Barcelona. We are currently developing the games Between the Stars and Travellers Rest. We are looking for a pixel artist to work on Travellers Rest full-time. </p>

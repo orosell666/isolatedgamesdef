@@ -80,7 +80,7 @@ code {
   background-color: #211b1f;
   height: 100%;
 
-  margin-top: -120px;
+  margin-top: -130px;
 }
 
 .splash3 {
@@ -93,7 +93,7 @@ code {
 }
 .splash3Game {
   clip-path: polygon(0 7%, 100% 0, 100% 100%, 0% 100%);
-  padding-top: 300px;
+  padding-top: 30px;
   background-color: #2b2326;
   height: 100%;
   margin-top: -25px;
@@ -265,6 +265,9 @@ ul.no-bullets {
 @media(min-width:996px) {.cardPosition .d-flex {
   flex-direction: row;
   }
+  .card-body{
+    margin-top:40px;
+  }
 }
 
 .nomargin {
@@ -382,11 +385,25 @@ div.scroll {
 }
 .videoPosition {
   padding-top: 100px;
-  padding-left: 120px;
+  
   
 }
 .videoSize{
   height: 40vh;
+}
+@media(max-width:830px) {.videoSize .videoPosition .d-flex{
+  max-height: 40%;
+  margin-left: 50px;
+  flex-direction: column;
+  }
+}
+@media(min-width:833px) {.resize .videoPosition {
+  min-height: 40%;
+  padding-left: 120px;
+  flex-direction: column;
+  }
+  
+  
 }
 .newsImg {
   max-height: 225px;
@@ -457,6 +474,17 @@ ul.jobs {
 
 
 .gameBanner {
-  height: 80vh;
+  height: 60vh;
   width: 100vw;
+  
+}
+@media(max-width:810px) {.resize .d-flex {
+  flex-direction: column;
+  }
+}
+@media(min-width:815px) {.resize .d-flex {
+  flex-direction: row;
+  }
+  
+  
 }

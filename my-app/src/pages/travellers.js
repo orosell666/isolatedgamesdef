@@ -198,7 +198,7 @@ const Travellers = () => {
         
         
 </div>
-<div className="splash3Game pt-5  pb-5 text-center">
+<div className="splash3Game   pb-5 text-center">
   
     <h1 className="mb-5 pt-5">Join our community!</h1>
     <div className="container-fluid col-4 ">

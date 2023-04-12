@@ -26,16 +26,16 @@ const BeTheStar = () => {
         <div>
             <div className=" banner-area  ">
             
-              
+              <div className="d-flex flex-wrap resize">
                 <div className="videoWrapper ">
                   <div><img src={gameBanner} className="gameBanner img-fluid" />
-                </div><div className="d-flex flex-wrap">
-                <div className="overlay">
+                </div>
+                <div className="overlay ">
                   
                   <div className="embed-responsive videoPosition  col-5 ">
                     <iframe className="col-md-12  embed-responsive-item embed-responsive-16by9 videoSize" src="https://www.youtube.com/embed/EUXJnueIiPs"  title="Between the Stars - Kickstarter Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                   </div>
-                  <div className=" container logoBTSPosition mt-5 ">
+                  <div className=" container-fluid logoBTSPosition mt-5 ">
                     <div className="text-center">
                       <img className=" col-6 justify-content-center img-fluid" src={LogoBTS} /></div>
                       <div className="container  text-center col-10 ">
@@ -53,8 +53,8 @@ const BeTheStar = () => {
             </div>
           </div></div>
             <div className=" top-0 justify-content-center">
-            <div className="gameBTSsplash  ">
-            <div className="container card pt-5 p-5 rounded-3  col-7 ">
+            <div className="gameBTSsplash ">
+            <div className="mx-auto card pt-5  rounded-3  col-7 ">
                 
                 <div className="row g-0 mt-5 pt-5">
                   <div className=" d-flex flex-wrap">
@@ -200,7 +200,7 @@ const BeTheStar = () => {
         
         
 </div>
-<div className="splash3Game pt-5  pb-5 text-center">
+<div className="splash3Game   pb-5 text-center">
   
     <h1 className="mb-5 pt-5">Join our community!</h1>
     <div className="container-fluid col-4 ">
