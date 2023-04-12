@@ -6,9 +6,9 @@ const Job2 =()=> {
     return(
         <div className="">
             <Main />
-            <div className=" top-0 justify-content-center">
-            <div className=" jobSplash ">
-                <div className="container   text-start fs-3  col-7  textBG ps-5 jobs border-0">
+            <div className=" textColor1 game1splash  text-start img-fluid ">
+            <div className=" container textsplash col-7 mx-auto img-fluid">
+                <div className="container textBG col-8  ps-5 jobs border-0">
                 <h2><strong>Programmer Online Multiplayer </strong></h2>
                 <p className="jobfont">Isolated Games is an independent studio in Barcelona. We are currently developing the games Between the Stars and Travellers Rest. We are looking for a pixel artist to work on Travellers Rest full-time. </p>
                 <p><strong>Minimum Requirements</strong></p>

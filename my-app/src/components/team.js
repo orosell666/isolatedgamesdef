@@ -17,7 +17,7 @@ const Team=()=>{
             <h1 className=" mb-5 pt-5 ">TEAM</h1>
             <div className="container col-8 cardPosition">
                 
-                <div className="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4 pb-5">
+                <div className="row row-cols-sm-1 row-cols-lg-3 row-cols-md-2 g-4 pb-5">
                     
                     <div className="col">
                         <div className="card col-3 rounded-3 w-100 h-100">
