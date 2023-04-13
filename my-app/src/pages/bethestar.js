@@ -25,14 +25,14 @@ const BeTheStar = () => {
     return(
         <div>
             <div className=" bannerarea  ">
-            
-              <div className="d-flex flex-wrap resize">
+            <div className="row g-0 ">
+              <div className=" ">
                 <div className="videoWrapper ">
-                  <div><img src={gameBanner} className="gameBanner img-fluid" />
+                  <div><img src={gameBanner} className="gameBanner " />
                 </div>
-                <div className="overlay ">
+                <div className="overlay resize d-flex flex-wrap-reverse ">
                   
-                  <div className="embed-responsive videoPosition  col-5 ">
+                  <div className="embed-responsive videoPosition  col-lg-5 col-md-12 mx-3">
                     <iframe className="col-md-12  embed-responsive-item embed-responsive-16by9 videoSize" src="https://www.youtube.com/embed/EUXJnueIiPs"  title="Between the Stars - Kickstarter Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                   </div>
                   <div className=" container-fluid logoBTSPosition mt-5 ">
@@ -51,7 +51,7 @@ const BeTheStar = () => {
               </div>
         
             </div>
-          </div></div>
+          </div></div></div>
             <div className=" top-0 justify-content-center">
             <div className="gameBTSsplash ">
             <div className="mx-auto card pt-5  rounded-3  col-7 ">
@@ -67,7 +67,7 @@ const BeTheStar = () => {
                 </div>
                 
                 <div className="row g-0 mt-5">
-                  <div className=" d-flex flex-wrap flex-container">
+                  <div className=" d-flex flex-wrap-reverse ">
                   <img src={screenshot3} className="img-fluid col-lg-6  col-sm-12  p-2 flex-item  " />
                     <div className="card-body col-lg-6  col-sm-12 ">
                       <h3 className="card-header text-center ">Live your own adventure: </h3>
@@ -87,7 +87,7 @@ const BeTheStar = () => {
                 </div>
                
                 <div className="row g-0 mt-5 mb-5">
-                <div className=" d-flex flex-wrap">
+                <div className=" d-flex flex-wrap-reverse">
                     
                   <img src={screenshot3} className="img-fluid col-lg-6  col-sm-12  p-2" />
                     <div className="card-body  col-lg-6  col-sm-12 col-6 ">
@@ -204,20 +204,20 @@ const BeTheStar = () => {
 <div className="splash3Game   pb-5 text-center">
   
     <h1 className="mb-5 pt-5">Join our community!</h1>
-    <div className="container-fluid col-lg-3 col-md-6 ">
+    <div className="container-fluid col-lg-4 col-md-6 ">
       <div className="card mt-5 rounded-3 w-100 justify-content-evenly ">
         <div className="row g-0 ">
         <div className=" d-flex ">
-        <img src={logoShame} className="mt-3 mb-3  ms-3 "  width={80} height={80} />
+        <img src={logoShame} className="align-self-center  ms-3 "  width={60} height={60} />
                 
         
           <div className="card-body "><div className="row g-0">
-        <div className=" d-flex">
-          <div className="container">
-                <h5 className="card-text  text-center">Shame/exposing/packing</h5>
+        <div className=" d-flex flex-wraper">
+          <div className="container ">
+                <h5 className="card-text align-self-center text-center">Shame/exposing/packing</h5>
                 <p className="card-text"><small class="text-muted">3,308 Online</small></p></div>
                    
-                    <Link><button type="button" className="btn moreBtn textColor1  ms-3 me-3 " >
+                    <Link><button type="button" className="btn moreBtn textColor1  ms-3 me-3 align-self-center" >
                        Join
                         </button></Link></div></div></div></div></div>
     </div>

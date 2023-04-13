@@ -65,7 +65,7 @@ const Travellers = () => {
                 </div>
                 
                 <div className="row g-0 mt-5">
-                <div className=" d-flex flex-wrap">
+                <div className=" d-flex flex-wrap-reverse">
                   <img src={screenshot3} className="img-fluid    col-lg-6  col-sm-12 p-2" />
                     <div className="card-body col-lg-6  col-sm-12">
                       <h3 className="card-header text-center ">Tend to your customers: </h3>
@@ -85,7 +85,7 @@ const Travellers = () => {
                 </div>
                
                 <div className="row g-0 mt-5 mb-5">
-                <div className=" d-flex flex-wrap">
+                <div className=" d-flex flex-wrap-reverse">
                   <img src={screenshot3} className="img-fluid    col-lg-6  col-sm-12 p-2" />
                     <div className="card-body col-lg-6  col-sm-12">
                       <h3 className="card-header text-center ">Discover the world: </h3>
@@ -201,7 +201,7 @@ const Travellers = () => {
 <div className=" splash3Game   pb-5 text-center">
   
     <h1 className="mb-5 pt-5">Join our community!</h1>
-    <div className="container-fluid col-lg-3 col-md-6">
+    <div className="container-fluid col-lg-4 col-md-6">
       <div className="card mt-5 rounded-3 w-100 justify-content-evenly ">
         <div className="row g-0 ">
         <div className=" d-flex ">

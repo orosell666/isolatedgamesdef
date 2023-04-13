@@ -66,6 +66,7 @@ code {
   height: 100vh;
 
 }
+
 .game1splash {
   background: url("../images/Splash_DownPage.png") ;
   padding-bottom: 50px;
@@ -258,17 +259,7 @@ ul.no-bullets {
  
   z-index: 1;
 }
-@media(max-width:992px) {.cardPosition .d-flex {
-  flex-direction: column;
-  }
-}
-@media(min-width:996px) {.cardPosition .d-flex {
-  flex-direction: row;
-  }
-  .card-body{
-    margin-top:40px;
-  }
-}
+
 
 .nomargin {
   margin-bottom: -16px;
@@ -391,20 +382,19 @@ div.scroll {
 .videoSize{
   height: 40vh;
 }
-@media(max-width:830px) {.videoSize .videoPosition .d-flex{
-  max-height: 40%;
-  margin-left: 50px;
+@media(max-width:930px) { .d-flex .resize{
+  
   flex-direction: column;
   }
 }
-@media(min-width:833px) {.resize .videoPosition {
-  min-height: 40%;
-  padding-left: 120px;
-  flex-direction: column;
+@media(min-width:933px) {.resize  .d-flex {
+ 
+  flex-direction: row;
   }
   
   
 }
+
 .newsImg {
   max-height: 225px;
   max-width: 450px;
@@ -428,6 +418,8 @@ div.scroll {
  
   background-repeat: no-repeat;
   margin-bottom: -50px;
+  display: inside;
+  
  
   
 }
@@ -473,47 +465,9 @@ ul.jobs {
 }
 
 
-
-@media(max-width:900px) {.resize .d-flex {
-  flex-direction: column;
-  }
-  .gameBanner {
-    height: 100%;
-    width: 100vw;
-    
-  }
-}
-@media(min-width:905px) {.resize .d-flex {
-  flex-direction: row;
-  }
-  .gameBanner {
-    height: 60%;
-    width: 100vw;
-    
-  }
-  
-  
-}
-.order-1 {
-  order: 2;
-}
-
-.order-2 {
-  order: 1;
-}
-
-@media(max-width:900px) {.order-1 .d-flex .flex-wrap {
-  order: 2;
-  }
-  .order-2 .d-flex .flex-wrap {
-    order: 1;
-  }
-}
-@media(min-width:905px) {.order-1 .d-flex .flex-wrap{
-  order: 1;
-  }
-  .order-2 .d-flex .flex-wrap {
-    order: 2;
-  }
-  
+.bannerarea{
+  height: auto;
+ 
+ 
+ 
 }

@@ -6,7 +6,7 @@ const Job2 =()=> {
     return(
         <div className="">
             <Main />
-            <div className=" textColor1 game1splash  text-start img-fluid ">
+            <div className=" textColor1 game1splash top-0 text-start img-fluid ">
             <div className=" container textsplash col-7 mx-auto img-fluid">
                 <div className="container textBG col-8  ps-5 jobs border-0">
                 <h2><strong>Programmer Online Multiplayer </strong></h2>

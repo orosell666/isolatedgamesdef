@@ -15,7 +15,7 @@ const Team=()=>{
     return(
         <div className="textColor1  top-0 text-center teambg">
             <h1 className=" mb-5 pt-5 ">TEAM</h1>
-            <div className="container col-8 cardPosition">
+            <div className="container col-8 ">
                 
                 <div className="row row-cols-sm-1 row-cols-lg-3 row-cols-md-2 g-4 pb-5">
                     
@@ -24,7 +24,7 @@ const Team=()=>{
                             <div className="row g-0">
                                     <div className=" d-flex flex-wrap">
                                     <img src={AvatarFrancesc} className="       p-2" />
-                                    <div className="card-body  col-lg-6 ">
+                                    <div className="card-body  col-lg-6 align-self-center">
                                     <h4 className="card-header  border-0"><ins>Francesc Romero</ins></h4>
                                         <p className="card-text  text-center">CEO</p>
                                         </div> 
@@ -39,7 +39,7 @@ const Team=()=>{
                             <div className="row g-0">
                                     <div className=" d-flex flex-wrap">
                                     <img src={AvatarIago} className="   p-2" />
-                                    <div className="card-body col-lg-6">
+                                    <div className="card-body col-lg-6 align-self-center">
                                     <h4 className="card-header border-0"><ins>Iago Silva</ins></h4>
                                         <p className="card-text  text-center">Creative Director</p>
                                         </div> 
@@ -53,7 +53,7 @@ const Team=()=>{
                             <div className="row g-0">
                                     <div className=" d-flex flex-wrap">
                                     <img src={AvatarDaniel} className="  p-2" />
-                                    <div className="card-body col-lg-6">
+                                    <div className="card-body col-lg-6 align-self-center">
                                     <h4 className="card-header border-0"><ins>Daniel Malvido</ins></h4>
                                         <p className="card-text  text-center">Pixel Artist</p>
                                         </div> 
@@ -68,7 +68,7 @@ const Team=()=>{
                             <div className="row g-0">
                                     <div className=" d-flex flex-wrap">
                                     <img src={AvatarDOliver} className="   p-2" />
-                                    <div className="card-body col-lg-6">
+                                    <div className="card-body col-lg-6 align-self-center">
                                     <h4 className="card-header border-0"><ins>Daniel Oliver</ins></h4>
                                         <p className="card-text  text-center">Pixel Artist</p>
                                         </div> 
@@ -82,7 +82,7 @@ const Team=()=>{
                             <div className="row g-0">
                                     <div className=" d-flex flex-wrap">
                                     <img src={AvatarAlberto} className="  p-2" />
-                                    <div className="card-body col-lg-6">
+                                    <div className="card-body col-lg-6 align-self-center">
                                     <h4 className="card-header border-0"><ins>Alberto Hernández</ins></h4>
                                         <p className="card-text  text-center">Pixel Artist</p>
                                         </div> 
@@ -96,7 +96,7 @@ const Team=()=>{
                             <div className="row g-0">
                                     <div className=" d-flex flex-wrap">
                                     <img src={AvatarSergi} className="   p-2" />
-                                    <div className="card-body col-lg-6">
+                                    <div className="card-body col-lg-6 align-self-center">
                                     <h4 className="card-header border-0"><ins>Sergi Cugat</ins></h4>
                                         <p className="card-text  text-center">Programmer</p>
                                         </div> 
@@ -112,7 +112,7 @@ const Team=()=>{
                             <div className="row g-0">
                                     <div className=" d-flex flex-wrap">
                                     <img src={AvatarGerard} className="   p-2" />
-                                    <div className="card-body col-lg-6">
+                                    <div className="card-body col-lg-6 align-self-center">
                                     <h4 className="card-header border-0"><ins>Gerard Pardis</ins></h4>
                                         <p className="card-text  text-center">Programmer</p>
                                         </div> 
@@ -126,7 +126,7 @@ const Team=()=>{
                             <div className="row g-0">
                                     <div className=" d-flex flex-wrap">
                                     <img src={AvatarSabrina} className="   p-2" />
-                                    <div className="card-body col-lg-6">
+                                    <div className="card-body col-lg-6 align-self-center">
                                     <h4 className="card-header border-0"><ins>Sabrina Purswani</ins></h4>
                                         <p className="card-text  text-center">Programmer</p>
                                     
@@ -141,7 +141,7 @@ const Team=()=>{
                             <div className="row g-0">
                                     <div className=" d-flex flex-wrap">
                                     <img src={Avatarjose} className="   p-2" />
-                                    <div className="card-body col-lg-6">
+                                    <div className="card-body col-lg-6 align-self-center">
                                     <h4 className="card-header border-0"><ins>Jose Donaire</ins></h4>
                                         <p className="card-text  text-center">Community Manager</p>
                                         </div> 
