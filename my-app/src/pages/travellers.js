@@ -21,26 +21,25 @@ import logoEPIC from "../images/Icon_EPIC.png";
 const Travellers = () => {
     return(
         <div>
-            <div className="container-fuid banner-area ">
-            
-              
-              <div className="d-flex flex-wrap">
-                <div className="videoWrapper  ">
-                  <div><img src={gameBanner} className="gameBanner img-fluid" />
-                  </div>
-        <div className="overlay">
-        <div className="embed-responsive videoPosition ps-4 col-5">
+            <div className=" bannerarea  ">
+            <div className="row g-0 ">
+              <div className=" d-flex flex-wrap-reverse">
+                <div className="videoWrapper ">
+                  <div><img src={gameBanner} className="gameBanner " />
+                </div>
+                <div className="overlay resize  ">
+        <div className="embed-responsive videoPosition  col-lg-5 col-md-10 mx-auto">
         <iframe className="col-md-12  embed-responsive-item embed-responsive-16by9 videoSize"  src="https://www.youtube.com/embed/EUXJnueIiPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
         </iframe></div>
-        <div className=" container-fluid logoBTSPosition mt-5">
-        <div className="text-center">
+        <div className=" container-fluid logoBTSPosition mt-5 mb-5 ">
+        <div className="container text-center mt-5">
         <img className=" col-3 justify-content-center img-fluid" src={LogoTR} /></div>
         <div className="container  text-center col-10 ">
           <p className="fs-5">Craft, farm, build! In Travellers Rest you will have to use all the available tools to become the best tavern keeper in the kingdom. Create unique dishes and drinks to please your customers while you discover the world and its colorful characters. Take your establishment to the top in this exciting new adventure! </p>
           <div className="d-flex  justify-content-center">
           <a href="https://store.steampowered.com/app/727130/Between_the_Stars/"><img src={logoSteam} className=" "  width={50} height={50} /></a>
           <a href="https://store.steampowered.com/app/727130/Between_the_Stars/"><img src={logoGOG} className="ms-2 me-2 "  width={50} height={50}/></a>
-          <a href="https://store.steampowered.com/app/727130/Between_the_Stars/"><img src={logoEPIC} className=" "  width={50} height={50}/></a>
+          <a href="https://store.steampowered.com/app/727130/Between_the_Stars/"><img src={logoEPIC} className="mb-5 "  width={50} height={50}/></a>
 </div>
         </div>
         </div>
@@ -48,7 +47,7 @@ const Travellers = () => {
         </div>
         
             </div>
-          </div>
+          </div></div>
           
             <div className=" top-0 justify-content-center">
             <div className="gameBTSsplash  ">

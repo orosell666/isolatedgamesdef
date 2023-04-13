@@ -382,18 +382,7 @@ div.scroll {
 .videoSize{
   height: 40vh;
 }
-@media(max-width:930px) { .d-flex .resize{
-  
-  flex-direction: column;
-  }
-}
-@media(min-width:933px) {.resize  .d-flex {
- 
-  flex-direction: row;
-  }
-  
-  
-}
+
 
 .newsImg {
   max-height: 225px;
@@ -463,11 +452,25 @@ ul.jobs {
 .cardshade {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
-
-.bannerarea{
+@media(max-width:930px) { .d-flex .resize {
+  
+  flex-direction: column;
   height: auto;
- 
- 
- 
+  margin-top: 20px;
+  }
+  .gameBanner{
+    height: auto;
+  }
 }
+@media(min-width:933px) {.resize  .d-flex {
+ 
+  flex-direction: row;
+  height: auto;
+  }
+  .gameBanner{
+    height: auto;
+  }
+  
+}
+
+

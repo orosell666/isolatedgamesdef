@@ -26,24 +26,24 @@ const BeTheStar = () => {
         <div>
             <div className=" bannerarea  ">
             <div className="row g-0 ">
-              <div className=" ">
+              <div className=" d-flex flex-wrap-reverse">
                 <div className="videoWrapper ">
                   <div><img src={gameBanner} className="gameBanner " />
                 </div>
-                <div className="overlay resize d-flex flex-wrap-reverse ">
+                <div className="overlay resize  ">
                   
-                  <div className="embed-responsive videoPosition  col-lg-5 col-md-12 mx-3">
+                  <div className="embed-responsive videoPosition  col-lg-5 col-md-10 mx-auto">
                     <iframe className="col-md-12  embed-responsive-item embed-responsive-16by9 videoSize" src="https://www.youtube.com/embed/EUXJnueIiPs"  title="Between the Stars - Kickstarter Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                   </div>
-                  <div className=" container-fluid logoBTSPosition mt-5 ">
+                  <div className=" container-fluid logoBTSPosition mt-5 align-self-center">
                     <div className="text-center">
                       <img className=" col-6 justify-content-center img-fluid" src={LogoBTS} /></div>
-                      <div className="container  text-center col-10 ">
+                      <div className="container  text-center col-10 mt-5">
                         <p className="fs-5">Between the Stars is a space action game with RPG elements where you will live the adventures of a captain and their crew to defend the Galaxy from a new and dangerous threat. Manage your resources and fight your enemies through more than 300 text events where every decision counts. </p>
                         <div className="d-flex  justify-content-center">
                           <a href="https://store.steampowered.com/app/727130/Between_the_Stars/"><img src={logoSteam} className=" "  width={50} height={50} /></a>
                           <a href="https://store.steampowered.com/app/727130/Between_the_Stars/"><img src={logoGOG} className="ms-2 me-2 "  width={50} height={50}/></a>
-                          <a href="https://store.steampowered.com/app/727130/Between_the_Stars/"><img src={logoEPIC} className=" "  width={50} height={50}/></a>
+                          <a href="https://store.steampowered.com/app/727130/Between_the_Stars/"><img src={logoEPIC} className="mb-5 "  width={50} height={50}/></a>
                         </div>
                       </div>
                   </div>
@@ -58,17 +58,17 @@ const BeTheStar = () => {
                 
                 <div className="row g-0 mt-5 pt-5">
                   <div className=" d-flex flex-wrap">
-                    <div className="card-body col-lg-6  col-sm-12 col-6 order-1">
+                    <div className="card-body col-lg-6  col-sm-12 col-6 ">
                       <h3 className="card-header text-center ">Defend the Galaxy: </h3>
                       <p className="card-text  text-start">Interplanetary peace is in danger and only one captain can save it. Take part in the Solar War by playing the main campaign and end the tyranny of the Children of the Sun before it is too late. </p>
                     </div>
-                      <img src={screenshot3} className="img-fluid    col-lg-6  col-sm-12 p-2 order-2 " />
+                      <img src={screenshot3} className="img-fluid    col-lg-6  col-sm-12 p-2  " />
                   </div> 
                 </div>
                 
                 <div className="row g-0 mt-5">
                   <div className=" d-flex flex-wrap-reverse ">
-                  <img src={screenshot3} className="img-fluid col-lg-6  col-sm-12  p-2 flex-item  " />
+                  <img src={screenshot3} className="img-fluid col-lg-6  col-sm-12  col-6  p-2 " />
                     <div className="card-body col-lg-6  col-sm-12 ">
                       <h3 className="card-header text-center ">Live your own adventure: </h3>
                       <p className="card-text  text-start ">Defend the Galaxy from the ruthless Children of the Sun or explore it through more than 300 events where every decision counts - meet dozens of characters and deal with all the dangers you will encounter on your adventure! </p>
@@ -82,7 +82,7 @@ const BeTheStar = () => {
                       <h3 className="card-header text-center ">Master your ship: </h3>
                       <p className="card-text  text-start">Experience intense real-time battles and take on skilled enemies. Mastering your positioning and having the right equipment will give you a great advantage over your foes. </p>
                     </div>
-                    <img src={screenshot3} className="img-fluid col-lg-6  col-sm-12  col-6  p-2" />
+                    <img src={screenshot3} className="img-fluid    col-lg-6  col-sm-12 p-2  " />
                   </div> 
                 </div>
                
