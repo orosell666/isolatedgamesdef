@@ -28,7 +28,7 @@ const Travellers = () => {
                   <div><img src={gameBanner} className="gameBanner " />
                 </div>
                 <div className="overlay resize  ">
-        <div className="embed-responsive videoPosition  col-lg-5 col-md-10 mx-auto">
+        <div className="embed-responsive videoPosition  col-lg-5 col-md-10 mx-auto ms-5">
         <iframe className="col-md-12  embed-responsive-item embed-responsive-16by9 videoSize"  src="https://www.youtube.com/embed/EUXJnueIiPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
         </iframe></div>
         <div className=" container-fluid logoBTSPosition mt-5 mb-5 ">
@@ -49,7 +49,7 @@ const Travellers = () => {
             </div>
           </div></div>
           
-            <div className=" top-0 justify-content-center">
+            <div className="  justify-content-center">
             <div className="gameBTSsplash  ">
             <div className="mx-auto card pt-5  rounded-3  col-7">
                 

@@ -28,22 +28,22 @@ const BeTheStar = () => {
             <div className="row g-0 ">
               <div className=" d-flex flex-wrap-reverse">
                 <div className="videoWrapper ">
-                  <div><img src={gameBanner} className="gameBanner " />
+                  <div><img src={gameBanner} className="gameBanner  " />
                 </div>
                 <div className="overlay resize  ">
                   
-                  <div className="embed-responsive videoPosition  col-lg-5 col-md-10 mx-auto">
+                  <div className="embed-responsive videoPosition  col-lg-5 col-md-10 ms-5 mx-auto ">
                     <iframe className="col-md-12  embed-responsive-item embed-responsive-16by9 videoSize" src="https://www.youtube.com/embed/EUXJnueIiPs"  title="Between the Stars - Kickstarter Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                   </div>
-                  <div className=" container-fluid logoBTSPosition mt-5 align-self-center">
-                    <div className="text-center">
+                  <div className=" container-fluid logoBTSPosition mt-5  ">
+                    <div className="container text-center">
                       <img className=" col-6 justify-content-center img-fluid" src={LogoBTS} /></div>
                       <div className="container  text-center col-10 mt-5">
                         <p className="fs-5">Between the Stars is a space action game with RPG elements where you will live the adventures of a captain and their crew to defend the Galaxy from a new and dangerous threat. Manage your resources and fight your enemies through more than 300 text events where every decision counts. </p>
                         <div className="d-flex  justify-content-center">
                           <a href="https://store.steampowered.com/app/727130/Between_the_Stars/"><img src={logoSteam} className=" "  width={50} height={50} /></a>
                           <a href="https://store.steampowered.com/app/727130/Between_the_Stars/"><img src={logoGOG} className="ms-2 me-2 "  width={50} height={50}/></a>
-                          <a href="https://store.steampowered.com/app/727130/Between_the_Stars/"><img src={logoEPIC} className="mb-5 "  width={50} height={50}/></a>
+                          <a href="https://store.steampowered.com/app/727130/Between_the_Stars/"><img src={logoEPIC} className=" "  width={50} height={50}/></a>
                         </div>
                       </div>
                   </div>
@@ -52,9 +52,10 @@ const BeTheStar = () => {
         
             </div>
           </div></div></div>
-            <div className=" top-0 justify-content-center">
-            <div className="gameBTSsplash ">
-            <div className="mx-auto card pt-5  rounded-3  col-7 ">
+          
+          <div className="  justify-content-center">
+            <div className="gameBTSsplash  ">
+            <div className="mx-auto card pt-5  rounded-3  col-7">
                 
                 <div className="row g-0 mt-5 pt-5">
                   <div className=" d-flex flex-wrap">

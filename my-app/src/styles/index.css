@@ -34,12 +34,25 @@ code {
   object-fit: cover;
   width: 100vw;
   height: 100vh;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   right:0;
   z-index: -1;
   
+  
+  
+}
+#myVideo2 {
+  object-fit: cover;
+  width: 100vw;
+  height: 40vh;
+  
+  top: 0;
+  left: 0;
+  right:0;
+  z-index: -1;
+  margin-bottom: -50px;
   
   
 }
@@ -79,9 +92,17 @@ code {
   clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%);
 
   background-color: #211b1f;
-  height: 100%;
+  height: auto;
 
   margin-top: -130px;
+}
+.gameBTSsplash1 {
+  clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%);
+
+  background-color: #211b1f;
+  height: auto;
+
+  margin-top: 0px;
 }
 
 .splash3 {
@@ -372,6 +393,7 @@ div.scroll {
 .logoBTSPosition {
   padding-top: 0px;
   
+  
  
 }
 .videoPosition {
@@ -457,20 +479,35 @@ ul.jobs {
   flex-direction: column;
   height: auto;
   margin-top: 20px;
+  min-height:auto;
   }
-  .gameBanner{
-    height: auto;
-  }
+  
+  
 }
 @media(min-width:933px) {.resize  .d-flex {
  
   flex-direction: row;
   height: auto;
+  
   }
-  .gameBanner{
-    height: auto;
+  
+  
+}
+@media(max-width:930px) { #myVideo2 {
+  
+  height: 30vh;
+  
+  }
+  .negpad {
+    margin-bottom: -10px !important;
   }
   
 }
-
-
+@media(min-width:933px) { #myVideo2 {
+ 
+  height: 40vh;
+  padding-bottom: 0px;
+  }
+  
+  
+}
