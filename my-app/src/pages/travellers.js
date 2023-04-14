@@ -23,18 +23,19 @@ const Travellers = () => {
         <div>
             <div className=" bannerarea  ">
             <div className="row g-0 ">
-              <div className=" d-flex flex-wrap-reverse">
+              <div className=" d-flex  flex-wrap-reverse">
                 <div className="videoWrapper ">
                   <div><img src={gameBanner} className="gameBanner " />
                 </div>
-                <div className="overlay resize  ">
-        <div className="embed-responsive videoPosition  col-lg-5 col-md-10 mx-auto ms-5">
-        <iframe className="col-md-12  embed-responsive-item embed-responsive-16by9 videoSize"  src="https://www.youtube.com/embed/EUXJnueIiPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-        </iframe></div>
-        <div className=" container-fluid logoBTSPosition mt-5 mb-5 ">
+                <div className="overlay resize justify-content-center ">
+                  <div className="container col-lg-6 col-md-10 ">
+        <div className="embed videoPosition   ">
+        <iframe className="col-md-12 col-lg-7 embed-item embed-16by9 videoSize mx-auto"  src="https://www.youtube.com/embed/EUXJnueIiPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+        </iframe></div></div>
+        <div className=" container logoBTSPosition mt-5 mb-5 col-lg-6 col-md-10 ">
         <div className="container text-center mt-5">
         <img className=" col-3 justify-content-center img-fluid" src={LogoTR} /></div>
-        <div className="container  text-center col-10 ">
+        <div className="container  text-center col-7 ">
           <p className="fs-5">Craft, farm, build! In Travellers Rest you will have to use all the available tools to become the best tavern keeper in the kingdom. Create unique dishes and drinks to please your customers while you discover the world and its colorful characters. Take your establishment to the top in this exciting new adventure! </p>
           <div className="d-flex  justify-content-center">
           <a href="https://store.steampowered.com/app/727130/Between_the_Stars/"><img src={logoSteam} className=" "  width={50} height={50} /></a>

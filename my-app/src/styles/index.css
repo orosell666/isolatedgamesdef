@@ -398,6 +398,7 @@ div.scroll {
 }
 .videoPosition {
   padding-top: 100px;
+  display: flex;
   
   
 }
@@ -481,6 +482,7 @@ ul.jobs {
   margin-top: 20px;
   min-height:auto;
   }
+
   
   
 }
@@ -489,6 +491,10 @@ ul.jobs {
   flex-direction: row;
   height: auto;
   
+  }
+  .gameBanner {
+  max-height: 90vh;
+  min-width: 100vw;
   }
   
   
