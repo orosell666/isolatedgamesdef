@@ -30,15 +30,16 @@ const BeTheStar = () => {
                 <div className="videoWrapper ">
                   <div><img src={gameBanner} className="gameBanner  " />
                 </div>
-                <div className="overlay resize  ">
-                  
-                  <div className="embed-responsive videoPosition  col-lg-5 col-md-10 ms-5 mx-auto ">
-                    <iframe className="col-md-12  embed-responsive-item embed-responsive-16by9 videoSize" src="https://www.youtube.com/embed/EUXJnueIiPs"  title="Between the Stars - Kickstarter Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                  </div>
-                  <div className=" container-fluid logoBTSPosition mt-5  ">
-                    <div className="container text-center">
-                      <img className=" col-6 justify-content-center img-fluid" src={LogoBTS} /></div>
-                      <div className="container  text-center col-10 mt-5">
+                <div className="overlay resize justify-content-center ">
+                  <div className="container col-lg-6 col-md-10 ">
+        <div className="embed videoPosition  justify-content-end me-5 ">
+        <iframe className="col-md-12 col-lg-9 embed-item embed-16by9 videoSize "  src="https://www.youtube.com/embed/EUXJnueIiPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+        </iframe></div></div>
+        <div className=" justify-content-start   mt-3 mb-5 col-lg-6 col-md-10 ">
+        <div className="container ">
+        <div className="container text-center mt-5">
+        <img className=" col-3 justify-content-center img-fluid" src={LogoBTS} /></div>
+        <div className="container  text-center col-7 ">
                         <p className="fs-5">Between the Stars is a space action game with RPG elements where you will live the adventures of a captain and their crew to defend the Galaxy from a new and dangerous threat. Manage your resources and fight your enemies through more than 300 text events where every decision counts. </p>
                         <div className="d-flex  justify-content-center">
                           <a href="https://store.steampowered.com/app/727130/Between_the_Stars/"><img src={logoSteam} className=" "  width={50} height={50} /></a>
@@ -51,7 +52,7 @@ const BeTheStar = () => {
               </div>
         
             </div>
-          </div></div></div>
+          </div></div></div></div>
           
           <div className="  justify-content-center">
             <div className="gameBTSsplash  ">

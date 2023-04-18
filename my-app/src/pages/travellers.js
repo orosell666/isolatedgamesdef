@@ -29,10 +29,11 @@ const Travellers = () => {
                 </div>
                 <div className="overlay resize justify-content-center ">
                   <div className="container col-lg-6 col-md-10 ">
-        <div className="embed videoPosition   ">
-        <iframe className="col-md-12 col-lg-7 embed-item embed-16by9 videoSize mx-auto"  src="https://www.youtube.com/embed/EUXJnueIiPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+        <div className="embed videoPosition  justify-content-end me-5 ">
+        <iframe className="col-md-12 col-lg-9 embed-item embed-16by9 videoSize "  src="https://www.youtube.com/embed/EUXJnueIiPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
         </iframe></div></div>
-        <div className=" container logoBTSPosition mt-5 mb-5 col-lg-6 col-md-10 ">
+        <div className=" justify-content-start   mt-3 mb-5 col-lg-6 col-md-10 ">
+        <div className="container ">
         <div className="container text-center mt-5">
         <img className=" col-3 justify-content-center img-fluid" src={LogoTR} /></div>
         <div className="container  text-center col-7 ">
@@ -43,7 +44,7 @@ const Travellers = () => {
           <a href="https://store.steampowered.com/app/727130/Between_the_Stars/"><img src={logoEPIC} className="mb-5 "  width={50} height={50}/></a>
 </div>
         </div>
-        </div>
+        </div></div>
         </div>
         </div>
         
