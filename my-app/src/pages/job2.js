@@ -1,5 +1,6 @@
 import React from "react";
 import Video from "../assets/hd22.mp4";
+import ContactUs from "../components/mailform.js";
 
 
 const Job2 =()=> {
@@ -67,21 +68,7 @@ const Job2 =()=> {
             <div className="jobBG " >
                 <div className="pt-5 pb-5">
                     <h2 className="text-center mb-5  ">Apply Now!</h2>
-            <div className="container  pt-5 col-lg-5 col-sm-7 contact card cardshade fs-3 jobpos">
-  
-  <input type="email" className="form-control border-0 textColor1 fs-3" id="exampleFormControlInput1" placeholder="Enter youyr name" />
-  
-  <input type="email" className="form-control fs-3 border-0" id="exampleFormControlInput1" placeholder="Enter a valid email address" />
-
-
-  
-  <textarea className="form-control border-0 fs-3" id="exampleFormControlTextarea1" rows="4" placeholder="Enter your message"></textarea>
-
-
-     
-      <div className="text-end ">
-      <button type="submit" className="btn mt-3  moreBtn mb-4 col-lg-2 col-sm-4 textColor1">Submit</button>
-        </div> </div>
+            <ContactUs />
             </div></div>
         </div>
 
