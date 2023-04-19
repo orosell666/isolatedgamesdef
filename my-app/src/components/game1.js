@@ -9,18 +9,18 @@ const Game1 = () => {
 
     return (
         <div className="" id="scrollspyHeading1">
-            <div className="container col-lg-8 pt-5 mb-2 rounded-2">
+            <div className="container col-lg-8 pt-5 mb-2 rounded-2 ">
                 <div className="fondoCarousel1  ">
         <div id="carouselExampleIndicators" className="carousel  slide  mb-1" data-bs-ride="carousel">
   
-  <div className="carousel-inner container">
+  <div className="carousel-inner container ">
     <div className="carousel-item active">
     
     
       <img src={gameImage1} class="d-block w-100" alt="..." />
       <div className="overlay">
-      <div className="col-5 text-center p-3 float-start">      <p className="gametitle">Between the Stars</p>
-      <p className="gametext">The Galaxy is in danger! Peace is under threat from the Children of the Sun, and only one captain is able to stop them. Live your own adventure through hundreds of events and fight your enemies in fast-paced real-time battles! </p>
+      <div className="col-5 text-center p-3 float-start ">      <p className="gametitle">Between the Stars</p>
+      <p className="gametext ">The Galaxy is in danger! Peace is under threat from the Children of the Sun, and only one captain is able to stop them. Live your own adventure through hundreds of events and fight your enemies in fast-paced real-time battles! </p>
       <Link to="/bethestar"><button type="button" className="btn moreBtn rounded-4 btn-sm textColor1 col mx-auto gametext" >
                        More Information...
                         </button></Link>

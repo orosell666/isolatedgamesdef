@@ -18,7 +18,7 @@ const News = () => {
     return(
         <div className="textColor1 game1splash top-0 text-center img-fluid " id="scrollspyHeading2" >
             <h1 className=" mb-3  titlePosition ">NEWS</h1>
-            <div className="container-fluid col-lg-7 justify-content-start mb-5  ">
+            <div className="container-fluid col-lg-7 justify-content-start mb-5 fs-5 ">
              <div id="carouselExampleControls" class="carousel slide"   data-interval="false" data-wrap="false">
              <div className="carousel-inner" >
                 
@@ -81,7 +81,7 @@ const News = () => {
             <div className=" card mt-5 rounded-3 w-100">
                 <div className="row g-0">
                     <div className=" d-flex flex-wrap">
-                        <img src={newsImg4} className="img-fluid col-md-5  col-sm-12 pt-3 ps-3 pb-3   newsImg" />
+                        <img src={newsImg4} className="img-fluid col-md-4  col-sm-12 pt-3 ps-3 pb-3   newsImg" />
                             <div className="card-body  col-md-7  col-sm-12 col-7">
                                 <h2 className="card-header border-white fs-4">Christmas Update - v0.5.4 </h2>
                                     <p className="card-text mt-2 text-start">Hello innkeepers! We have just released the new update for Travellers Rest, this update adds a new map, new characters and more. It also triggers this year's Christmas event.  </p>

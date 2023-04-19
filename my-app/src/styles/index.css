@@ -46,7 +46,7 @@ code {
 #myVideo2 {
   object-fit: cover;
   width: 100vw;
-  height: 40vh;
+  height: 20vh;
   
   top: 0;
   left: 0;
@@ -409,7 +409,7 @@ div.scroll {
 
 .newsImg {
   max-height: 225px;
-  max-width: 450px;
+  max-width: 400px;
 
 }
 .border-info {
@@ -511,7 +511,7 @@ ul.jobs {
 }
 @media(min-width:933px) { #myVideo2 {
  
-  height: 40vh;
+  height: 20vh;
   padding-bottom: 0px;
   }
   

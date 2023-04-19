@@ -3,7 +3,7 @@ import "../styles/index.css";
 
 const AboutUs = ()=>{
     return(
-        <div className="container textColor1 text-center fs-5 nomargin " id="scrollspyHeading3">
+        <div className="container textColor1 text-center fs-4 nomargin " id="scrollspyHeading3">
         <h1 className="mb-5 pt-5">ABOUT US</h1>
         <p className="text-center ">
         Isolated Games is an independent video games studio located in Barcelona and founded in 2016. Our passion is to create exciting and immersive experiences that keep the player glued to the screen for hours, taking part in an epic adventure. </p>

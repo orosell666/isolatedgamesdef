@@ -18,10 +18,10 @@ const Job2 =()=> {
           
           <div className="  justify-content-center">
             <div className="gameBTSsplash  ">
-            <div className="mx-auto card  pt-5 rounded-3  col-7">
-                <div className="m-5 pt-5">
+            <div className="mx-auto card  pt-5 rounded-3  col-lg-7 col-md-10 ">
+                <div className="m-5 pt-5 fs-4">
                 <h2 className=""><strong>Programmer Online Multiplayer </strong></h2>
-                <p className="jobfont">Isolated Games is an independent studio in Barcelona. We are currently developing the games Between the Stars and Travellers Rest. We are looking for a pixel artist to work on Travellers Rest full-time. </p>
+                <p className="jobfont ms-5">Isolated Games is an independent studio in Barcelona. We are currently developing the games Between the Stars and Travellers Rest. We are looking for a pixel artist to work on Travellers Rest full-time. </p>
                 <p><strong>Minimum Requirements</strong></p>
                 <ul id="sample-ul">
                     <li>At least 3 years of professional experience programming in Unity 3D.</li>
