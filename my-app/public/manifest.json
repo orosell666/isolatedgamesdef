@@ -21,7 +21,34 @@
   "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
-  
-  
+  "background_color": "#ffffff",
+  "scope": "/",
+  "shortcuts": [
+    {
+      "name": "bethestar game",
+      "short_name": "bethestar",
+      "url": "./pages/bethestar.js"
+    },
+    {
+      "name": "travellers game",
+      "short_name": "travellers",
+      "url": "./pages/travellers.js"
+    },
+    {
+      "name": "contact",
+      "short_name": "contact",
+      "url": "./pages/contact.js"
+    },
+    {
+      "name": "job1",
+      "short_name": "job1",
+      "url": "./pages/job1.js"
+    },
+    {
+      "name": "job2",
+      "short_name": "job2",
+      "url": "./pages/job2.js"
+    }
+
+  ]
 }
