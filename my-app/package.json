@@ -1,5 +1,5 @@
 {
-  "homepage": "http://www.isolatedgames.com/newweb/my-app/public/index.html",
+  "homepage": ".",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,

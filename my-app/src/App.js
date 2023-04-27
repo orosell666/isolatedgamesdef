@@ -20,7 +20,7 @@ import Job2 from "./pages/job2";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="/" >
+      <BrowserRouter  >
       <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
